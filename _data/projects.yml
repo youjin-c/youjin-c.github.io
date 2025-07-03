@@ -1,0 +1,88 @@
+- title: Art Toy Design
+  url: Art-Toy-Design.md
+  thumbnail: 
+  description: Making wearable art toys, especially on ears.
+- title: Design for Discomfort
+  url: Design-for-Discomfort.md
+  thumbnail: 
+  description: Performance and proposals exploring discomfort, AI-generated public service advertising, and endurance art.
+- title: Detourning the Web
+  url: Detourning-the-Web.md
+  thumbnail: images/Detourning-the-Web/ssup.gif
+  description: A project exploring the portrait of hashtags and web scraping.
+- title: Game Design and The Psychology of Choice
+  url: Game-Design-and-The-Psychology-of-Choice.md
+  thumbnail: 
+  description: Exploration of automatic and effortful thinking in game design, inspired by ebook reading with audio.
+- title: Generative Music
+  url: Generative-Music.md
+  thumbnail: 
+  description: Proposal for an Ambient Poem Rhythm Game, exploring generative music and narration.
+- title: Glitch
+  url: Glitch.md
+  thumbnail: images/Glitch/ezgif.com-resize.gif
+  description: P5.js sketches for glitch visual programming, interactive with Arduino sensor input.
+- title: Go Card
+  url: Go-Card.md
+  thumbnail: 
+  description: A concept of language education kit for Korean letters using conductive paint and Arduino.
+- title: Habitual Energy
+  url: Habitual-Energy.md
+  thumbnail: images/Habitual-Energy/ARCHIVEE14_o.jpg
+  description: Collaborative artwork showing addictive energy of habit through dynamic media installation.
+- title: Haptics
+  url: Haptics.md
+  thumbnail: images/Haptics/rainmaker.gif
+  description: Experiments with vibrating motors and haptic feedback, including a rainmaker project.
+- title: Humanphobia
+  url: Humanphobia.md
+  thumbnail: 
+  description: Interactive light art wearable referring to social anxiety, calculating distance and showing light patterns.
+- title: Machine Learning for the Web
+  url: Machine-Learning-for-the-Web.md
+  thumbnail: images/Machine-Learning-for-the-Web/0.jpg
+  description: Final proposals for AI-created public service advertising and YOLO to WebVR conversion.
+- title: Metabolism
+  url: Metabolism.md
+  thumbnail: images/Metabolism/ARCHIVEE4_o.jpg
+  description: Collaborative artwork presenting interaction of nature and humanity through projection and sound installation.
+- title: Motion Recognition
+  url: MOTION-RECOGNITION.md
+  thumbnail: images/MOTION-RECOGNITION/ARCHIVEE23_o.jpg
+  description: SmartTV service development for controlling TV with finger and hand gestures.
+- title: One Zero
+  url: One-Zero.md
+  thumbnail: 
+  description: Interactive Kinetic Art Installation implying coexistence of human cognitive process and machine perception.
+- title: Posture & Eye care
+  url: POSTURE-EYE-CARE.md
+  thumbnail: images/POSTURE-EYE-CARE/ARCHIVEE22_o.jpg
+  description: Healthcare web application tracking facial position and eye blink to encourage better posture and eye care.
+- title: Sigh Machine
+  url: Sigh-Machine.md
+  thumbnail: images/Sigh-Machine/0.png
+  description: Project plan for a sigh machine using drone motors and twitter bots.
+- title: Smile Face-in
+  url: SMILE-FACE-IN.md
+  thumbnail: images/SMILE-FACE-IN/ARCHIVEE24_o.jpg
+  description: LG laptop Gram User Identification System using face recognition and natural facial expressions.
+- title: Soft Sensing
+  url: Soft-Sensing.md
+  thumbnail: images/Soft-Sensing/1.jpg
+  description: Exploration of soft sensing materials and their application in a Korean education kit (Go Card).
+- title: The Rest of You
+  url: The-rest-of-You.md
+  thumbnail: images/The-rest-of-You/0.png
+  description: DIY image association test inspired by Tinder-style swiping UI and subconscious desires.
+- title: Thesis
+  url: Thesis.md
+  thumbnail: images/Thesis/clustering.png
+  description: Understanding and generating interactive narrative structures using Machine Learning models.
+- title: Tweet Reader
+  url: Tweet-Reader.md
+  thumbnail: 
+  description: Chrome extension for Twitter tweets that reads tweets using Text-to-Speech.
+- title: Voice
+  url: Voice.md
+  thumbnail: images/Voice/0.gif
+  description: Exploration of voice interaction, including a Chrome extension for reading tweets and a multiuser game concept.

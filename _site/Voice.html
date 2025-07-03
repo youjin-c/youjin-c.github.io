@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>youjin-c.github.io</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="youjin-c.github.io" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/Voice.html" />
+<meta property="og:url" content="http://localhost:4000/Voice.html" />
+<meta property="og:site_name" content="youjin-c.github.io" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="youjin-c.github.io" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"youjin-c.github.io","url":"http://localhost:4000/Voice.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=42a6b0e16cb7152cd5cf77b8d9697e3e8f8f243c">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/">youjin-c.github.io</a></h1>
+      
+
+      <p><a href="https://cargo.site"> </a></p>
+
+<p><a href="/Left-Nav"> ︎ </a></p>
+
+<p><a href=""> </a></p>
+
+<p><strong><a href="Home">Youjin Chung</a></strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://www.linkedin.com/in/youjin-chung/">︎</a></td>
+      <td><a href="mailto:yjc433@nyu.edu">︎</a></td>
+      <td><a href="https://github.com/youjinChung">︎</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="https://youjin.io/ML">#ML</a><br />
+<a href="https://youjin.io/XR">#XR</a><br />
+<a href="https://youjin.io/Data">#Data</a><br />
+<a href="https://youjin.io/Interactive">#Interactive</a></p>
+
+<p><a href="blog-1">Archive</a></p>
+
+<p><strong><a href="Resume"></a></strong><a href="https://www.linkedin.com/in/youjin-chung/"></a></p>
+
+<h1 id="tweet-reader">tweet reader</h1>
+
+<p>For expressive interaction, I made a chrome extension that reads tweets that I
+expend the card.</p>
+
+<p>Here’s the video of it. Check the code from
+<a href="https://github.com/elqtfy/tweetreader">GitHub</a>.<br />
+Referenced from <a href="https://developer.chrome.com/extensions/samples#search:tts">Speak
+Selection</a> of
+Chrome extension examples.</p>
+
+<p>It was the first attempt to use chrome extension, so I just made it as easy
+and quick, but I think I could push through to make it more expressive.<br />
+I tried to use Twitter API for the first time, but it is only for subscribing
+the authorized account. BeautifulSoup/Puppeteer could make the work easier,
+but I am not sure it also applies to already open window. As far I understood,
+it is more for automated scrapping. Therefore, I used vanilla javascript to
+access the tweet contents.</p>
+
+<p>-Now my twitter account is set in Korean. I might affect the way it parses the tweets.</p>
+
+<p>-I am using the basic Chrome TTS engine, but I guess I can make the voice more expressive by using other engines. (Watson expressive SSML again/or changing the rate/pitch/volume.</p>
+
+<hr />
+
+<h1 id="left-or-right">Left or Right</h1>
+
+<h2 id="0-goal">0. GOAL</h2>
+
+<p>This project started with the simple idea to combine two classes projects
+together: Dynamic Web Development and Expressive Interaction - Voice. The key
+requirements are 0. network communication 1. use VUI for that. So I and Phil
+come up with the idea that making a multiuser game using voice interaction.
+The key concept that we settled was let users interact with their voice at the
+same time, even though the gameplay experience is not quite operated or
+delivered.<br />
+The picture in my mind was - a bunch of people is shouting to the game nearby,
+together or separately, and the narration helps /hinder the gameplay. I wanted
+to realize the mess that all the people shouting and hearing each other, it’s
+a bit participatory performance.</p>
+
+<h2 id="1-persona">1. PERSONA</h2>
+
+<p>There were references that inspired us. Basically, the game targets users
+sitting in the same place as the best situation, so I can document it as a
+performance. All users have laptops and use the default mics as input devices.
+The game will play narrations also, so the voice from other users and the
+narration will be interruptive inputs together.<br />
+<a href="https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon">Twitch Plays
+<em>Pokémon</em></a>: multi-
+user interaction to control one object together.</p>
+
+<p><img src="../images/Voice/0.gif" alt="" /><br />
+<a href="https://pheonise.itch.io/last-man-standing">Last Man Standing</a>: Multiuser
+interaction using the same objects, but separately.</p>
+
+<p><a href="https://clickclickclick.click/">clickclickclick</a><a href="http://www.creativeapplications.net/js/clickclickclick-
+click/">.click</a>: web-based interaction idea and narration persona.<br />
+<a href="https://youtu.be/w3UxRa_-9UU">Stanley Parable</a>: narration persona.<br />
+<a href="https://www.youtube.com/watch?v=JqLqO9-z0go">Stranger than fiction</a>:
+narration persona.<br />
+<a href="https://www.youtube.com/watch?v=qwDCk68uoSQ">Portal GLaDOS</a>: synthetic
+narration.</p>
+
+<h2 id="2-voice">2. VOICE</h2>
+
+<p>The narrator persona:<br />
+-male vs. female: Since most of the authoritative narration are using the male voices, I am interested in trying female authoritative voices. <br />
+-synthetic vs. voice acting: using voice actor would be easier to deliver <a href="https://en.wikipedia.org/wiki/Paralanguage#Sighs">paralanguage</a> (sigh, gasps, throat clearing, mhm..), but using synthesized voice for the experiment purpose also interesting.</p>
+
+<p>So the voice will be a synthetic, female voice that has authoritative,
+sarcastically humorous, joking personality but makes you feel inhumane somehow
+(she knows that she doesn’t have a physical body in the real world.)</p>
+
+<p>It would be great to show some expressions also(like Watson expressive SSML),
+but there are not many voice synthesis engines that have expression features
+together. If I cannot express emotions naturally, rather an artificial sound
+voice would be better. (Users will excuse the hidden emotion expression.)</p>
+
+<p>Ultimately, it would be perfect to make a neutral-female sound synthetic voice
+that has emotional expression.</p>
+
+<h2 id="3-interaction-flow">3. INTERACTION FLOW</h2>
+<p>4. SCRIPT<br />
+5. USER TESTING - FURTHER STEP</p>
+
+<p>During the classes, Expressive SSML was the most impressive voice synthesis. I
+decided to use this as the narrator.</p>
+
+<p>Scraped tweets with the keywords left and right. #Left and #Right was much
+stronger, but I need to parse the hashtags out, so I just used left and
+right… (now I think I should refine texts more..)</p>
+
+<p>March 23, 2018</p>
+
+<hr />
+
+<h1 id="project-proposal">Project Proposal</h1>
+
+<h2 id="1-goal">1. Goal</h2>
+
+<p>: make a web, asynchronous experience for multiple users, about behavior
+jamming.</p>
+
+<h2 id="2-user">2. User</h2>
+
+<p>: Indie game players who are familiar with web-based interactions.</p>
+
+<h2 id="3-find-your-voice">3. Find your Voice</h2>
+
+<p>: A female voice that is authoritative, but gentle at the same time. Humorous
+/ sarcastic personality</p>
+
+<h2 id="4-dialog-flow-interaction-flow">4. Dialog flow/ interaction flow</h2>
+
+<p><strong><a href="https://clickclickclick.click/">clickclickclick.click</a></strong></p>
+
+<p>February 21, 2018</p>
+
+<hr />
+
+<h1 id="redundant-eliza">Redundant Eliza</h1>
+
+<p>Speaking to VUI was always awkward, no matter which application/service they
+are. In fact, Siri is the only service that I have used so far. Maybe it could
+be the reason for avoiding speaking in front of people that I am the youngest
+one in a big family. For any reason, I have avoided giving information to the
+public, especially in English.</p>
+
+<p>That awkward feeling continued when I assembled AIY kit. Testing the command
+on the floor, while everybody is listening to me was not easy. We can find
+that kind of situation with a real person in real life also. The awkward
+feeling when you consistently overlap while the other person is speaking and
+both of them keep yielding to speak first each other.</p>
+
+<p>A, B: so…<br />
+A: you go first.<br />
+B: No, you can talk first.<br />
+(infinite loop)</p>
+
+<p>Maybe this does not happen in other cultures, but I guess it is pretty common
+to see in Korea, where appreciates polite attitude in conversation.<br />
+Anyway, this overlap makes you awkward to talk since you are interrupted.
+Hearing something while you are trying to talk something makes your brain
+jammed.</p>
+
+<p><a href="https://www.technologyreview.com/s/427116/how-to-build-a-speech-
+jamming-gun/">Speech-Jamming Gun in Public
+Spaces.</a></p>
+
+<p>So I come up with an idea that making a chatbot that maximizes awkwardness in
+the conversation. The personality of voice is arrogant and sarcastic, so it
+keeps pretending to miss the conversation, answers in a very sarcastic way and
+does not do its job.</p>
+
+<p>So the key function is managing the time when the user listens to their self.
+In order to do that,<br />
+1. The program needs to record the user’s command.<br />
+2. It can play the recorded sound (hopefully right back) to the user so the
+user cannot keep talking.<br />
+3. Even if the user successes to deliver the command, the AI answers in a
+sarcastic way.</p>
+
+<p>Hope it was true to me also… <a href="https://qz.com/801813/teaching-ai-how-to-be-sarcastic-is-
+totally-the-easiest-thing-ever/">Teaching AI how to be sarcastic is totally the
+easiest thing ever</a></p>
+
+<p>I started with the example codes in AIY source. Tell a long story short, I
+failed. These are what I figured out after 6 hrs programming.<br />
+1. Using assistant APIs doesn’t support to manage which answers that the AI
+gives.<br />
+- in this case, other people made their own chatbot, but I wanted to ‘hack’
+the chatbot while keeping the structure of it. (That’s the reason I needed to
+use either of gRPC or google assistant library.)<br />
+2. To record and playing back, multi treading is required. When I saw
+<a href="https://github.com/google/aiyprojects-
+raspbian/blob/aiyprojects/src/examples/voice/assistant_library_with_button_demo.py">assistant_library_with_button_demo.py</a>,
+multi treading looks possible, but could not figure the way to do it.</p>
+
+<p>So what I did is just make it keep repeating to the user to make them annoyed,
+and randomly denies to ‘assist’ them.</p>
+
+<p>As the result, it sounds rather like
+<a href="https://en.wikipedia.org/wiki/ELIZA">ELIZA</a> than contemporary AIs we have.<br />
+It supposed to turn off and show the youtube video when the user says
+‘awkward’, but the processor was too slow and showed the link a bit l made me
+embarrassed.</p>
+
+<p><a href="https://github.com/Eloquentify/Voice2018/blob/master/reduntdantELIZA.py">Hers is the
+code.</a></p>
+
+<p>February 16, 2018</p>
+
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

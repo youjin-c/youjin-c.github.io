@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>youjin-c.github.io</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="youjin-c.github.io" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/The-rest-of-You.html" />
+<meta property="og:url" content="http://localhost:4000/The-rest-of-You.html" />
+<meta property="og:site_name" content="youjin-c.github.io" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="youjin-c.github.io" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"youjin-c.github.io","url":"http://localhost:4000/The-rest-of-You.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=42a6b0e16cb7152cd5cf77b8d9697e3e8f8f243c">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/">youjin-c.github.io</a></h1>
+      
+
+      <p><a href="https://cargo.site"> </a></p>
+
+<p><a href="/Left-Nav"> ︎ </a></p>
+
+<p><a href=""> </a></p>
+
+<p><strong><a href="Home">Youjin Chung</a></strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://www.linkedin.com/in/youjin-chung/">︎</a></td>
+      <td><a href="mailto:yjc433@nyu.edu">︎</a></td>
+      <td><a href="https://github.com/youjinChung">︎</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="https://youjin.io/ML">#ML</a><br />
+<a href="https://youjin.io/XR">#XR</a><br />
+<a href="https://youjin.io/Data">#Data</a><br />
+<a href="https://youjin.io/Interactive">#Interactive</a></p>
+
+<p><a href="blog-1">Archive</a></p>
+
+<p><strong><a href="Resume"></a></strong><a href="https://www.linkedin.com/in/youjin-chung/"></a></p>
+
+<h1 id="diy-image-association-test">DIY image association test</h1>
+
+<p>After did some experiment with the
+<a href="https://www.youjin.fyi/blog-1/2018/3/1/rest-of-you-talking-to-the-rest-
+of-you-us-implicit-association-test">IAT</a> last time - I was inspired to make my own
+association test.<br />
+My test is not sophisticated as the Harvard one, but I come up with the idea
+of mixing it up with the Tinder-style swiping UI.<br />
+Many dating apps like Tinder is using left-right swiping UIs. I don’t know
+their reasoning behind the correlation between the direction of swiping and
+the users’ favor of the date match or the object, there are some researchers
+about the how eye gaze direction is related to inhabited behavior, or
+subconscious desires. <a href="https://www.psychologytoday.com/blog/the-athletes-way/201411/the-
+whites-your-eyes-convey-subconscious-truths">The Whites of Your Eyes Convey Subconscious
+Truths</a></p>
+
+<p>So what I did is 0. scrape the random images from image websites, 1. make a
+tinder-like test using those images 2. record the test result and analyze
+them.</p>
+
+<p>0. scrape the images<br />
+I scraped the download urls from upsplash.com<br />
+<img src="../images/The-rest-of-You/0.png" alt="" /><img src="../images/The-rest-of-You/1.png" alt="" /><br />
+1. Make an Image Association Test<br />
+referenced <a href="https://github.com/gajus/swing">Swing by
+</a><a href="https://github.com/gajus/swing">gajus</a></p>
+
+<p>2. Get data from the test<br />
+<a href="https://docs.google.com/spreadsheets/d/1GDeLPIA1VahFaIowmZ7Yh2j8W6x4wDdhgd5aXfmYWsk/edit?usp=sharing">SpreadSheet
+link</a></p>
+
+<p>What I collected are 0. order 1. throwing in/out (You cannot swipe the card
+till you drag the image more than certain pixels, and it would be recorded as
+throw-in if the distance is not far enough. I analyzed that as a sign of
+hesitation.) 2. the image URL 3. swipe direction 4. time consumed during
+swiping (also related to hesitation). I asked Phil to participate the test for
+comparison.</p>
+
+<p>RESULTS<br />
+0. I hesitated 5 times more than Phil.<br />
+1. I decided much faster than Phil (90.65 millisecond: 465.43 milliseconds
+per an image) - I guess this is because I am much familiar with this test.<br />
+2. Phil has a much clear preference towards images. I liked 34 images out of
+55 whereas Phil only liked 15 images out of 55.<br />
+3. I hesitated for the images that I do not like (3 times. like: 2 times),
+Phil hesitated for the image he likes. (just once)<br />
+4. I hesitated when I make a quick decision. All of 5 in’s were made within
+64 milliseconds.(average 90.65 millisecs)In the case of Phil, his hesitation
+was made relatively slower than me. .(365 millisecs, average 465.43 millisecs)<br />
+5. Phil made quicker decisions for the images that he does not like. 9 out of
+10 quickest decisions were for left direction, whereas my quickest 10
+decisions were divided by just half.<br />
+6. I intentionally made some images poped again to see how the users react
+when they see the images they have already decided.<br />
+In my case, I have never changed the decision about the image, and for the
+most of the time, I took slightly more milliseconds when I see the images
+again. That means I hesitate like 10 milliseconds if I see the same images
+again, but I do not change my decision. (the time difference is almost
+ignorable.) In case of Phil, even though I did not change his decisions, but
+it took much shorter time when he makes decisions again. In some of the cases,
+he spent only the third of milliseconds to make the same decision again. This
+may means a thing - that showing the same dates again in date apps is not
+meaningful. (There is no second chance?)<br />
+7. Lastly, I can make a spectrum of my image preference by aligning them with
+the time and direction. The images below are ‘fastest left’-‘slowest
+left’-slowest right’-‘fastest right’ images.</p>
+
+<p>The most left and rightest images are totally different and showing my
+preferred image style, but the images between is pretty vague and even looks
+similar to each other.<br />
+Here’s Phil’s image preference spectrum.</p>
+
+<p>I think I could make a preference analyzing system with this. Tracing the
+user’s most and least favored image styles and I can use it to get rid of
+vague images or for some curation.</p>
+
+<p>Here’s <a href="https://github.com/elqtfy/RestOfYou-
+tinderTest">the link for the IAT test</a> that I made above.</p>
+
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

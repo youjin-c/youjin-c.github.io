@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>youjin-c.github.io</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="youjin-c.github.io" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/Generative-Music.html" />
+<meta property="og:url" content="http://localhost:4000/Generative-Music.html" />
+<meta property="og:site_name" content="youjin-c.github.io" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="youjin-c.github.io" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"youjin-c.github.io","url":"http://localhost:4000/Generative-Music.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=42a6b0e16cb7152cd5cf77b8d9697e3e8f8f243c">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/">youjin-c.github.io</a></h1>
+      
+
+      <p><a href="https://cargo.site"> </a></p>
+
+<p><a href="/Left-Nav"> ︎ </a></p>
+
+<p><a href=""> </a></p>
+
+<p><strong><a href="Home">Youjin Chung</a></strong></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://www.linkedin.com/in/youjin-chung/">︎</a></td>
+      <td><a href="mailto:yjc433@nyu.edu">︎</a></td>
+      <td><a href="https://github.com/youjinChung">︎</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="https://youjin.io/ML">#ML</a><br />
+<a href="https://youjin.io/XR">#XR</a><br />
+<a href="https://youjin.io/Data">#Data</a><br />
+<a href="https://youjin.io/Interactive">#Interactive</a></p>
+
+<p><a href="blog-1">Archive</a></p>
+
+<p><strong><a href="Resume"></a></strong><a href="https://www.linkedin.com/in/youjin-chung/"></a></p>
+
+<h1 id="ambient-poem-rhythm-game-proposal">Ambient Poem Rhythm Game Proposal</h1>
+
+<p>Since the last blogging, we had a workshop for
+<a href="https://magenta.tensorflow.org/music-vae">MusicVAE</a>, using Jupyter notebook.
+It is really lovely that the last workshop really fits to my final project
+concept, so I can save sometime to research and trial and errors.</p>
+
+<p>One thing I figured out was, not only training and generating new pieces,
+(Even just testing pre-trained models took hours to just generate few
+sentences!!) I needed to simplified my concept.</p>
+
+<p>I changed to use poem from prose. This makes sense for the concept of
+listening narration rhythmically. Poems have rhythm and musical elements by
+nature.<br />
+I scraped <a href="https://www.poetryfoundation.org/">Poetry Foundation</a> for poems,
+and they actually do have Listen section as a way to appreciate poetry.</p>
+
+<p>I was thinking about a very ambitious plan such as real-time generating
+narrative-music, but I guess I need to be satisfied with a small start.</p>
+
+<p>The poem I am gonna use is <a href="https://www.poetryfoundation.org/poems/58024/a-gift-for-you"><em>A Gift for
+You</em></a> BY EILEEN
+MYLES.</p>
+
+<ul>
+  <li>generate the narration.<br />
+Wavenet Vocoder (<a href="https://colab.research.google.com/drive/1hSPvom4XoQSJiCRUkM6mjJ6mBaNtvm6z">Colab
+link</a>/<a href="https://github.com/r9y9/wavenet_vocoder">VocoderGithub</a>/<a href="https://github.com/Rayhane-
+mamah/Tacotron-2">TacotrionGithub</a>)</li>
+</ul>
+
+<p>Tacotron2 predicts <a href="http://www.speech.cs.cmu.edu/15-492/slides/03_mfcc.pdf">Mel-
+spectrogram</a> of a
+text, and WaveNet synthesis a voice based on that.</p>
+
+<ul>
+  <li>Nsynth interpolation.</li>
+</ul>
+
+<p>Since I wanted to give a sense of musical piece, I chose NSynth for the
+interpolation between generated voice and ambient music.</p>
+
+<p>I tried just like the poem lines, but the sound so stiff and strong, so I made
+lines again based on the waveform of original narration.</p>
+
+<p>It took so much time to generate each line, I tried Nsynth simultaneously.</p>
+
+<p><a href="https://soundcloud.com/yyyiiiyyy/sets/nsynth-human-voice-low-pitch-
+instruments/s-mZ9rW">NSynth 1</a> [Human Voice || Tibet Singing-bowl || Ibo Drum]</p>
+
+<p><a href="https://soundcloud.com/yyyiiiyyy/interp-zelda-online-audio-
+convertercom-x-mix-12s-audio-joinercom/s-4BDMI">NSynth 2</a> [Generated Voice || Ocarina
+sound || Flute Sound]</p>
+
+<p>At the first iteration, I thought low pitch instrumental sounds are really
+good to hear, but the interpolation result with human voice was a bit
+monstrous and unpleasant. I changed to high pitch instruments for the second
+iteration.</p>
+
+<p>Instrument sounds samples below<br />
+<a href="https://soundcloud.com/yyyiiiyyy/ibo-drum-sample/s-6KSlj">Ibo drum sample</a></p>
+
+<p><a href="https://soundcloud.com/yyyiiiyyy/tibetsingingbowlsample/s-f5u3j">Tibet SingingBowl
+Sample</a></p>
+
+<p><a href="https://soundcloud.com/yyyiiiyyy/ocarina-sample/s-fw4Vw">Ocarina Sample</a></p>
+
+<p>After these trial, it looks like Nsynth might not be the model I was looking
+for. What I was looking for was something like <em>Style Transfer for Music.</em></p>
+
+<p>Using Nsynth interpolates pitch and rhythm also, but I wanted to keep the
+rhythm and pitch of narration while change the timbre from instruments, or a
+certain music genre.</p>
+
+<p>While looking for code, I found Wavenet generatef from Mel-spectrogram
+representation, so it could be interesting generate instrumental sound from
+mel-spectrogram of narration file. I actually tried to do that, but I was
+using Jupyter Notebook so I couldn’t access output files.</p>
+
+<p>For the proof of concept, I tired to put the sounds to rhythm game Unity
+assets. Still I need to manually assign lines to the sound, but it was so
+interesting that text and sound was kinda synced if I consider them as <em>four-
+quarter measure music.</em> Since the asset counts the beats, no matter how long
+or short the line was, each line passed after 4 beats and it looked okay. This
+can be a new way fo an approach for the next step.</p>
+
+<p>0. Transcript pitch and rhythm of narration with piano transcript tool, and
+train with that data set. -most doable<br />
+1. Reconstruct the narration from Mel-spectrogram presentation to other
+musical instrument. -most interesting<br />
+2. Generate music from Text analysis. - This method doesn’t have any
+connection to narration, but I can make it musical.<br />
+December 13, 2018</p>
+
+<hr />
+
+<h1 id="final-project-proposal--exploration">Final Project proposal : exploration</h1>
+
+<p><a href="https://docs.google.com/presentation/d/1uDHNFbWMXWENXtbh54zhoXq7vXd4qcdhm5SpxUXUkBs/edit?usp=sharing">google
+slide</a></p>
+
+<p>My concept of final project is making an interactive reading experience with
+intonation-like ambient background sound.</p>
+
+<p>I got the idea from the frustration of reading English text, compared to how I
+feel so free when I read in Korean.</p>
+
+<p>I got bunch of text to read every week for discussion (as a grad student), and
+somehow manage to read them all. But what I found in the classes is I totally
+lost important cases in the text.</p>
+
+<p>Honestly, I got more overwhelmed by the amount of text, rather than focusing
+on the contents in the text.</p>
+
+<p>And I found a new experience with audio book recently, since making audio book
+is a very expensive industry I never experienced the full human voice
+narration for ebook in Korea. I am not sure if I just miss them, but most of
+audio services for ebooks are just very distraction TTS, it was better not to
+hear them for me. Using audiobook narration with ebook was quite interesting,
+it did help me a lot to focus on the text, especially academic texts. The most
+challenging part of reading second language text is, you need to stop for
+searching the meaning of words. when you stop again and again, you just lose
+your focus and it is hard to come back to the line. (There is a research that
+outside hinderance is the most challenging disturbance against
+productiveness.) It may sound ridiculous, but you can speak in second language
+with people without understanding every single words. There is a semantic
+understanding within the context. Listening audiobook is quite like that.</p>
+
+<p>Even though audiobook was pretty helpful, but I feel hard to focus on reading
+them for couple of reasons below.</p>
+
+<ul>
+  <li>Reading speed is commonly much faster than listening</li>
+  <li>Speed of narration is hard to modify due to the amount of information</li>
+  <li>We actually don’t need to hear every single words - It is like we don’t we actually don’t read every single spell of a word, we just see general shape of the word.</li>
+</ul>
+
+<p>That is the reason that I want to make a narration-like ambient music, which
+doesn’t contain any distinguishable information, but you feel like someone is
+mumbling next to you.</p>
+
+<p>So how can I achieve the experience? I found a good
+<a href="https://medium.com/@saxenauts/speech-synthesis-techniques-using-deep-
+neural-networks-38699e943861">blog</a> for deep learning models and intonation (mostly
+about TTS and deep learning) It looks like several approaches available.</p>
+
+<ul>
+  <li>
+    <p>Pairing a sentence + manipulated audio file from narration —&gt; generate mumbling music and show texts accordingly.<br />
+= this one is the most straight forward approach, but also has a lot of
+constraints. How can I pair each word and sound? is there any tool helps with
+setting data? or should I do that manually?</p>
+  </li>
+  <li>
+    <p>Get a score of narration and pair each score to the texts.</p>
+  </li>
+</ul>
+
+<p>= this will be more music piece like approach, and seems doable. I guess this
+will be like rhythm game.</p>
+
+<ul>
+  <li>Existing models seems appropriate to my projects: Sample RNN, Wave net, Lyrebird(?)</li>
+</ul>
+
+<p>December 6, 2018<a href="https://youjin-chung-pgjj.squarespace.com/blog-1/2018/12/13/generative-
+music-ambient-poem-rhythm-game-proposal"><br />
+</a></p>
+
+<hr />
+
+<h1 id="melody-rnn">Melody RNN</h1>
+
+<p><a href="https://magenta.tensorflow.org/2016/07/15/lookback-rnn-attention-
+rnn/">Generating Long-Term Structure in Songs and
+Stories</a>, 2016</p>
+
+<p>(referenced <a href="http://www.hexahedria.com/2015/08/03/composing-music-with-recurrent-
+neural-networks/">Composing Music With Recurrent Neural
+Networks</a>,2105 and <a href="https://arxiv.org/abs/1409.0473">Neural Machine Translation by Jointly Learning to
+Align and Translate</a>,2014)</p>
+
+<p><em>Basic RNN</em></p>
+
+<p>input :</p>
+
+<p>a one-hot vector of the previous event , the label was the target next event.</p>
+
+<p>event :</p>
+
+<p>-note-off (turn off any currently playing note)</p>
+
+<p>-no event (if a note is playing, continue sustaining it, otherwise continue silence)</p>
+
+<p>-note-on event for each pitch (which also turns off any other note that might be playing)</p>
+
+<p><em>Lockback RNN</em></p>
+
+<p>new inputs:</p>
+
+<p>-events from 1 and 2 bars ago —&gt;(mirrored or contrasting melodies)</p>
+
+<p>-whether the last event was repeating the event from 1 or 2 bars before it —&gt;(repetitive or non-repetitive state.)</p>
+
+<p>-the current position within the measure<br />
+Step 1: [0, 0, 0, 0, 1]<br />
+Step 2: [0, 0, 0, 1, 0]<br />
+Step 3: [0, 0, 0, 1, 1]<br />
+Step 4: [0, 0, 1, 0, 0]</p>
+
+<p>new labels:</p>
+
+<p>-The label to repeat the event from 1 bar ago.</p>
+
+<p>-The label to repeat the event from 2 bars ago.</p>
+
+<p>—&gt;his allows the model to more easily repeat 1 or 2 bar phrases without having
+to store those sequences in its memory cell.</p>
+
+<p><em>Attention RNN</em></p>
+
+<blockquote>
+  <p><em>Neural Machine Translation by Jointly Learning to Align and Translate</em></p>
+
+  <p>[an encoder-decoder RNN</p>
+
+  <p>the model uses attention to look at all the encoder outputs during each
+decoder step.]</p>
+</blockquote>
+
+<p>outputs from the last 𝑛n steps when generating the output for the current
+step.</p>
+
+<p>Step 1: [1.0, 0.0, 0.0, 1.0]<br />
+Step 2: [0.0, 1.0, 0.0, 1.0]<br />
+Step 3: [0.0, 0.0, 0.5, 0.0]</p>
+
+<p>𝑎𝑡𝑖 =[0.7, 0.1, 0.2]</p>
+
+<p>Step 1 (70%): [0.7, 0.0, 0.0, 0.7]<br />
+Step 2 (10%): [0.0, 0.1, 0.0, 0.1]<br />
+Step 3 (20%): [0.0, 0.0, 0.1, 0.0]</p>
+
+<p>ℎ′𝑡 =[0.7, 0.1, 0.1, 0.8]</p>
+
+<p>The ℎ′𝑡 vector is concatenated with the next step’s input vector and a linear
+layer is applied to that concatenated vector to create the new input to the
+RNN cell.</p>
+
+<p>This helps attention not only affect the data coming out of the RNN cell, but
+also the data being fed into the RNN cell.</p>
+
+<p><em>Encoding</em></p>
+
+<p>melodies_lib.Melody format (-2 = no event, -1 = note-off event, values 0
+through 127 = note-on event for that MIDI pitch)</p>
+
+<p>Twinkle Twinkle Little Star</p>
+
+<p>--primer_melody=”[60, -2, 60, -2, 67, -2, 67, -2]”</p>
+
+<p><em>Thoughts</em></p>
+
+<p>Total new transition</p>
+
+<p>Text + Accent —&gt; Musical RNNs = ?<br />
+November 15, 2018</p>
+
+<hr />
+
+<h1 id="anis-haron---audio-palimpsest">Anis Haron - Audio Palimpsest</h1>
+
+<p>This might not be symphonic piece, but it is an interesting project in a way
+of aesthetic and mechanism.</p>
+
+<p>Audio Palimpsest is a hacked cassette recorder, interacting with audience by
+its IR distance sensor. According to the comment, the recorder wind or rewind
+the tape according to the approach or receding of audience.</p>
+
+<p>Since the recorder is not only playing the tape but It is overwrite or play
+the tape, (I couldn’t figure out how they decide which.) the installation
+records the environmental sound of the site unexpected way, and generates
+sound.</p>
+
+<p>If you ask me about whether we can tell this as music or just mere sound, I
+can definitely say this is music. Actually it seems like the artists added
+some way to make musical sound beside recoding the environmental sound only.
+September 13, 2018</p>
+
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
