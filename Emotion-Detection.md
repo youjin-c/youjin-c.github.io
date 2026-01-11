@@ -52,9 +52,7 @@ Resolution. It upscales images with great quality. I upscaled 48X48 pixel
 images to 192x192 pixels, without losing not many information. This is 16
 times of upscaling.
 
-![](images/Emotion-Detection/im16.png)
-
-![](images/Emotion-Detection/28795.png)
+![](images/Emotion-Detection/im16.png) ![](images/Emotion-Detection/28795.png)
 
 After data augmentationa and preprocessing, accuracy raised upto 0.8 with
 training sets.
@@ -134,5 +132,3 @@ facial expression classification methods.
 [FER-2013](https://www.kaggle.com/datasets/msambare/fer2013)
 [EDSR in Tensorflow](https://github.com/Saafke/EDSR_Tensorflow#edsr-in-tensorflow)
 [Emotion detection using facial landmarks and deep learning](https://medium.com/@rishiswethan.c.r/emotion-detection-using-facial-landmarks-and-deep-learning-b7f54fe551bf)
-
-Jan 2023

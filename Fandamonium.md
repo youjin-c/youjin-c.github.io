@@ -91,9 +91,5 @@ time, penatlies and rewards.
 **Audio clips:**  
 
 > Dog: bsperan,tatianafeudal via [Freesound.org](http://Freesound.org)  
->  Cat: 16GPanskaZlochova_Eliska, Breviceps  
+>  Cat: 16GPanskaZlochova_Eliska, Breviceps
 >  Bee: RuanZA
-
-  
-
-Aug-Dec, 2022

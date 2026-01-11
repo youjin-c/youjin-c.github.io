@@ -28,7 +28,7 @@
   thumbnail: cargo-collective/images/Emotion-Detection/cropped_thumbnail.png
   description: Research on facial emotion detection using FER2013 dataset and deep learning.
   category: project
-  date: "2023"
+  date: "Jan 2023"
 
 # Tier 2 (Score 8-9): Applied ML - Face recognition, gesture recognition, NLP
 - title: DoodlAR
@@ -179,7 +179,7 @@
   thumbnail: images/Fandamonium/fandamonium.png
   description: Interactive fan experience project exploring crowd engagement.
   category: project
-  date: "2022"
+  date: "Dec 2022"
 
 # Archive/Blog Projects (15) - Original CargoCollective order
 - title: Thesis

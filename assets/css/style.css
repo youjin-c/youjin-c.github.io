@@ -1,19 +1,19 @@
-/* ===== CSS Variables (Blue-Gray Dark Mode) ===== */
+/* ===== CSS Variables (Dark Mode - Slate Gray) ===== */
 :root {
-  --bg-primary: #0d1117;
-  --bg-secondary: #161b22;
-  --bg-tertiary: #1c2128;
-  --text-primary: #e6edf3;
-  --text-secondary: #8b949e;
-  --text-muted: #6e7681;
-  --accent: #c9d1d9;
-  --border: #30363d;
-  --shadow: rgba(0, 0, 0, 0.5);
+  --bg-primary: #121214;
+  --bg-secondary: #1c1c1f;
+  --bg-tertiary: #27272a;
+  --text-primary: #f0f0f2;
+  --text-secondary: #a1a1a6;
+  --text-muted: #71717a;
+  --accent: #d4d4d8;
+  --border: #3f3f46;
+  --shadow: rgba(0, 0, 0, 0.4);
   --transition: 0.3s ease;
 
   /* Fonts */
   --font-title: 'Playfair Display', Georgia, 'Times New Roman', serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* ===== Reset & Base ===== */
@@ -59,7 +59,7 @@ img {
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(13, 17, 23, 0.9);
+  background: rgba(18, 18, 20, 0.9);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
 }
@@ -222,6 +222,30 @@ img {
   padding-bottom: 4rem;
 }
 
+/* Project Title from Layout */
+.project-title {
+  font-family: var(--font-title);
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: var(--text-primary);
+}
+
+/* Project Date Header - right-aligned under title */
+.project-date-header {
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 3rem;
+}
+
+/* Hide duplicate h1 from markdown content */
+.project-content > h1:first-child {
+  display: none;
+}
+
 /* Hero Title */
 .project-page h1 {
   font-family: var(--font-title);
@@ -271,9 +295,11 @@ img {
   font-weight: 300;
 }
 
-/* Images - Full width with subtle animation */
+/* Images - Natural size up to max-width */
 .project-page img {
-  width: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
   margin: 2.5rem 0;
   border-radius: 8px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -284,9 +310,15 @@ img {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
 }
 
-/* Image Gallery - side by side when consecutive */
-.project-page p + p > img:only-child {
-  margin-top: 0;
+/* Consecutive images in same paragraph - inline side by side */
+.project-page p img {
+  display: inline-block;
+  vertical-align: top;
+  margin: 1rem 0.5rem 1rem 0;
+}
+
+.project-page p img:last-child {
+  margin-right: 0;
 }
 
 /* Links */

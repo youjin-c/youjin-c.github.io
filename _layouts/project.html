@@ -21,10 +21,18 @@
     </div>
   </header>
 
+  {% assign current_project = site.data.projects | where: "title", page.title | first %}
+
   <main class="site-content">
     <article class="project-page">
       <a href="{{ '/' | relative_url }}" class="back-link">Back to Work</a>
-      {{ content }}
+      <h1 class="project-title">{{ page.title }}</h1>
+      {% if current_project.date %}
+      <div class="project-date-header">{{ current_project.date }}</div>
+      {% endif %}
+      <div class="project-content">
+        {{ content }}
+      </div>
     </article>
   </main>
 
