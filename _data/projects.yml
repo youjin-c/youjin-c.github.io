@@ -34,7 +34,7 @@
 - title: Emotion Detection
   full_title: "Emotion Detection: Multi-class classification and Quantization"
   url: Emotion-Detection.html
-  thumbnail: cargo-collective/images/Emotion-Detection/cropped_thumbnail.png
+  thumbnail: images/Emotion-Detection/cropped_thumbnail.png
   description: Research on facial emotion detection using FER2013 dataset and deep learning.
   category: project
   date: "Jan 2023"
