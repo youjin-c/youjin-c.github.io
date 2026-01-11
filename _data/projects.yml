@@ -1,34 +1,17 @@
-# Portfolio Projects - Ordered by recency (newest first)
+# Portfolio Projects - Ordered by AI/ML relevance (highest first)
 
-# Main Grid Projects (25) - Original CargoCollective order
-- title: ColorPiece
-  url: ColorPiece.html
-  thumbnail: images/ColorPiece/ColorPiece.png
-  description: AR furniture app that helps find the perfect color by generating color palettes from your environment.
-  category: project
-
-- title: DoodlAR
-  url: DoodlAR.html
-  thumbnail: images/DoodlAR/doodleNet_345.gif
-  description: AR doodle recognition app using DoodleNet machine learning model.
-  category: project
-
+# Main Grid Projects (25) - Sorted by AI/ML relevance score
+# Tier 1 (Score 9-10): Core AI/ML - Neural networks, deep learning, computer vision
 - title: Toonify
   url: Toonify.html
   thumbnail: images/Toonify/toonify_thumgnail.gif
   description: Photo to cartoon transformation using neural style transfer.
   category: project
 
-- title: Project Awkward
-  url: Project-Awkward.html
-  thumbnail: images/Project-Awkward/ezgif.com-gif-maker.gif
-  description: VR education game for practicing social skills using Azure NLP, MIT Reality Virtually Hackathon project.
-  category: project
-
-- title: Blow A Kiss
-  url: Blow-A-Kiss.html
-  thumbnail: images/Blow-A-Kiss/Untitled_Artwork.png
-  description: AR experience with Unity MARS using facial expressions like mouth opening and winking to interact with virtual hearts.
+- title: Smile Filter
+  url: Smile-Filter.html
+  thumbnail: images/Smile-Filter/teaser.png
+  description: Face filter exploring smile detection and visual effects.
   category: project
 
 - title: Object Segmentation
@@ -37,28 +20,17 @@
   description: Research on image segmentation using COCO dataset and machine learning.
   category: project
 
-- title: DICE
-  url: DICE.html
-  thumbnail: images/DICE/giphy.gif
-  description: Interactive light/music installation using Markov Chain, award-winning work at Tiny Massive, Reykjavík.
+- title: Emotion Detection
+  url: Emotion-Detection.html
+  thumbnail: images/Emotion-Detection/img_1.png
+  description: Research on facial emotion detection using FER2013 dataset and deep learning.
   category: project
 
-- title: One Zero
-  url: One-Zero.html
-  thumbnail: images/One-Zero/show.gif
-  description: Interactive Kinetic Art Installation implying coexistence of human cognitive process and machine perception.
-  category: project
-
-- title: Motion Recognition
-  url: MOTION-RECOGNITION.html
-  thumbnail: images/MOTION-RECOGNITION/ARCHIVEE23_o.jpg
-  description: SmartTV service development for controlling TV with finger and hand gestures.
-  category: project
-
-- title: Snapchat Lenses
-  url: Snapchat-Lenses.html
-  thumbnail: images/Snapchat-Lenses/ezgif.com-resize.gif
-  description: Custom Snapchat lens creations using Lens Studio.
+# Tier 2 (Score 8-9): Applied ML - Face recognition, gesture recognition, NLP
+- title: DoodlAR
+  url: DoodlAR.html
+  thumbnail: images/DoodlAR/doodleNet_345.gif
+  description: AR doodle recognition app using DoodleNet machine learning model.
   category: project
 
 - title: The Tree of Babel
@@ -67,22 +39,16 @@
   description: Analysis and visualization of interactive narrative structures in games.
   category: project
 
+- title: Motion Recognition
+  url: MOTION-RECOGNITION.html
+  thumbnail: images/MOTION-RECOGNITION/ARCHIVEE23_o.jpg
+  description: SmartTV service development for controlling TV with finger and hand gestures.
+  category: project
+
 - title: Posture & Eye Care
   url: POSTURE-EYE-CARE.html
   thumbnail: images/POSTURE-EYE-CARE/ARCHIVEE22_o.jpg
   description: Healthcare web application tracking facial position and eye blink to encourage better posture and eye care.
-  category: project
-
-- title: Face Recognition Games
-  url: Face-Recognition-Games.html
-  thumbnail: images/Face-Recognition-Games/mainImage.jpg
-  description: Interactive games using face recognition technology, including Banksy-inspired AR experience.
-  category: project
-
-- title: Go Card
-  url: Go-Card.html
-  thumbnail: images/Go-Card/gocard1.jpg
-  description: A concept of language education kit for Korean letters using conductive paint and Arduino.
   category: project
 
 - title: Smile Face-in
@@ -91,16 +57,85 @@
   description: LG laptop Gram User Identification System using face recognition and natural facial expressions.
   category: project
 
-- title: Swipe
-  url: Swipe.html
-  thumbnail: images/Swipe/ezgif.com-crop-1.gif
-  description: Interactive experience exploring Tinder-style swiping mechanics.
+- title: Face Recognition Games
+  url: Face-Recognition-Games.html
+  thumbnail: images/Face-Recognition-Games/mainImage.jpg
+  description: Interactive games using face recognition technology, including Banksy-inspired AR experience.
+  category: project
+
+- title: Blow A Kiss
+  url: Blow-A-Kiss.html
+  thumbnail: images/Blow-A-Kiss/Untitled_Artwork.png
+  description: AR experience with Unity MARS using facial expressions like mouth opening and winking to interact with virtual hearts.
+  category: project
+
+- title: Snapchat Lenses
+  url: Snapchat-Lenses.html
+  thumbnail: images/Snapchat-Lenses/ezgif.com-resize.gif
+  description: Custom Snapchat lens creations using Lens Studio.
+  category: project
+
+# Tier 3 (Score 7-8): AI-Adjacent - NLP, generative AI, AR with ML
+- title: Project Awkward
+  url: Project-Awkward.html
+  thumbnail: images/Project-Awkward/ezgif.com-gif-maker.gif
+  description: VR education game for practicing social skills using Azure NLP, MIT Reality Virtually Hackathon project.
+  category: project
+
+- title: ColorPiece
+  url: ColorPiece.html
+  thumbnail: images/ColorPiece/ColorPiece.png
+  description: AR furniture app that helps find the perfect color by generating color palettes from your environment.
   category: project
 
 - title: Suprememe
   url: Suprememe.html
   thumbnail: images/Suprememe/ezgif.com-crop.gif
   description: AI-generated Supreme-style images using GANs and Instagram scraping.
+  category: project
+
+# Tier 4 (Score 4-6): Light AI Elements - Markov chain, data-driven
+- title: DICE
+  url: DICE.html
+  thumbnail: images/DICE/giphy.gif
+  description: Interactive light/music installation using Markov Chain, award-winning work at Tiny Massive, Reykjavík.
+  category: project
+
+- title: Swipe
+  url: Swipe.html
+  thumbnail: images/Swipe/ezgif.com-crop-1.gif
+  description: Interactive experience exploring Tinder-style swiping mechanics.
+  category: project
+
+- title: Go Card
+  url: Go-Card.html
+  thumbnail: images/Go-Card/gocard1.jpg
+  description: A concept of language education kit for Korean letters using conductive paint and Arduino.
+  category: project
+
+- title: One Zero
+  url: One-Zero.html
+  thumbnail: images/One-Zero/show.gif
+  description: Interactive Kinetic Art Installation implying coexistence of human cognitive process and machine perception.
+  category: project
+
+- title: Glitch
+  url: Glitch.html
+  thumbnail: images/Glitch/ezgif.com-resize_1.gif
+  description: P5.js sketches for glitch visual programming, interactive with Arduino sensor input.
+  category: project
+
+# Tier 5 (Score 2-3): Minimal AI - Interactive installations, physical computing
+- title: Dead Wood
+  url: Dead-Wood.html
+  thumbnail: images/Dead-Wood/base64_0_d40fa7f4.gif
+  description: VR game and kinetic sculpture exploring empathy and anthropomorphism, inspired by hitchBOT.
+  category: project
+
+- title: Humanphobia
+  url: Humanphobia.html
+  thumbnail: images/Humanphobia/humanphobia.gif
+  description: Interactive light art wearable referring to social anxiety, calculating distance and showing light patterns.
   category: project
 
 - title: Sigh
@@ -115,40 +150,10 @@
   description: Python automation for generative music using TweetDeck trending hashtags.
   category: project
 
-- title: Glitch
-  url: Glitch.html
-  thumbnail: images/Glitch/ezgif.com-resize_1.gif
-  description: P5.js sketches for glitch visual programming, interactive with Arduino sensor input.
-  category: project
-
-- title: Dead Wood
-  url: Dead-Wood.html
-  thumbnail: images/Dead-Wood/base64_0_d40fa7f4.gif
-  description: VR game and kinetic sculpture exploring empathy and anthropomorphism, inspired by hitchBOT.
-  category: project
-
-- title: Humanphobia
-  url: Humanphobia.html
-  thumbnail: images/Humanphobia/humanphobia.gif
-  description: Interactive light art wearable referring to social anxiety, calculating distance and showing light patterns.
-  category: project
-
 - title: Fandamonium
   url: Fandamonium.html
   thumbnail: images/Fandamonium/fandamonium.png
   description: Interactive fan experience project exploring crowd engagement.
-  category: project
-
-- title: Emotion Detection
-  url: Emotion-Detection.html
-  thumbnail: images/Emotion-Detection/img_1.png
-  description: Research on facial emotion detection using FER2013 dataset and deep learning.
-  category: project
-
-- title: Smile Filter
-  url: Smile-Filter.html
-  thumbnail: images/Smile-Filter/teaser.png
-  description: Face filter exploring smile detection and visual effects.
   category: project
 
 # Archive/Blog Projects (15) - Original CargoCollective order
