@@ -1,25 +1,7 @@
-[ ](https://cargo.site)
-
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
-
-  
+---
+layout: default
+title: Haptics
+---
 
 # Haptics
 
@@ -28,7 +10,13 @@ Arnav and I played with vibrating motors using basic Arduino PWM. Used the
 example codes ‘Blink’ and ‘Fade’, but connected vibrating motors instead of
 LEDs.
 
-  * 
+  * ![](images/Haptics/exp0.gif)
+
+![](images/Haptics/exp1.gif)
+
+![](images/Haptics/exp2.gif)
+
+![](images/Haptics/IMG_0292.jpeg)
 
   * Haptic Motor Driver  
   
@@ -49,7 +37,7 @@ at the same time so I can show it on that part.
 Phil and I worked to make a rainmaker. The point was giving a sensation of
 rain drops on the palm. The below is what we ended up with..
 
-![](../images/Haptics/rainmaker.gif)
+![](images/Haptics/rainmaker_1.gif)
 
   
   
@@ -70,7 +58,10 @@ of each motors, we programmed each motor has different vibrating frequency and
 rhythm randomly. One of the motors vibrating consistently while the others
 vibrates once in a while, tried to give the random raindrop sensation.
 
+![](images/Haptics/5c65c3d427b41893901160.gif)
+
+![](images/Haptics/5c65c45375685677846274.gif)
+
   
 It feels pretty much raindrops even the video sounds like popcorn maker. :)  
 November 6, 2018
-

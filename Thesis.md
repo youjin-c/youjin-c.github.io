@@ -1,23 +1,9 @@
-[ ](https://cargo.site)
+---
+layout: default
+title: Thesis
+---
 
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
+# Thesis
 
 ## Project Description for the Website  
 
@@ -77,7 +63,7 @@ Since the X coordinate just represents the index of graph orders, significant
 values are Y coordinates only.  
 To fix this problem, I need to try with the array of feature matrixes of each
 graph, rather than just a feature matrix of whole graphs.  
-![](../images/Thesis/clustering.png)  
+![](images/Thesis/clustering_1.png)  
 Instead of using computed categorization, I categorized graphs with names that
 I made up. The names are inspired by graph properties.  
   
@@ -239,6 +225,18 @@ graph generation function.
 some experiences for graph generation below.  
   
 
+![](images/Thesis/base64_0_d40fa7f4.gif)
+
+![](images/Thesis/base64_1_d40fa7f4.gif)
+
+![](images/Thesis/base64_2_d40fa7f4.gif)
+
+![](images/Thesis/base64_3_d40fa7f4.gif)
+
+![](images/Thesis/base64_4_d40fa7f4.gif)
+
+![](images/Thesis/base64_5_d40fa7f4.gif)
+
   
 It wasn’t easy as I expected, but I got general understanding if I got
 familiar with networkx. Such as,  
@@ -264,6 +262,12 @@ they are stored as .txt .gv .tgf files
 Since TRG is open-sourced database, they don’t have unified reference. Took a
 lot of time to refine them to edgelist files as .json and .edgelist files  
 INPUT:  
+
+![](images/Thesis/base64_6_d40fa7f4.gif)
+
+![](images/Thesis/base64_7_d40fa7f4.gif)
+
+![](images/Thesis/base64_8_d40fa7f4.gif)
 
 OUTPUT: edges and features of one graph{"edges": [[2, 3], [3, 4], [3, 5], [4,
 8], [4, 10], [5, 6], [5, 16], [6, 22], [6, 114], [8, 9], [9, 17], [9, 18],
@@ -673,7 +677,23 @@ improving one algorithm versus using what I need for my idea each time.
 
 ## Paper Prototyping
 
+![](images/Thesis/base64_9_d40fa7f4.gif)
+
+![](images/Thesis/base64_10_d40fa7f4.gif)
+
+![](images/Thesis/base64_11_d40fa7f4.gif)
+
+![](images/Thesis/base64_12_d40fa7f4.gif)
+
   
+
+![](images/Thesis/base64_13_d40fa7f4.gif)
+
+![](images/Thesis/base64_14_d40fa7f4.gif)
+
+![](images/Thesis/base64_15_d40fa7f4.gif)
+
+![](images/Thesis/base64_16_d40fa7f4.gif)
 
 Thanks to April, I learned differnet design patterns of narrative, which I
 should have known before working on the project.  
@@ -690,6 +710,12 @@ an HCI research engineer working with computer vision
   
 [OneZero](One-Zero)  
 
+![](images/Thesis/base64_17_d40fa7f4.gif)
+
+![](images/Thesis/base64_18_d40fa7f4.gif)
+
+![](images/Thesis/base64_19_d40fa7f4.gif)
+
   
 
   
@@ -698,6 +724,19 @@ an HCI research engineer working with computer vision
   
   
 Suprememebot
+
+
+![](images/Thesis/IMG_0521.PNG)
+
+![](images/Thesis/IMG_0518.PNG)
+
+![](images/Thesis/IMG_0519.PNG)
+
+![](images/Thesis/IMG_0520.PNG)
+
+![](images/Thesis/IMG_0521_1.PNG)
+
+![](images/Thesis/IMG_0518_1.PNG)
 
   
 
@@ -730,6 +769,4 @@ key : how to train those different data as a set?
 goal : generate a narrative from the model. => output will be also consist of
 img, text, interaction infomation  
   
-question : have to be a narrative?  
-  
-
+question : have to be a narrative?

@@ -1,29 +1,19 @@
-[ ](https://cargo.site)
-
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
+---
+layout: default
+title: Go Card
+---
 
 # Go Card
 
 ** _[Github Repo](https://github.com/youjinChung/GoCard)_**
 
-  
+![](images/Go-Card/gocard1.jpg)
+
+![](images/Go-Card/gocard0.jpg)
+
+![](images/Go-Card/gocard1.jpg)
+
+![](images/Go-Card/gocard0.jpg)
 
 Go Card is a concept of language education kit.  
 The Korean letters are written in syllabic blocks with each alphabetic letter
@@ -35,6 +25,7 @@ named our kit as Go Card.
   
 
 ## System  
+![](images/Go-Card/gocard2.jpg)
 
 Each vowel and the consonant card has its own sound. The user can hear them
 when they press the card on the kit.  
@@ -59,5 +50,4 @@ Ideation, Design, Programming
 [Dongphil Yoo](http://dongphilyoo.com): Ideation, Fabrication, Documentaion  
 
   
-New York, Fall 2018  
-
+New York, Fall 2018

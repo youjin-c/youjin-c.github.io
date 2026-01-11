@@ -1,23 +1,7 @@
-[ ](https://cargo.site)
-
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
+---
+layout: default
+title: Generative Music
+---
 
 # Ambient Poem Rhythm Game Proposal
 
@@ -59,6 +43,12 @@ Since I wanted to give a sense of musical piece, I chose NSynth for the
 interpolation between generated voice and ambient music.
 
   
+
+![](images/Generative-Music/3.png)
+
+![](images/Generative-Music/4.jpg)
+
+![](images/Generative-Music/2.png)
 
   
   
@@ -180,9 +170,7 @@ will be like rhythm game.
 
   * Existing models seems appropriate to my projects: Sample RNN, Wave net, Lyrebird(?)
 
-December 6, 2018[  
-](https://youjin-chung-pgjj.squarespace.com/blog-1/2018/12/13/generative-
-music-ambient-poem-rhythm-game-proposal)
+December 6, 2018
 
 * * *
 
@@ -319,5 +307,4 @@ sound.
 If you ask me about whether we can tell this as music or just mere sound, I
 can definitely say this is music. Actually it seems like the artists added
 some way to make musical sound beside recoding the environmental sound only.
-September 13, 2018  
-
+September 13, 2018

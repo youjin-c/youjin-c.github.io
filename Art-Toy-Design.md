@@ -1,23 +1,7 @@
-[ ](https://cargo.site)
-
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
+---
+layout: default
+title: Art Toy Design
+---
 
 # Final
 
@@ -27,8 +11,30 @@
 Printed out the illustrations of the creatures, and laser-cut ear template for
 display. Meanwhile, wax polished resin stone, so it is more smooth and shiny.  
 
+![](images/Art-Toy-Design/u.png)
+
+![](images/Art-Toy-Design/v.jpeg)
+
+![](images/Art-Toy-Design/w.jpeg)
+
+![](images/Art-Toy-Design/q.png)
+
+![](images/Art-Toy-Design/r.png)
+
+![](images/Art-Toy-Design/s.png)
+
+![](images/Art-Toy-Design/t.png)
+
   
 1\. New creatures  
+
+![](images/Art-Toy-Design/aa.png)
+
+![](images/Art-Toy-Design/x.png)
+
+![](images/Art-Toy-Design/y.png)
+
+![](images/Art-Toy-Design/z.png)
 
   
 Made 3 more shapes in Oculus Medium, tried to make more general fitting
@@ -37,10 +43,28 @@ and put pin to a piercing so person just can wear like piercings. Printing pin
 with a toy didn’t go well since it was too fragile, I broke all of them while
 sanding. I switched to drill a hole and put a brass tube into the hole.  
 
+![](images/Art-Toy-Design/bb.jpeg)
+
+![](images/Art-Toy-Design/ee.jpeg)
+
+![](images/Art-Toy-Design/cc.jpeg)
+
+![](images/Art-Toy-Design/ff.jpeg)
+
+![](images/Art-Toy-Design/dd.jpeg)
+
+![](images/Art-Toy-Design/gg.jpeg)
+
   
 Printed them, sanded them, and put transparent plastic primer for coloring. I
 tested water marbling, but the paints are also translucent, turned out too
 dark.  
+
+![](images/Art-Toy-Design/base64_0_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_1_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_2_d40fa7f4.gif)
 
   
 So, sprayed white primer 2-3 times, sanded the surface, water marbled again.
@@ -54,7 +78,29 @@ inside of the package, I might try to use vacuum foam of the silicone ear and
 put them in the box to make it more stable. (Ben + Pedro feedbacks)  
   
 
+![](images/Art-Toy-Design/base64_3_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_4_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_5_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_6_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_7_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_8_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_9_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_10_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_11_d40fa7f4.gif)
+
   
+
+![](images/Art-Toy-Design/base64_12_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_13_d40fa7f4.gif)
 
   
   
@@ -68,6 +114,10 @@ October 20, 2018
   
 0\. Amber making - continued from last week  
   
+
+![](images/Art-Toy-Design/base64_14_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_15_d40fa7f4.gif)
 
   
 Last week I ended up with putting resin in a cup with two Nesi’s. They are
@@ -84,6 +134,16 @@ benchmark the structure of ear piercings. There are a lot of attractive
 jewelry structure while keeping a simple structure and one size for everyone.
 Since I already have Nesi, I will choose three of them.  
 
+![](images/Art-Toy-Design/base64_16_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_17_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_18_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_19_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_20_d40fa7f4.gif)
+
   
 For package design, I was inspired by vacuum tubes. I ordered plastic tube and
 caps from Uline (I don’t need 25 sets of them though…). What I need to do is
@@ -91,6 +151,12 @@ laser cut cardboards to ear shape and pin my jewelry toy on the cardboard, and
 hang them tight in the cylinder. So I can display them in the package and give
 audience a sense of how to wear them. I wish I can draw some art-toy like
 label.  
+
+![](images/Art-Toy-Design/base64_21_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_22_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_23_d40fa7f4.gif)
 
   
 cut the rods from Nesi.  
@@ -114,6 +180,14 @@ printed model”….Anyways, what I learned were
 
   * I need TWO tunnel for resin mold if I want to pour resin through the silicone cast. That was the main reason I 3d printed the model again.
   * It’s hard to glue rod on PLA printed model… It’s much better to print all of them from beginning.
+
+![](images/Art-Toy-Design/base64_24_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_25_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_26_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_27_d40fa7f4.gif)
 
   
 I sanded with 0. coarse sand paper 1. nail filer 2. fine sandpaper and the
@@ -159,15 +233,29 @@ better use spray brushes. but I still need to make maskings for color blocks.
 Resin mold is a traditional technique for high-end jewelries and fountain
 pens, which makes my toy more persuasive as a product.  
 
+![](images/Art-Toy-Design/base64_28_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_29_d40fa7f4.gif)
+
   
   
   
 I got some inspiration meanwhile  
 
   * sneakers color blocking - I was thinking art/designer toys are alike sneakers somehow. Since the streetwear culture is what I am familiar with than art toy, I wanted to co-op them.
-  *   
+  * ![](images/Art-Toy-Design/base64_30_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_31_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_32_d40fa7f4.gif)
+
+  
 
   * glossy finish - the candy-like, glossy and smooth finish caught me. Especially ceramic glaze finish looked so cool to me.
+
+![](images/Art-Toy-Design/base64_33_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_34_d40fa7f4.gif)
 
   * wearable - my toys will be wearable anyway, I need to exchange some part of toy with metal. Many earrings such as ear hoop, ear climbers, ear jackets are actually bendable so customers can adjust jewelry to their body. I think I can print bass part when I decide the final 3d model.
 
@@ -183,6 +271,20 @@ The plan for the final 4 pieces are like this.
 For actual scaling, I made a clay version of the creature and measured it. It
 was 37.53mm from end to end, I can scale 3d model again for prototype.  
 
+![](images/Art-Toy-Design/base64_35_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_36_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_37_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_38_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_39_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_40_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_41_d40fa7f4.gif)
+
   
 I sanded it and sprayed the primer. I broke a leg and the tail tip while
 sanding. Maybe I can try tumbler in stead of sanding. I heard I can wipe with
@@ -193,6 +295,14 @@ can try next time.
 I marked borderline with sharpie. I expected the facial expression remains,
 but the sharpie blurred and disappeared when I painted only one time. A very
 basic tip - paint with bright color first..  
+
+![](images/Art-Toy-Design/base64_42_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_43_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_44_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_45_d40fa7f4.gif)
 
   
 Anyways, finished with glossy vanish and waiting to dry.. One thing to think
@@ -225,6 +335,10 @@ Medium was super intuitive though, the big pitfall is hard to scale to real
 size. 3D modeling tools provide measures thought, it won’t be accurate till I
 make a real size prototype and measure equivalent points.  
 
+![](images/Art-Toy-Design/base64_46_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_47_d40fa7f4.gif)
+
   
 Apparently too small for ears, but I guess you can get the sense what I
 intended.  
@@ -238,6 +352,12 @@ I even put eyeballs on it, but it was not distinguishable for its size. I
 scaled it up 8 times bigger and printed again. The thing is I need to make a
 file using Ultimaker Cura or Cura Lulzbot edition and it was such pain in the
 ass. Both didn’t running well on MacOS.  
+
+![](images/Art-Toy-Design/base64_48_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_49_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_50_d40fa7f4.gif)
 
   
 The second one was too big. I can still go for the finishing, such as using
@@ -256,9 +376,17 @@ putting a wheel.
 I found a wheel for chair. I put a hole on the bottom of the peg to hammer the
 wheel inside.
 
+![](images/Art-Toy-Design/base64_51_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_52_d40fa7f4.gif)
+
   
 It seemed a bit simple, so I made a hat for it.  
   
+
+![](images/Art-Toy-Design/base64_53_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_54_d40fa7f4.gif)
 
   
 
@@ -272,6 +400,12 @@ Simply I cut the head of the peg with a bandsaw, and put a plastic eyeball
 with glue.  
   
 I had mylar sheet in my bin, made a cloak for it.  
+
+![](images/Art-Toy-Design/base64_55_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_56_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_57_d40fa7f4.gif)
 
   
 
@@ -292,10 +426,26 @@ I had a acrylic mirror sheet. My plan was to let people see the intestines
 through the mirror. I measured the size of the peg, and cut the acrylic with
 bandsaw, and sanded to curves.  
 
+![](images/Art-Toy-Design/base64_58_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_59_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_60_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_61_d40fa7f4.gif)
+
   
 Lastly, found yarns and wires and glues in the gut of the peg. I finished the
 toy by putting mirrors and the peg on the piece of wood.  
   
+
+![](images/Art-Toy-Design/base64_62_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_63_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_64_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_65_d40fa7f4.gif)
 
   
   
@@ -306,9 +456,14 @@ toy by putting mirrors and the peg on the piece of wood.
 
   
 
+![](images/Art-Toy-Design/base64_66_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_67_d40fa7f4.gif)
+
+![](images/Art-Toy-Design/base64_68_d40fa7f4.gif)
+
 On the first day, we did intense character drawing. I chose tooth + slime
 theme, and got couple of drafts.  
   
 Based on them, I come up with a wisdom teeth character and drew a turnaround
-of it.  
-
+of it.

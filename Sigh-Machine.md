@@ -1,27 +1,7 @@
-[ ](https://cargo.site)
-
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
-
-  
-
-* * *
+---
+layout: default
+title: Sigh Machine
+---
 
 # Sigh Machine project plan
 
@@ -43,13 +23,13 @@ so the ballon can deflate like sigh.
   
 So, we moved to use drone motors.  
   
-![](../images/Sigh-Machine/0.png)![](../images/Sigh-Machine/1.png)  
+![](images/Sigh-Machine/0_1.png)![](images/Sigh-Machine/1_1.png)  
 Meanwhile, the whole structure changed a lot also. The plan to use mechanical
 ribs changed into using cubes. Technically, the mechanism to inhale is
 extending exoskeleton (precisely extending diaphragm using ribs), so we don't
 need to obsess with ribs. (And it is simpler and prettier.)
 
-![](../images/Sigh-Machine/3.png)  
+![](images/Sigh-Machine/3_1.png)  
 
 And I started to make twitter bots. (Just simple linkage)  
 Since we need to show two bots at least, I also need to use
@@ -62,6 +42,3 @@ adjust motors(in the future), python(for twitter and selenium)}.
   
   
 November 20, 2017
-
-  
-

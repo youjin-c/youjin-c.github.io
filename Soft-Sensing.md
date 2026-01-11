@@ -1,25 +1,7 @@
-[ ](https://cargo.site)
-
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
-
-  
+---
+layout: default
+title: Soft Sensing
+---
 
 # Beautiful sensor: Go Card
 
@@ -30,11 +12,11 @@ paint during the class, decided to make a Korean education kit.
 Hangul, Korean letter has an unique system, the letters are assembled to make
 a sound. If we use a conductive paint, we can stack each sound/letter card on
 each other.  
-![](../images/Soft-Sensing/1.jpg)  
+![](images/Soft-Sensing/1_1.jpg)  
 We chose “ㄱ" + “ㅏ” = “가“, 가 is the most simple and basic letter when you learn
 Korean as we learn A,B,C in English. 가 also has meaning of ‘Go’, so we named
 our kit as Go Card.  
-![](../images/Soft-Sensing/2.jpg)  
+![](images/Soft-Sensing/2_1.jpg)  
 Even though conductive paint is rather conductive (as the name says) than
 resistive, the stroke to draw each letter is different. We can make parallel
 resistance by stacking cards on the kit, and what we need to do is just play
@@ -97,4 +79,3 @@ resistance, but wasn’t linear or consistent.
 
   
 October 8, 2018
-

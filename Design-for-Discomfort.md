@@ -1,23 +1,7 @@
-[ ](https://cargo.site)
-
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
+---
+layout: default
+title: Design For Discomfort
+---
 
 # Missing Dog
 
@@ -25,6 +9,10 @@ For the final presentation, Phil and I did a performance in a class, looking
 for a missing dog and giving out the fliers.  
   
 The front and back image of the flier looks like this.  
+
+![](images/Design-for-Discomfort/z.jpg)
+
+![](images/Design-for-Discomfort/zz.jpg)
 
   
 The act of performance was done in this order.  
@@ -135,9 +123,7 @@ way. (also loves to share that idea with their followers.)
 ## _Audience member a.k.a. user journey_
 
   
-November 28, 2018[  
-](https://youjin-chung-pgjj.squarespace.com/blog-1/2018/12/6/generative-music-
-exploration)  
+November 28, 2018
 
 * * *
 
@@ -186,9 +172,29 @@ ketchup, that was totally new sensation even though I love ketchup a lot. The
 feeling touch that much sauce on your hand is not usual, it was so new to me
 also.  
 
-[November 14, 2018  
-](https://youjin-chung-pgjj.squarespace.com/blog-1/2018/11/15/generative-
-music-melody-rnn)  
+![](images/Design-for-Discomfort/base64_0_d40fa7f4.gif)
+
+![](images/Design-for-Discomfort/base64_1_d40fa7f4.gif)
+
+![](images/Design-for-Discomfort/base64_2_d40fa7f4.gif)
+
+![](images/Design-for-Discomfort/base64_3_d40fa7f4.gif)
+
+![](images/Design-for-Discomfort/base64_4_d40fa7f4.gif)
+
+![](images/Design-for-Discomfort/base64_5_d40fa7f4.gif)
+
+![](images/Design-for-Discomfort/base64_6_d40fa7f4.gif)
+
+![](images/Design-for-Discomfort/base64_7_d40fa7f4.gif)
+
+![](images/Design-for-Discomfort/base64_8_d40fa7f4.gif)
+
+![](images/Design-for-Discomfort/base64_9_d40fa7f4.gif)
+
+![](images/Design-for-Discomfort/base64_10_d40fa7f4.gif)
+
+November 14, 2018
 
 * * *
 
@@ -225,5 +231,4 @@ real for Eamon and Ulrike if they just read a article about them, not
 receiving commands through phone and accomplish them. We don’t need to tell
 people how they supposed to act one by one. By putting them in a specific
 situation, people act like what they think they are expected in that context.
-November 6, 2018  
-
+November 6, 2018

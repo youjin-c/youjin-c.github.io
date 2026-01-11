@@ -1,23 +1,7 @@
-[ ](https://cargo.site)
-
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
+---
+layout: default
+title: One Zero
+---
 
 # One Zero
 
@@ -40,7 +24,21 @@ The installation shows the trace of the red ball in mixed reality.
 This project is shown at ITP 2018 Spring Show.  
   
 
+![](images/One-Zero/onezero4.jpg)
+
+![](images/One-Zero/onezero3.jpg)
+
+![](images/One-Zero/onezero1.jpg)
+
+![](images/One-Zero/one-zero5.jpg)
+
+![](images/One-Zero/onezero2.jpg)
+
 * * *
+
+![](images/One-Zero/base64_0_d40fa7f4.gif)
+
+![](images/One-Zero/base64_1_d40fa7f4.gif)
 
   
 
@@ -74,4 +72,3 @@ Ideation, System architecture, Programming (Arduino, Unity3D)
 Featured at ITP Spring Show 2018  
 
 > New York, Spring 2018
-

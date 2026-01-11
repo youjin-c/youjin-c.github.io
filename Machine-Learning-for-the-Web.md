@@ -1,23 +1,7 @@
-[ ](https://cargo.site)
-
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
+---
+layout: default
+title: Machine Learning for the Web
+---
 
 # Final Proposal
 
@@ -34,7 +18,7 @@ purposes.
   
 For implementation for the idea, we will post the printed ads in public
 spaces.  
-![](../images/Machine-Learning-for-the-Web/0.jpg)  
+![](images/Machine-Learning-for-the-Web/0_1.jpg)  
 The AI creative director up-close, wielding a calligraphy pen. -McCann Japan  
 
 # _YOLO to WebVR_
@@ -52,8 +36,6 @@ size of objects depth from the view
   
 position of objects position arrangement  
   
-like this…?  
-November 27, 2018[  
-](https://youjin-chung-pgjj.squarespace.com/blog-1/2018/12/6/generative-music-
-exploration)
+like this…?
 
+November 27, 2018

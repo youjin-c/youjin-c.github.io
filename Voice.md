@@ -1,23 +1,7 @@
-[ ](https://cargo.site)
-
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
+---
+layout: default
+title: Voice
+---
 
 # tweet reader
 
@@ -75,7 +59,7 @@ narration will be interruptive inputs together.
 _Pokémon_](https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon): multi-
 user interaction to control one object together.  
   
-![](../images/Voice/0.gif)  
+![](images/Voice/0_1.gif)  
 [Last Man Standing](https://pheonise.itch.io/last-man-standing): Multiuser
 interaction using the same objects, but separately.  
   
@@ -119,6 +103,10 @@ decided to use this as the narrator.
 Scraped tweets with the keywords left and right. #Left and #Right was much
 stronger, but I need to parse the hashtags out, so I just used left and
 right... (now I think I should refine texts more..)
+
+![](images/Voice/base64_0_d40fa7f4.gif)
+
+![](images/Voice/base64_1_d40fa7f4.gif)
 
   
   
@@ -242,4 +230,3 @@ code.](https://github.com/Eloquentify/Voice2018/blob/master/reduntdantELIZA.py)
   
 
 February 16, 2018
-

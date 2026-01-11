@@ -1,23 +1,7 @@
-[ ](https://cargo.site)
-
-[ ︎ ](/Left-Nav)
-
-[ ]()
-
-**[Youjin Chung](Home)**  
-  
-[︎](https://www.linkedin.com/in/youjin-chung/) | [︎](mailto:yjc433@nyu.edu) | [︎](https://github.com/youjinChung)   
-  
-[#ML](https://youjin.io/ML)  
-[#XR](https://youjin.io/XR)  
-[#Data](https://youjin.io/Data)  
-[#Interactive](https://youjin.io/Interactive)  
-  
-[Archive](blog-1)  
-  
-  
-  
-**[](Resume)**[](https://www.linkedin.com/in/youjin-chung/)
+---
+layout: default
+title: The Rest of You
+---
 
 # DIY image association test
 
@@ -42,7 +26,7 @@ them.
   
 0\. scrape the images  
 I scraped the download urls from upsplash.com  
-![](../images/The-rest-of-You/0.png)![](../images/The-rest-of-You/1.png)  
+![](images/The-rest-of-You/0_1.png)![](images/The-rest-of-You/1_1.png)  
 1\. Make an Image Association Test  
 referenced [Swing by
 ](https://github.com/gajus/swing)[gajus](https://github.com/gajus/swing)  
@@ -100,4 +84,3 @@ vague images or for some curation.
   
 Here's [the link for the IAT test](https://github.com/elqtfy/RestOfYou-
 tinderTest) that I made above.
-

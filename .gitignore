@@ -1,2 +1,8 @@
 GEMINI.md
 note_for_gemini.md
+_site/
+venv/
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
