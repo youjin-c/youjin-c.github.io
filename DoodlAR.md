@@ -1,11 +1,13 @@
 ---
 layout: project
-title: Doodlar
+title: DoodlAR
 ---
 
 # DoodlAR
 
-2019 MIT Hacking Arts Wayfair Challenge Winner  
+2019 MIT Hacking Arts Wayfair Challenge Winner
+
+<iframe src="https://player.vimeo.com/video/402230104" allowfullscreen></iframe>
 
 DoodlAR is an award-winning project that combines augmented reality (AR) and
 machine learning (ML) technologies to bring imagination and creativity to the
@@ -46,9 +48,9 @@ interactive, allowing users to unleash their creativity and imagination.
 
   
 
-## Visualizing Designs  
+## Visualizing Designs
 
-  
+![](images/DoodlAR/ezgif.com-video-to-gif.gif)
 
 The AR technology that DoodlAR uses enables users to visualize their designs
 and see how their furniture will look in their space. This feature adds an
