@@ -5,13 +5,14 @@ title: Fandamonium
 
 # Fandemonium  
 
-## Trailer  
+## Trailer
 
-  
+<iframe src="https://www.youtube.com/embed/VRfKvjnpKNc" allowfullscreen></iframe>
 
-## Gameplay  
+## Gameplay
 
-  
+<iframe src="https://www.youtube.com/embed/Lb1Ogmat2f0" allowfullscreen></iframe>
+
 
   
 Fandamonium is a 3D game project from Rigidbuddy team for GaTech Video Game
@@ -54,19 +55,18 @@ time, penatlies and rewards.
   
 **Navmesh setting for tutorial scene so that moving animals can walk around**  
   
-**In-Game Menu** : [removed]  
+**In-Game Menu**
 
 > pause game on start, resume, restart level, quitting game, and GUI for audio
-> setting[removed]
+> setting
 
   
 
 ## Credit
 
-**RigidBuddy team members: Mireysa Gonzalez, Chris Edwards, Andrew Davenport  
-  
-3D model of Sunglasses:  
-**
+**RigidBuddy team members:** Mireysa Gonzalez, Chris Edwards, Andrew Davenport
+
+**3D model of Sunglasses:**
 
 > Pixel Sunglasses by TRASH - TANUKI [CC-BY] via Poly Pizza  
 >  Sunglasses by jeremy [CC-BY] via Poly Pizza  

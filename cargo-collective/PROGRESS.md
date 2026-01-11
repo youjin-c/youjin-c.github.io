@@ -31,55 +31,55 @@ youjin-c.github.io/
 
 > **범례**: .md 재작업 = 이번 세션(세션2)에서 scrape_missing.py로 마크다운 재스크래핑 / 이미지 재작업 = download_images.py로 Admin Console URL 기반 다운로드
 
-### Main Grid 프로젝트 (24개)
+### Main Grid 프로젝트 (25개)
 
-| 프로젝트 | .md 파일 | .md 재작업 | 이미지 수 | 이미지 재작업 |
-|----------|----------|------------|-----------|---------------|
-| ColorPiece | O | O (세션1) | 9 | O (세션2) |
-| DoodlAR | O | O (세션2) | 4 | O (세션1) |
-| Toonify | O | O (세션2) | 4 | O (세션1) |
-| Project Awkward | O | O (세션2) | 1 | O (세션1) |
-| Blow A Kiss | O | O (세션2) | 4 | O (세션1) |
-| Object Segmentation | O | O (세션2) | 8 | O (세션1) |
-| DICE | O | O (세션2) | 11 | O (세션1) |
-| One Zero | O | O (세션2) | 9 | O (세션1) |
-| Motion Recognition | O | O (세션1) | 8 | O (세션1) |
-| Snapchat Lenses | O | O (세션2) | 1 | O (세션1) |
-| The Tree of Babel | O | O (세션1) | 7 | O (세션1) |
-| Posture & Eye Care | O | O (세션1) | 10 | O (세션1) |
-| Face Recognition Games | O | O (세션2) | 14 | O (세션1) |
-| Go Card | O | O (세션2) | 6 | O (세션1) |
-| Smile Face-in | O | O (세션1) | 8 | O (세션1) |
-| Swipe! | O | O (세션1) | 5 | O (세션1) |
-| Suprememe | O | O (세션1) | 16 | O (세션1) |
-| *Sigh* | O | O (세션2) | 4 | O (세션2) |
-| Tweequency | O | O (세션1) | 7 | O (세션1) |
-| Glitch | O | O (세션1) | 8 | O (세션1) |
-| Dead Wood | O | O (세션1) | 20 | O (세션1) |
-| Humanphobia | O | O (세션2) | 4 | O (세션1) |
-| Fandamonium | O | O (세션1) | 1 | O (세션1) |
-| Emotion Detection | O | O (세션1) | 12 | O (세션1) |
-| Smile Filter | O | O (세션1) | 11 | O (세션1) |
+| 프로젝트 | .md | 이미지 | 최종 확인 | 비고 |
+|----------|-----|--------|-----------|------|
+| ColorPiece | O | 9 | [ ] | |
+| DoodlAR | O | 4 | [ ] | |
+| Toonify | O | 4 | [ ] | |
+| Project Awkward | O | 1 | [ ] | |
+| Blow A Kiss | O | 4 | [ ] | |
+| Object Segmentation | O | 8 | [ ] | |
+| DICE | O | 11 | [ ] | |
+| One Zero | O | 9 | [ ] | |
+| Motion Recognition | O | 8 | [ ] | |
+| Snapchat Lenses | O | 1 | [ ] | |
+| The Tree of Babel | O | 7 | [ ] | |
+| Posture & Eye Care | O | 10 | [ ] | |
+| Face Recognition Games | O | 14 | [ ] | |
+| Go Card | O | 6 | [ ] | |
+| Smile Face-in | O | 8 | [ ] | |
+| Swipe! | O | 5 | [ ] | |
+| Suprememe | O | 16 | [ ] | |
+| *Sigh* | O | 4 | [ ] | |
+| Tweequency | O | 7 | [ ] | |
+| Glitch | O | 8 | [ ] | |
+| Dead Wood | O | 20 | [ ] | |
+| Humanphobia | O | 4 | [ ] | |
+| Fandamonium | O | 1 | [ ] | embedded video 누락 |
+| Emotion Detection | O | 12 | [ ] | |
+| Smile Filter | O | 11 | [ ] | |
 
 ### Archive (Blog) 프로젝트 (15개)
 
-| 프로젝트 | .md 파일 | .md 재작업 | 이미지 수 | 이미지 재작업 |
-|----------|----------|------------|-----------|---------------|
-| ITP Thesis | O | O (세션1) | 41 | O (세션1) |
-| Generative Music | O | O (세션2) | 5 | O (세션2) |
-| Game Design & Psychology | O | O (세션2) | 6 | O (세션2) |
-| Machine Learning for Web | O | O (세션1) | 3 | O (세션2) |
-| Art Toy Design | O | O (세션2) | 76 | O (세션2) |
-| Design for Discomfort | O | O (세션2) | 18 | O (세션2) |
-| Soft Sensing | O | O (세션1) | 8 | O (세션2) |
-| Haptics | O | O (세션1) | 8 | O (세션2) |
-| Tweet Reader | O | O (세션2) | 2 | O (세션2) |
-| Detourning the Web | O | O (세션1) | 11 | O (세션2) |
-| Voice | O | O (세션1) | 7 | O (세션2) |
-| The Rest of You | O | O (세션1) | 8 | O (세션2) |
-| Metabolism | O | O (세션1) | 4 | O (세션2) |
-| Habitual Energy | O | O (세션1) | 6 | O (세션2) |
-| Sigh Machine (Blog) | O | O (세션1) | 3 | O (세션2) |
+| 프로젝트 | .md | 이미지 | 최종 확인 | 비고 |
+|----------|-----|--------|-----------|------|
+| ITP Thesis | O | 41 | [ ] | |
+| Generative Music | O | 5 | [ ] | |
+| Game Design & Psychology | O | 6 | [ ] | |
+| Machine Learning for Web | O | 3 | [ ] | |
+| Art Toy Design | O | 76 | [ ] | |
+| Design for Discomfort | O | 18 | [ ] | |
+| Soft Sensing | O | 8 | [ ] | |
+| Haptics | O | 8 | [ ] | |
+| Tweet Reader | O | 2 | [ ] | |
+| Detourning the Web | O | 11 | [ ] | |
+| Voice | O | 7 | [ ] | |
+| The Rest of You | O | 8 | [ ] | |
+| Metabolism | O | 4 | [ ] | |
+| Habitual Energy | O | 6 | [ ] | |
+| Sigh Machine (Blog) | O | 3 | [ ] | |
 
 ---
 
