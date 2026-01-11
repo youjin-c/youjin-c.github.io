@@ -1,28 +1,10 @@
-# Portfolio Projects
+# Portfolio Projects - Ordered by recency (newest first)
 
-# Main Grid Projects (24)
-- title: Blow A Kiss
-  url: Blow-A-Kiss.html
-  thumbnail: images/Blow-A-Kiss/Untitled_Artwork.png
-  description: AR experience with Unity MARS using facial expressions like mouth opening and winking to interact with virtual hearts.
-  category: project
-
+# Main Grid Projects (25) - Original CargoCollective order
 - title: ColorPiece
   url: ColorPiece.html
   thumbnail: images/ColorPiece/ColorPiece.png
   description: AR furniture app that helps find the perfect color by generating color palettes from your environment.
-  category: project
-
-- title: DICE
-  url: DICE.html
-  thumbnail: images/DICE/giphy.gif
-  description: Interactive light/music installation using Markov Chain, award-winning work at Tiny Massive, Reykjavík.
-  category: project
-
-- title: Dead Wood
-  url: Dead-Wood.html
-  thumbnail: images/Dead-Wood/base64_0_d40fa7f4.gif
-  description: VR game and kinetic sculpture exploring empathy and anthropomorphism, inspired by hitchBOT.
   category: project
 
 - title: DoodlAR
@@ -31,64 +13,10 @@
   description: AR doodle recognition app using DoodleNet machine learning model.
   category: project
 
-- title: Emotion Detection
-  url: Emotion-Detection.html
-  thumbnail: images/Emotion-Detection/img_1.png
-  description: Research on facial emotion detection using FER2013 dataset and deep learning.
-  category: project
-
-- title: Face Recognition Games
-  url: Face-Recognition-Games.html
-  thumbnail: images/Face-Recognition-Games/mainImage.jpg
-  description: Interactive games using face recognition technology, including Banksy-inspired AR experience.
-  category: project
-
-- title: Fandamonium
-  url: Fandamonium.html
-  thumbnail: images/Fandamonium/fandamonium.png
-  description: Interactive fan experience project exploring crowd engagement.
-  category: project
-
-- title: Glitch
-  url: Glitch.html
-  thumbnail: images/Glitch/ezgif.com-resize_1.gif
-  description: P5.js sketches for glitch visual programming, interactive with Arduino sensor input.
-  category: project
-
-- title: Go Card
-  url: Go-Card.html
-  thumbnail: images/Go-Card/gocard1.jpg
-  description: A concept of language education kit for Korean letters using conductive paint and Arduino.
-  category: project
-
-- title: Humanphobia
-  url: Humanphobia.html
-  thumbnail: images/Humanphobia/humanphobia.gif
-  description: Interactive light art wearable referring to social anxiety, calculating distance and showing light patterns.
-  category: project
-
-- title: Motion Recognition
-  url: MOTION-RECOGNITION.html
-  thumbnail: images/MOTION-RECOGNITION/ARCHIVEE23_o.jpg
-  description: SmartTV service development for controlling TV with finger and hand gestures.
-  category: project
-
-- title: Object Segmentation
-  url: Object-Segmentation.html
-  thumbnail: images/Object-Segmentation/thumbnail.gif
-  description: Research on image segmentation using COCO dataset and machine learning.
-  category: project
-
-- title: One Zero
-  url: One-Zero.html
-  thumbnail: images/One-Zero/show.gif
-  description: Interactive Kinetic Art Installation implying coexistence of human cognitive process and machine perception.
-  category: project
-
-- title: Posture & Eye Care
-  url: POSTURE-EYE-CARE.html
-  thumbnail: images/POSTURE-EYE-CARE/ARCHIVEE22_o.jpg
-  description: Healthcare web application tracking facial position and eye blink to encourage better posture and eye care.
+- title: Toonify
+  url: Toonify.html
+  thumbnail: images/Toonify/toonify_thumgnail.gif
+  description: Photo to cartoon transformation using neural style transfer.
   category: project
 
 - title: Project Awkward
@@ -97,22 +25,34 @@
   description: VR education game for practicing social skills using Azure NLP, MIT Reality Virtually Hackathon project.
   category: project
 
-- title: Sigh
-  url: Sigh.html
-  thumbnail: images/Sigh/sighmachine.png
-  description: Interactive installation exploring machine paralanguage - what if machines could sigh?
+- title: Blow A Kiss
+  url: Blow-A-Kiss.html
+  thumbnail: images/Blow-A-Kiss/Untitled_Artwork.png
+  description: AR experience with Unity MARS using facial expressions like mouth opening and winking to interact with virtual hearts.
   category: project
 
-- title: Smile Face-in
-  url: SMILE-FACE-IN.html
-  thumbnail: images/SMILE-FACE-IN/ARCHIVEE24_o.jpg
-  description: LG laptop Gram User Identification System using face recognition and natural facial expressions.
+- title: Object Segmentation
+  url: Object-Segmentation.html
+  thumbnail: images/Object-Segmentation/thumbnail.gif
+  description: Research on image segmentation using COCO dataset and machine learning.
   category: project
 
-- title: Smile Filter
-  url: Smile-Filter.html
-  thumbnail: images/Smile-Filter/teaser.png
-  description: Face filter exploring smile detection and visual effects.
+- title: DICE
+  url: DICE.html
+  thumbnail: images/DICE/giphy.gif
+  description: Interactive light/music installation using Markov Chain, award-winning work at Tiny Massive, Reykjavík.
+  category: project
+
+- title: One Zero
+  url: One-Zero.html
+  thumbnail: images/One-Zero/show.gif
+  description: Interactive Kinetic Art Installation implying coexistence of human cognitive process and machine perception.
+  category: project
+
+- title: Motion Recognition
+  url: MOTION-RECOGNITION.html
+  thumbnail: images/MOTION-RECOGNITION/ARCHIVEE23_o.jpg
+  description: SmartTV service development for controlling TV with finger and hand gestures.
   category: project
 
 - title: Snapchat Lenses
@@ -121,10 +61,34 @@
   description: Custom Snapchat lens creations using Lens Studio.
   category: project
 
-- title: Suprememe
-  url: Suprememe.html
-  thumbnail: images/Suprememe/ezgif.com-crop.gif
-  description: AI-generated Supreme-style images using GANs and Instagram scraping.
+- title: The Tree of Babel
+  url: The-Tree-of-Babel.html
+  thumbnail: images/The-Tree-of-Babel/graphCategories_merged.png
+  description: Analysis and visualization of interactive narrative structures in games.
+  category: project
+
+- title: Posture & Eye Care
+  url: POSTURE-EYE-CARE.html
+  thumbnail: images/POSTURE-EYE-CARE/ARCHIVEE22_o.jpg
+  description: Healthcare web application tracking facial position and eye blink to encourage better posture and eye care.
+  category: project
+
+- title: Face Recognition Games
+  url: Face-Recognition-Games.html
+  thumbnail: images/Face-Recognition-Games/mainImage.jpg
+  description: Interactive games using face recognition technology, including Banksy-inspired AR experience.
+  category: project
+
+- title: Go Card
+  url: Go-Card.html
+  thumbnail: images/Go-Card/gocard1.jpg
+  description: A concept of language education kit for Korean letters using conductive paint and Arduino.
+  category: project
+
+- title: Smile Face-in
+  url: SMILE-FACE-IN.html
+  thumbnail: images/SMILE-FACE-IN/ARCHIVEE24_o.jpg
+  description: LG laptop Gram User Identification System using face recognition and natural facial expressions.
   category: project
 
 - title: Swipe
@@ -133,16 +97,16 @@
   description: Interactive experience exploring Tinder-style swiping mechanics.
   category: project
 
-- title: The Tree of Babel
-  url: The-Tree-of-Babel.html
-  thumbnail: images/The-Tree-of-Babel/graphCategories_merged.png
-  description: Analysis and visualization of interactive narrative structures in games.
+- title: Suprememe
+  url: Suprememe.html
+  thumbnail: images/Suprememe/ezgif.com-crop.gif
+  description: AI-generated Supreme-style images using GANs and Instagram scraping.
   category: project
 
-- title: Toonify
-  url: Toonify.html
-  thumbnail: images/Toonify/toonify_thumgnail.gif
-  description: Photo to cartoon transformation using neural style transfer.
+- title: Sigh
+  url: Sigh.html
+  thumbnail: images/Sigh/sighmachine.png
+  description: Interactive installation exploring machine paralanguage - what if machines could sigh?
   category: project
 
 - title: Tweequency
@@ -151,7 +115,67 @@
   description: Python automation for generative music using TweetDeck trending hashtags.
   category: project
 
-# Archive/Blog Projects (16)
+- title: Glitch
+  url: Glitch.html
+  thumbnail: images/Glitch/ezgif.com-resize_1.gif
+  description: P5.js sketches for glitch visual programming, interactive with Arduino sensor input.
+  category: project
+
+- title: Dead Wood
+  url: Dead-Wood.html
+  thumbnail: images/Dead-Wood/base64_0_d40fa7f4.gif
+  description: VR game and kinetic sculpture exploring empathy and anthropomorphism, inspired by hitchBOT.
+  category: project
+
+- title: Humanphobia
+  url: Humanphobia.html
+  thumbnail: images/Humanphobia/humanphobia.gif
+  description: Interactive light art wearable referring to social anxiety, calculating distance and showing light patterns.
+  category: project
+
+- title: Fandamonium
+  url: Fandamonium.html
+  thumbnail: images/Fandamonium/fandamonium.png
+  description: Interactive fan experience project exploring crowd engagement.
+  category: project
+
+- title: Emotion Detection
+  url: Emotion-Detection.html
+  thumbnail: images/Emotion-Detection/img_1.png
+  description: Research on facial emotion detection using FER2013 dataset and deep learning.
+  category: project
+
+- title: Smile Filter
+  url: Smile-Filter.html
+  thumbnail: images/Smile-Filter/teaser.png
+  description: Face filter exploring smile detection and visual effects.
+  category: project
+
+# Archive/Blog Projects (15) - Original CargoCollective order
+- title: Thesis
+  url: Thesis.html
+  thumbnail: images/Thesis/clustering_1.png
+  description: Understanding and generating interactive narrative structures using Machine Learning models.
+  category: blog
+
+- title: Generative Music
+  url: Generative-Music.html
+  thumbnail: images/Generative-Music/3.png
+  description: Proposal for an Ambient Poem Rhythm Game, exploring generative music and narration.
+  category: blog
+
+- title: Game Design and Psychology
+  url: Game-Design-and-The-Psychology-of-Choice.html
+  thumbnail: images/Game-Design-and-Psychology/0.png
+  description: Exploration of automatic and effortful thinking in game design, inspired by ebook reading with audio.
+  category: blog
+
+- title: Machine Learning for the Web
+  url: Machine-Learning-for-the-Web.html
+  thumbnail: images/Machine-Learning-for-the-Web/0_1.jpg
+  description: Final proposals for AI-created public service advertising and YOLO to WebVR conversion.
+  category: blog
+
 - title: Art Toy Design
   url: Art-Toy-Design.html
   thumbnail: images/Art-Toy-Design/0.jpeg
@@ -164,28 +188,10 @@
   description: Performance and proposals exploring discomfort, AI-generated public service advertising, and endurance art.
   category: blog
 
-- title: Detourning the Web
-  url: Detourning-the-Web.html
-  thumbnail: images/Detourning-the-Web/ssup_1.gif
-  description: A project exploring the portrait of hashtags and web scraping.
-  category: blog
-
-- title: Game Design and Psychology
-  url: Game-Design-and-The-Psychology-of-Choice.html
-  thumbnail: images/Game-Design-and-Psychology/0.png
-  description: Exploration of automatic and effortful thinking in game design, inspired by ebook reading with audio.
-  category: blog
-
-- title: Generative Music
-  url: Generative-Music.html
-  thumbnail: images/Generative-Music/3.png
-  description: Proposal for an Ambient Poem Rhythm Game, exploring generative music and narration.
-  category: blog
-
-- title: Habitual Energy
-  url: Habitual-Energy.html
-  thumbnail: images/Habitual-Energy/ARCHIVEE14_o.jpg
-  description: Collaborative artwork showing addictive energy of habit through dynamic media installation.
+- title: Soft Sensing
+  url: Soft-Sensing.html
+  thumbnail: images/Soft-Sensing/1_1.jpg
+  description: Exploration of soft sensing materials and their application in a Korean education kit (Go Card).
   category: blog
 
 - title: Haptics
@@ -194,28 +200,22 @@
   description: Experiments with vibrating motors and haptic feedback, including a rainmaker project.
   category: blog
 
-- title: Machine Learning for the Web
-  url: Machine-Learning-for-the-Web.html
-  thumbnail: images/Machine-Learning-for-the-Web/0_1.jpg
-  description: Final proposals for AI-created public service advertising and YOLO to WebVR conversion.
+- title: Tweet Reader
+  url: Tweet-Reader.html
+  thumbnail: images/Tweet-Reader/thumbnail.png
+  description: Chrome extension for Twitter tweets that reads tweets using Text-to-Speech.
   category: blog
 
-- title: Metabolism
-  url: Metabolism.html
-  thumbnail: images/Metabolism/ARCHIVEE4_o.jpg
-  description: Collaborative artwork presenting interaction of nature and humanity through projection and sound installation.
+- title: Detourning the Web
+  url: Detourning-the-Web.html
+  thumbnail: images/Detourning-the-Web/ssup_1.gif
+  description: A project exploring the portrait of hashtags and web scraping.
   category: blog
 
-- title: Sigh Machine
-  url: Sigh-Machine.html
-  thumbnail: images/Sigh-Machine/0.png
-  description: Project plan for a sigh machine using drone motors and twitter bots.
-  category: blog
-
-- title: Soft Sensing
-  url: Soft-Sensing.html
-  thumbnail: images/Soft-Sensing/1_1.jpg
-  description: Exploration of soft sensing materials and their application in a Korean education kit (Go Card).
+- title: Voice
+  url: Voice.html
+  thumbnail: images/Voice/0_1.gif
+  description: Exploration of voice interaction, including a Chrome extension for reading tweets and a multiuser game concept.
   category: blog
 
 - title: The Rest of You
@@ -224,20 +224,20 @@
   description: DIY image association test inspired by Tinder-style swiping UI and subconscious desires.
   category: blog
 
-- title: Thesis
-  url: Thesis.html
-  thumbnail: images/Thesis/clustering_1.png
-  description: Understanding and generating interactive narrative structures using Machine Learning models.
+- title: Metabolism
+  url: Metabolism.html
+  thumbnail: images/Metabolism/ARCHIVEE4_o.jpg
+  description: Collaborative artwork presenting interaction of nature and humanity through projection and sound installation.
   category: blog
 
-- title: Tweet Reader
-  url: Tweet-Reader.html
-  thumbnail: images/Tweet-Reader/thumbnail.png
-  description: Chrome extension for Twitter tweets that reads tweets using Text-to-Speech.
+- title: Habitual Energy
+  url: Habitual-Energy.html
+  thumbnail: images/Habitual-Energy/ARCHIVEE14_o.jpg
+  description: Collaborative artwork showing addictive energy of habit through dynamic media installation.
   category: blog
 
-- title: Voice
-  url: Voice.html
-  thumbnail: images/Voice/0_1.gif
-  description: Exploration of voice interaction, including a Chrome extension for reading tweets and a multiuser game concept.
+- title: Sigh Machine
+  url: Sigh-Machine.html
+  thumbnail: images/Sigh-Machine/0.png
+  description: Project plan for a sigh machine using drone motors and twitter bots.
   category: blog
