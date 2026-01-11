@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: Machine Learning for the Web
 ---
 

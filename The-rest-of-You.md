@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 title: The Rest of You
 ---
 
