@@ -3,7 +3,7 @@
   --bg-primary: #121214;
   --bg-secondary: #1c1c1f;
   --bg-tertiary: #27272a;
-  --text-primary: #f0f0f2;
+  --text-primary: #ebebed;
   --text-secondary: #a1a1a6;
   --text-muted: #71717a;
   --accent: #d4d4d8;
@@ -244,6 +244,12 @@ img {
 /* Hide duplicate h1 from markdown content */
 .project-content > h1:first-child {
   display: none;
+}
+
+/* PNG images with light gray background for transparency */
+.project-content img[src$=".png"] {
+  background-color: #e5e5e5;
+  border-radius: 4px;
 }
 
 /* Hero Title */

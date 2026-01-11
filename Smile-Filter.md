@@ -3,9 +3,6 @@ layout: project
 title: Smile Filter
 ---
 
-# Smile Filter:
-Cycle GAN + GAN Compression
-
 <div class="image-carousel-wrapper">
 <div class="image-carousel" id="smileCarousel">
   <div class="carousel-track">
@@ -128,4 +125,5 @@ vision.
 ## Reference
 
 [NVlabs - Flickr-Faces-HQ Dataset (FFHQ)](https://github.com/NVlabs/ffhq-dataset)
+
 [Compression And Teaching (CAT)](https://github.com/snap-research/CAT)

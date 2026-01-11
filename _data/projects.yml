@@ -10,11 +10,19 @@
   date: "2022"
 
 - title: Smile Filter
+  full_title: "Smile Filter: Cycle GAN + GAN Compression"
   url: Smile-Filter.html
   thumbnail: images/Smile-Filter/thumbnail.png
   description: Face filter exploring smile detection and visual effects.
   category: project
   date: "2022"
+
+- title: ColorPiece
+  url: ColorPiece.html
+  thumbnail: images/ColorPiece/thumbnail.gif
+  description: AR furniture app that helps find the perfect color by generating color palettes from your environment.
+  category: project
+  date: "2021"
 
 - title: Object Segmentation
   url: Object-Segmentation.html
@@ -24,6 +32,7 @@
   date: "2022"
 
 - title: Emotion Detection
+  full_title: "Emotion Detection: Multi-class classification and Quantization"
   url: Emotion-Detection.html
   thumbnail: cargo-collective/images/Emotion-Detection/cropped_thumbnail.png
   description: Research on facial emotion detection using FER2013 dataset and deep learning.
@@ -94,13 +103,6 @@
   description: VR education game for practicing social skills using Azure NLP, MIT Reality Virtually Hackathon project.
   category: project
   date: "Jan 2019"
-
-- title: ColorPiece
-  url: ColorPiece.html
-  thumbnail: images/ColorPiece/ColorPiece.png
-  description: AR furniture app that helps find the perfect color by generating color palettes from your environment.
-  category: project
-  date: "2021"
 
 - title: Suprememe
   url: Suprememe.html

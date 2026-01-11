@@ -3,8 +3,6 @@ layout: project
 title: Emotion Detection
 ---
 
-# Emotion Detection: Multi-class classification and Quantization
-
 <iframe src="https://www.youtube.com/embed/721x1RZ4l7k" allowfullscreen></iframe>
 
 This is a multi-class classification model for Snapchat Filter. It has around
@@ -129,6 +127,9 @@ facial expression classification methods.
 ## References
 
 [snapml-templates](https://github.com/Snapchat/snapml-templates/tree/main/Quantization%20With%20TFLite)
+
 [FER-2013](https://www.kaggle.com/datasets/msambare/fer2013)
+
 [EDSR in Tensorflow](https://github.com/Saafke/EDSR_Tensorflow#edsr-in-tensorflow)
+
 [Emotion detection using facial landmarks and deep learning](https://medium.com/@rishiswethan.c.r/emotion-detection-using-facial-landmarks-and-deep-learning-b7f54fe551bf)
