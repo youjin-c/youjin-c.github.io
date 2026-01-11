@@ -129,33 +129,36 @@ img {
   border-color: var(--text-primary);
 }
 
-/* ===== Magazine / Masonry Grid ===== */
+/* ===== Masonry Grid (JS-controlled row-first ordering) ===== */
 .project-grid {
-  columns: 4;
-  column-gap: 1.5rem;
+  position: relative;
+  width: 100%;
+}
+
+.project-item {
+  position: absolute;
+  width: calc(25% - 1.125rem); /* 4 columns with gap */
 }
 
 @media (max-width: 1400px) {
-  .project-grid {
-    columns: 3;
+  .project-item {
+    width: calc(33.333% - 1rem); /* 3 columns */
   }
 }
 
 @media (max-width: 1000px) {
-  .project-grid {
-    columns: 2;
+  .project-item {
+    width: calc(50% - 0.75rem); /* 2 columns */
   }
 }
 
 @media (max-width: 600px) {
-  .project-grid {
-    columns: 1;
+  .project-item {
+    width: 100%; /* 1 column */
   }
 }
 
 .project-item {
-  break-inside: avoid;
-  margin-bottom: 1.5rem;
   background: var(--bg-secondary);
   border-radius: 8px;
   overflow: hidden;
