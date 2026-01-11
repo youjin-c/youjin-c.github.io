@@ -7,24 +7,28 @@
   thumbnail: images/Toonify/toonify_thumgnail.gif
   description: Photo to cartoon transformation using neural style transfer.
   category: project
+  date: "2022"
 
 - title: Smile Filter
   url: Smile-Filter.html
   thumbnail: images/Smile-Filter/teaser.png
   description: Face filter exploring smile detection and visual effects.
   category: project
+  date: "2022"
 
 - title: Object Segmentation
   url: Object-Segmentation.html
   thumbnail: images/Object-Segmentation/thumbnail.gif
   description: Research on image segmentation using COCO dataset and machine learning.
   category: project
+  date: "2022"
 
 - title: Emotion Detection
   url: Emotion-Detection.html
   thumbnail: images/Emotion-Detection/img_1.png
   description: Research on facial emotion detection using FER2013 dataset and deep learning.
   category: project
+  date: "2023"
 
 # Tier 2 (Score 8-9): Applied ML - Face recognition, gesture recognition, NLP
 - title: DoodlAR
@@ -32,48 +36,56 @@
   thumbnail: images/DoodlAR/doodleNet_345.gif
   description: AR doodle recognition app using DoodleNet machine learning model.
   category: project
+  date: "2019"
 
 - title: The Tree of Babel
   url: The-Tree-of-Babel.html
   thumbnail: images/The-Tree-of-Babel/graphCategories_merged.png
   description: Analysis and visualization of interactive narrative structures in games.
   category: project
+  date: "2019"
 
 - title: Motion Recognition
   url: MOTION-RECOGNITION.html
   thumbnail: images/MOTION-RECOGNITION/ARCHIVEE23_o.jpg
   description: SmartTV service development for controlling TV with finger and hand gestures.
   category: project
+  date: "2013-2015"
 
 - title: Posture & Eye Care
   url: POSTURE-EYE-CARE.html
   thumbnail: images/POSTURE-EYE-CARE/ARCHIVEE22_o.jpg
   description: Healthcare web application tracking facial position and eye blink to encourage better posture and eye care.
   category: project
+  date: "2013-2015"
 
 - title: Smile Face-in
   url: SMILE-FACE-IN.html
   thumbnail: images/SMILE-FACE-IN/ARCHIVEE24_o.jpg
   description: LG laptop Gram User Identification System using face recognition and natural facial expressions.
   category: project
+  date: "2013-2015"
 
 - title: Face Recognition Games
   url: Face-Recognition-Games.html
   thumbnail: images/Face-Recognition-Games/mainImage.jpg
   description: Interactive games using face recognition technology, including Banksy-inspired AR experience.
   category: project
+  date: "2017"
 
 - title: Blow A Kiss
   url: Blow-A-Kiss.html
   thumbnail: images/Blow-A-Kiss/Untitled_Artwork.png
   description: AR experience with Unity MARS using facial expressions like mouth opening and winking to interact with virtual hearts.
   category: project
+  date: "2022"
 
 - title: Snapchat Lenses
   url: Snapchat-Lenses.html
   thumbnail: images/Snapchat-Lenses/ezgif.com-resize.gif
   description: Custom Snapchat lens creations using Lens Studio.
   category: project
+  date: "2019"
 
 # Tier 3 (Score 7-8): AI-Adjacent - NLP, generative AI, AR with ML
 - title: Project Awkward
@@ -81,18 +93,21 @@
   thumbnail: images/Project-Awkward/ezgif.com-gif-maker.gif
   description: VR education game for practicing social skills using Azure NLP, MIT Reality Virtually Hackathon project.
   category: project
+  date: "Jan 2019"
 
 - title: ColorPiece
   url: ColorPiece.html
   thumbnail: images/ColorPiece/ColorPiece.png
   description: AR furniture app that helps find the perfect color by generating color palettes from your environment.
   category: project
+  date: "2021"
 
 - title: Suprememe
   url: Suprememe.html
   thumbnail: images/Suprememe/ezgif.com-crop.gif
   description: AI-generated Supreme-style images using GANs and Instagram scraping.
   category: project
+  date: "2018"
 
 # Tier 4 (Score 4-6): Light AI Elements - Markov chain, data-driven
 - title: DICE
@@ -100,30 +115,35 @@
   thumbnail: images/DICE/giphy.gif
   description: Interactive light/music installation using Markov Chain, award-winning work at Tiny Massive, Reykjavík.
   category: project
+  date: "May 2019"
 
 - title: Swipe
   url: Swipe.html
   thumbnail: images/Swipe/ezgif.com-crop-1.gif
   description: Interactive experience exploring Tinder-style swiping mechanics.
   category: project
+  date: "2018"
 
 - title: Go Card
   url: Go-Card.html
   thumbnail: images/Go-Card/gocard1.jpg
   description: A concept of language education kit for Korean letters using conductive paint and Arduino.
   category: project
+  date: "2018"
 
 - title: One Zero
   url: One-Zero.html
   thumbnail: images/One-Zero/show.gif
   description: Interactive Kinetic Art Installation implying coexistence of human cognitive process and machine perception.
   category: project
+  date: "Dec 2018"
 
 - title: Glitch
   url: Glitch.html
   thumbnail: images/Glitch/ezgif.com-resize_1.gif
   description: P5.js sketches for glitch visual programming, interactive with Arduino sensor input.
   category: project
+  date: "2017"
 
 # Tier 5 (Score 2-3): Minimal AI - Interactive installations, physical computing
 - title: Dead Wood
@@ -131,30 +151,35 @@
   thumbnail: images/Dead-Wood/base64_0_d40fa7f4.gif
   description: VR game and kinetic sculpture exploring empathy and anthropomorphism, inspired by hitchBOT.
   category: project
+  date: "Dec 2017"
 
 - title: Humanphobia
   url: Humanphobia.html
   thumbnail: images/Humanphobia/humanphobia.gif
   description: Interactive light art wearable referring to social anxiety, calculating distance and showing light patterns.
   category: project
+  date: "2017"
 
 - title: Sigh
   url: Sigh.html
   thumbnail: images/Sigh/sighmachine.png
   description: Interactive installation exploring machine paralanguage - what if machines could sigh?
   category: project
+  date: "2017"
 
 - title: Tweequency
   url: Tweequency.html
   thumbnail: images/Tweequency/ScreenShot.png
   description: Python automation for generative music using TweetDeck trending hashtags.
   category: project
+  date: "2018"
 
 - title: Fandamonium
   url: Fandamonium.html
   thumbnail: images/Fandamonium/fandamonium.png
   description: Interactive fan experience project exploring crowd engagement.
   category: project
+  date: "2022"
 
 # Archive/Blog Projects (15) - Original CargoCollective order
 - title: Thesis
@@ -162,87 +187,102 @@
   thumbnail: images/Thesis/clustering_1.png
   description: Understanding and generating interactive narrative structures using Machine Learning models.
   category: blog
+  date: "May 2019"
 
 - title: Generative Music
   url: Generative-Music.html
   thumbnail: images/Generative-Music/3.png
   description: Proposal for an Ambient Poem Rhythm Game, exploring generative music and narration.
   category: blog
+  date: "2018"
 
 - title: Game Design and Psychology
   url: Game-Design-and-The-Psychology-of-Choice.html
   thumbnail: images/Game-Design-and-Psychology/0.png
   description: Exploration of automatic and effortful thinking in game design, inspired by ebook reading with audio.
   category: blog
+  date: "2018"
 
 - title: Machine Learning for the Web
   url: Machine-Learning-for-the-Web.html
   thumbnail: images/Machine-Learning-for-the-Web/0_1.jpg
   description: Final proposals for AI-created public service advertising and YOLO to WebVR conversion.
   category: blog
+  date: "2018"
 
 - title: Art Toy Design
   url: Art-Toy-Design.html
   thumbnail: images/Art-Toy-Design/0.jpeg
   description: Making wearable art toys, especially on ears.
   category: blog
+  date: "2018"
 
 - title: Design for Discomfort
   url: Design-for-Discomfort.html
   thumbnail: images/Design-for-Discomfort/z.jpg
   description: Performance and proposals exploring discomfort, AI-generated public service advertising, and endurance art.
   category: blog
+  date: "2018"
 
 - title: Soft Sensing
   url: Soft-Sensing.html
   thumbnail: images/Soft-Sensing/1_1.jpg
   description: Exploration of soft sensing materials and their application in a Korean education kit (Go Card).
   category: blog
+  date: "2018"
 
 - title: Haptics
   url: Haptics.html
   thumbnail: images/Haptics/rainmaker_1.gif
   description: Experiments with vibrating motors and haptic feedback, including a rainmaker project.
   category: blog
+  date: "2018"
 
 - title: Tweet Reader
   url: Tweet-Reader.html
   thumbnail: images/Tweet-Reader/thumbnail.png
   description: Chrome extension for Twitter tweets that reads tweets using Text-to-Speech.
   category: blog
+  date: "2018"
 
 - title: Detourning the Web
   url: Detourning-the-Web.html
   thumbnail: images/Detourning-the-Web/ssup_1.gif
   description: A project exploring the portrait of hashtags and web scraping.
   category: blog
+  date: "2018"
 
 - title: Voice
   url: Voice.html
   thumbnail: images/Voice/0_1.gif
   description: Exploration of voice interaction, including a Chrome extension for reading tweets and a multiuser game concept.
   category: blog
+  date: "2018"
 
 - title: The Rest of You
   url: The-rest-of-You.html
   thumbnail: images/The-rest-of-You/0_1.png
   description: DIY image association test inspired by Tinder-style swiping UI and subconscious desires.
   category: blog
+  date: "2018"
 
 - title: Metabolism
   url: Metabolism.html
   thumbnail: images/Metabolism/ARCHIVEE4_o.jpg
   description: Collaborative artwork presenting interaction of nature and humanity through projection and sound installation.
   category: blog
+  date: "2016"
 
 - title: Habitual Energy
   url: Habitual-Energy.html
   thumbnail: images/Habitual-Energy/ARCHIVEE14_o.jpg
   description: Collaborative artwork showing addictive energy of habit through dynamic media installation.
   category: blog
+  date: "2016"
 
 - title: Sigh Machine
   url: Sigh-Machine.html
   thumbnail: images/Sigh-Machine/0.png
   description: Project plan for a sigh machine using drone motors and twitter bots.
   category: blog
+  date: "2018"

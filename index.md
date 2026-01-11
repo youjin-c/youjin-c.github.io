@@ -16,6 +16,7 @@ title: Home
         <div class="project-info">
           <h3>{{ project.title }}</h3>
           <p>{{ project.description }}</p>
+          <span class="project-date">{{ project.date }}</span>
         </div>
       </a>
     </div>
