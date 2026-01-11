@@ -25,7 +25,7 @@
 
 - title: Emotion Detection
   url: Emotion-Detection.html
-  thumbnail: images/Emotion-Detection/img_1.png
+  thumbnail: cargo-collective/images/Emotion-Detection/cropped_thumbnail.png
   description: Research on facial emotion detection using FER2013 dataset and deep learning.
   category: project
   date: "2023"

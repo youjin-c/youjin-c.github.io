@@ -57,7 +57,7 @@ youjin-c.github.io/
 | Glitch | O | 8 | [ ] | |
 | Dead Wood | O | 20 | [ ] | |
 | Humanphobia | O | 4 | [ ] | |
-| Fandamonium | O | 1 | [ ] | embedded video 누락 |
+| Fandamonium | O | 1 | [x] | embedded video 추가 완료 |
 | Emotion Detection | O | 12 | [ ] | |
 | Smile Filter | O | 11 | [ ] | |
 
