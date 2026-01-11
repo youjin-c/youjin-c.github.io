@@ -246,6 +246,11 @@ img {
   display: none;
 }
 
+/* Center images in project content */
+.project-content p:has(> img) {
+  text-align: center;
+}
+
 /* PNG images with light gray background for transparency */
 .project-content img[src$=".png"] {
   background-color: #e5e5e5;

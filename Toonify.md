@@ -3,17 +3,12 @@ layout: project
 title: Toonify
 ---
 
-# Toonify:  
-StyleGAN + GAN Blending + pix2pixHD
-
-  
-
 As a further step to my Smile Filter project, I explored the capablities of
 StyleGAN for image-to-image translation of cartoon faces. This project aimed
 to transform human faces into cartoon-style portraits using deep learning
 techniques.  
 
-![](images/Toonify/toonify_thumgnail.gif)
+![](images/Toonify/toonify_thumbnail_cropped.gif)
 
   
   

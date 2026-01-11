@@ -3,8 +3,9 @@
 # Main Grid Projects (25) - Sorted by AI/ML relevance score
 # Tier 1 (Score 9-10): Core AI/ML - Neural networks, deep learning, computer vision
 - title: Toonify
+  full_title: "Toonify: StyleGAN + GAN Blending + pix2pixHD"
   url: Toonify.html
-  thumbnail: images/Toonify/toonify_thumgnail.gif
+  thumbnail: images/Toonify/toonify_thumbnail_cropped.gif
   description: Photo to cartoon transformation using neural style transfer.
   category: project
   date: "2022"
