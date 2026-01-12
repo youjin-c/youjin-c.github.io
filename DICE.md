@@ -77,7 +77,7 @@ Harpa.
 
 ## System
 
-[Playable Online Demo](https://youjinchung.github.io/DICEdemo/index.html)
+[Playable Online Demo](https://youjin-c.github.io/DICEdemo/index.html)
 
 The DICE music system is using [Markov
 Chain](https://en.wikipedia.org/wiki/Markov_chain). On top of the base drum
