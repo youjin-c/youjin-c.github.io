@@ -1,6 +1,6 @@
 # CargoCollective → GitHub Pages 마이그레이션 진행 현황
 
-> 마지막 업데이트: 2026-01-10 (세션 3)
+> 마지막 업데이트: 2026-01-11 (세션 4)
 
 ## 프로젝트 구조
 
@@ -35,11 +35,11 @@ youjin-c.github.io/
 
 | 프로젝트 | .md | 이미지 | 최종 확인 | 비고 |
 |----------|-----|--------|-----------|------|
-| ColorPiece | O | 9 | [ ] | |
-| DoodlAR | O | 4 | [ ] | |
-| Toonify | O | 4 | [ ] | |
-| Project Awkward | O | 1 | [ ] | |
-| Blow A Kiss | O | 4 | [ ] | |
+| ColorPiece | O | 9 | [x] | full_title, Vimeo 임베드 추가 |
+| DoodlAR | O | 4 | [x] | Vimeo 임베드, 썸네일 추가 |
+| Toonify | O | 4 | [x] | full_title, 새 썸네일(cropped gif) |
+| Project Awkward | O | 1 | [x] | YouTube 임베드 추가 |
+| Blow A Kiss | O | 4 | [x] | full_title, Vimeo 임베드, 이미지 크기 조정 |
 | Object Segmentation | O | 8 | [ ] | |
 | DICE | O | 11 | [ ] | |
 | One Zero | O | 9 | [ ] | |
@@ -58,8 +58,8 @@ youjin-c.github.io/
 | Dead Wood | O | 20 | [ ] | |
 | Humanphobia | O | 4 | [ ] | |
 | Fandamonium | O | 1 | [x] | embedded video 추가 완료 |
-| Emotion Detection | O | 12 | [ ] | |
-| Smile Filter | O | 11 | [ ] | |
+| Emotion Detection | O | 12 | [x] | YouTube 임베드 + 이미지 삽입 완료 |
+| Smile Filter | O | 11 | [x] | full_title, 이미지 캐러셀 추가 |
 
 ### Archive (Blog) 프로젝트 (15개)
 
@@ -115,6 +115,16 @@ youjin-c.github.io/
 ---
 
 ## 작업 이력
+
+### 2026-01-11 (세션 4)
+
+- **프로젝트 페이지 개선**
+  - Toonify: full_title 추가, 새 썸네일(toonify_thumbnail_cropped.gif), 중복 헤더 제거
+  - Project Awkward: YouTube 임베드 추가
+- **CSS 개선**
+  - 이미지 중앙 정렬 CSS 추가 (`.project-content p:has(> img)`)
+- Blow A Kiss: full_title, Vimeo 임베드, 이미지 크기 조정, H2 헤딩으로 변환
+- 확인 완료: ColorPiece, DoodlAR, Toonify, Project Awkward, Blow A Kiss, Smile Filter, Fandamonium, Emotion Detection (8개)
 
 ### 2026-01-10 (세션 3)
 

@@ -5,13 +5,13 @@ title: Project Awkward
 
 # Project Awkward
 
-[Devpost Link](https://devpost.com/software/project-awkward)  
+[Devpost Link](https://devpost.com/software/project-awkward)
 [Github Link](https://github.com/RealityVirtually2019/Project_Awkward)
 
-  
-  
+<iframe src="https://www.youtube.com/embed/x62-X9dzHe4" allowfullscreen></iframe>
+
 This project is a VR education/game at [MIT Reality Virtually
-Hackathon.](https://realityvirtuallyhack.com/)  
+Hackathon 2019.](https://realityvirtuallyhack.com/)  
   
 Project Awkward is a gamified VR education for socially awkward people.  
 By putting themselves in awkward situations, such as talking to random people
@@ -36,8 +36,4 @@ Unity3D, Oculus Rift, Microsofe Azure NLP(LUIS)
 
 ## Role  
 
-Whole structure programming with Unity 3D, Azure NLP implementation  
-  
-
-MIT Reality Virtually Hackathon 2019  
-Massachusetts, Winter 2019
+Whole structure programming with Unity 3D, Azure NLP implementation
