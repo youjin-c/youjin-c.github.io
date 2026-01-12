@@ -35,7 +35,7 @@
 - title: Emotion Detection
   full_title: "Emotion Detection: Multi-class classification and Quantization"
   url: Emotion-Detection.html
-  thumbnail: images/Emotion-Detection/cropped_thumbnail.png
+  thumbnail: images/Emotion-Detection/Screenshot-2023-02-23-at-1.58.27-AM.png
   description: Research on facial emotion detection using FER2013 dataset and deep learning.
   category: project
   date: "Jan 2023"
@@ -54,6 +54,13 @@
   description: Analysis and visualization of interactive narrative structures in games.
   category: project
   date: "2019"
+
+- title: DICE
+  url: DICE.html
+  thumbnail: images/DICE/dice0.jpg
+  description: Interactive light/music installation using Markov Chain, award-winning work at Tiny Massive, Reykjavík.
+  category: project
+  date: "Reykjavik, Winter 2019"
 
 - title: Project Awkward
   url: Project-Awkward.html
@@ -114,13 +121,6 @@
   date: "2018"
 
 # Tier 4 (Score 4-6): Light AI Elements - Markov chain, data-driven
-- title: DICE
-  url: DICE.html
-  thumbnail: images/DICE/giphy.gif
-  description: Interactive light/music installation using Markov Chain, award-winning work at Tiny Massive, Reykjavík.
-  category: project
-  date: "May 2019"
-
 - title: Swipe
   url: Swipe.html
   thumbnail: images/Swipe/ezgif.com-crop-1.gif

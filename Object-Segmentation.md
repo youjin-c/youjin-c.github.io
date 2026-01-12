@@ -66,9 +66,10 @@ distinguish from other objects. I also created a lime segmentation model using
 MobileNetV2, which showed 70% accuracy when trained on ~200 lime images. This
 model will be used for MAL in LabelBox.
 
-![](images/Object-Segmentation/img_seg.png)
-
-![](images/Object-Segmentation/lime.png)
+<div style="display: flex; gap: 10px;">
+<img src="images/Object-Segmentation/img_seg.png" style="width: 50%;">
+<img src="images/Object-Segmentation/lime.png" style="width: 50%;">
+</div>
 
 ## Conclusion
 

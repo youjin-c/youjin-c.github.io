@@ -1,84 +1,119 @@
 ---
 layout: project
-title: Dice
+title: DICE
 ---
-
-# DICE
 
 _**[Github Repo](https://github.com/youjinChung/DICE)**_
 
-![](images/DICE/dice0.jpg)
+<iframe src="https://player.vimeo.com/video/318835829" allowfullscreen></iframe>
 
-![](images/DICE/dice1.jpg)
+<div class="image-carousel-wrapper">
+<div class="image-carousel" id="diceCarousel">
+  <div class="carousel-track">
+    <img src="/images/DICE/dice0.jpg" alt="DICE installation 1">
+    <img src="/images/DICE/dice1.jpg" alt="DICE installation 2">
+    <img src="/images/DICE/dice2.jpg" alt="DICE installation 3">
+    <img src="/images/DICE/dice3.jpg" alt="DICE installation 4">
+    <img src="/images/DICE/dice5.jpg" alt="DICE installation 5">
+    <img src="/images/DICE/dice6.jpg" alt="DICE installation 6">
+    <img src="/images/DICE/dice7.jpg" alt="DICE installation 7">
+  </div>
+  <button class="carousel-btn prev" onclick="moveDiceCarousel(-1)">&lt;</button>
+  <button class="carousel-btn next" onclick="moveDiceCarousel(1)">&gt;</button>
+  <div class="carousel-dots"></div>
+</div>
+</div>
 
-![](images/DICE/dice2.jpg)
+<script>
+(function() {
+  const carousel = document.getElementById('diceCarousel');
+  const track = carousel.querySelector('.carousel-track');
+  const images = track.querySelectorAll('img');
+  const dotsContainer = carousel.querySelector('.carousel-dots');
+  let currentIndex = 0;
+  const totalImages = images.length;
+  let carouselWidth = 0;
 
-![](images/DICE/dice3.jpg)
+  images[0].onload = function() {
+    carouselWidth = this.naturalWidth;
+    carousel.style.width = carouselWidth + 'px';
+    images.forEach(img => {
+      img.style.width = carouselWidth + 'px';
+    });
+  };
 
-![](images/DICE/dice5.jpg)
+  images.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+    dot.onclick = () => goToSlide(i);
+    dotsContainer.appendChild(dot);
+  });
 
-![](images/DICE/base64_0_d40fa7f4.gif)
+  function updateCarousel() {
+    track.style.transform = `translateX(-${currentIndex * carouselWidth}px)`;
+    const dots = dotsContainer.querySelectorAll('.carousel-dot');
+    dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
+  }
 
-![](images/DICE/base64_1_d40fa7f4.gif)
+  window.moveDiceCarousel = function(direction) {
+    currentIndex = (currentIndex + direction + totalImages) % totalImages;
+    updateCarousel();
+  };
 
-![](images/DICE/base64_2_d40fa7f4.gif)
+  function goToSlide(index) {
+    currentIndex = index;
+    updateCarousel();
+  }
 
-![](images/DICE/dice1.jpg)
+  setInterval(() => moveDiceCarousel(1), 4000);
+})();
+</script>
 
-  
 Dice is an interactive light/music installation, which is award-winning work
-at Tiny Massive, Reykjavìk, Iceland.  
-The project was shown during Reykjavìk Winter Festival, 2019.  
+at Tiny Massive, Reykjavìk, Iceland.
+The project was shown during Reykjavìk Winter Festival, 2019.
 The audience and enjoy visual and audio interaction with the mapped game on
-Harpa.  
-  
-  
+Harpa.
 
-## System  
+## System
 
-[Playable Online Demo](https://youjinchung.github.io/DICEdemo/index.html)  
-  
+[Playable Online Demo](https://youjinchung.github.io/DICEdemo/index.html)
+
 The DICE music system is using [Markov
 Chain](https://en.wikipedia.org/wiki/Markov_chain). On top of the base drum
-line, the player can adjust probabilities of the main sample audios.  
-  
-Magenta - 0%  
-Green - 50%  
-Blue - 100%  
-  
+line, the player can adjust probabilities of the main sample audios.
+
+Magenta - 0%
+Green - 50%
+Blue - 100%
+
 For each loop, DICE have randomly generated probability, and it determines
-whether each sample will be played or not.  
+whether each sample will be played or not.
 The player2 can change the probability of each die, and the music will be
 played on the next loop. The player1 can change the color of the background
-particle and the speed of it.  
-We used Unity3D to express 3D texture on the 2D LED surface on Harpa.  
-The 3D visual is appreciated as a new approach to Harpa surface.  
+particle and the speed of it.
+We used Unity3D to express 3D texture on the 2D LED surface on Harpa.
+The 3D visual is appreciated as a new approach to Harpa surface.
 
-![](images/DICE/base64_3_d40fa7f4.gif)
+![](images/DICE/dice_0.jpg)
 
-![](images/DICE/base64_4_d40fa7f4.gif)
+<img src="images/DICE/giphy_1.gif" style="width: 200%;">
 
-![](images/DICE/base64_5_d40fa7f4.gif)
+![](images/DICE/dice_2.jpg)
 
-![](images/DICE/base64_6_d40fa7f4.gif)
+![](images/DICE/dice_3.jpg)
 
-  
-
-  
-  
+<iframe src="https://player.vimeo.com/video/318837289" allowfullscreen></iframe>
 
 ## Role
 
 Unity 3D programming: Audio System, Markov Chain System on Cubes, Visual
-Effect  
-  
+Effect
 
 ## Credit
 
 [Dongphil Yoo](http://dongphilyoo.com/): Art Direct, Visual Allignment in
-Unity 3D, Documentation  
-[Joohyun Park](https://www.parkjoohyun.com/): Concept, Music  
-  
+Unity 3D, Documentation
+[Joohyun Park](https://www.parkjoohyun.com/): Concept, Music
 
-Featured at Reykjavik Winter Festival 2019  
-Reykjavik, Winter 2019
+Featured at Reykjavik Winter Festival 2019
