@@ -1,6 +1,6 @@
 # CargoCollective → GitHub Pages 마이그레이션 진행 현황
 
-> 마지막 업데이트: 2026-01-11 (세션 4)
+> 마지막 업데이트: 2026-01-11 (세션 5)
 
 ## 프로젝트 구조
 
@@ -41,8 +41,8 @@ youjin-c.github.io/
 | Project Awkward | O | 1 | [x] | YouTube 임베드 추가 |
 | Blow A Kiss | O | 4 | [x] | full_title, Vimeo 임베드, 이미지 크기 조정 |
 | Object Segmentation | O | 8 | [x] | YouTube 임베드, 이미지 추가 |
-| DICE | O | 11 | [ ] | |
-| One Zero | O | 9 | [ ] | |
+| DICE | O | 11 | [x] | YouTube 임베드, 캐러셀 이미지 추가 |
+| One Zero | O | 9 | [x] | Vimeo 임베드, Featured 정보 이동, 날짜 포맷 변경 |
 | Motion Recognition | O | 8 | [ ] | |
 | Snapchat Lenses | O | 1 | [ ] | |
 | The Tree of Babel | O | 7 | [ ] | |
@@ -115,6 +115,21 @@ youjin-c.github.io/
 ---
 
 ## 작업 이력
+
+### 2026-01-11 (세션 5)
+
+- **프로젝트 페이지 개선**
+  - DICE: Vimeo 임베드, 캐러셀 이미지 추가
+  - One Zero: Vimeo 임베드, "Featured at ITP Spring Show 2018" GitHub repo 아래로 이동, 썸네일 Youjin.gif로 변경, 이미지 캐러셀 + GIF 좌우 배치, 날짜 "Spring 2018"
+  - Emotion Detection: `<br>` 태그 수정 (trailing spaces 제거)
+- **CSS 개선**
+  - `.side-by-side-images` 클래스 추가 (GIF 좌우 배치용, 원래 비율 유지)
+  - `.image-gallery` 클래스 추가 (2열 그리드 갤러리)
+- **프로젝트 순서 조정**
+  - The Tree of Babel 다음에 DICE → One Zero → Blow A Kiss 순서로 변경
+- **Jekyll 서버**
+  - `--watch` 모드로 재시작 (파일 변경 시 자동 재빌드)
+- 확인 완료: DICE, One Zero 추가 (총 11개)
 
 ### 2026-01-11 (세션 4)
 

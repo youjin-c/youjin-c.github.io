@@ -62,6 +62,21 @@
   category: project
   date: "Reykjavik, Winter 2019"
 
+- title: One Zero
+  url: One-Zero.html
+  thumbnail: images/One-Zero/Youjin.gif
+  description: Interactive Kinetic Art Installation implying coexistence of human cognitive process and machine perception.
+  category: project
+  date: "Spring 2018"
+
+- title: Blow A Kiss
+  full_title: "Blow A Kiss: AR experience with Unity MARS"
+  url: Blow-A-Kiss.html
+  thumbnail: images/Blow-A-Kiss/ezgif.com-gif-maker-3.gif
+  description: AR experience with Unity MARS using facial expressions like mouth opening and winking to interact with virtual hearts.
+  category: project
+  date: "Feb 2022"
+
 - title: Project Awkward
   url: Project-Awkward.html
   thumbnail: images/Project-Awkward/ezgif.com-gif-maker.gif
@@ -97,14 +112,6 @@
   category: project
   date: "2017"
 
-- title: Blow A Kiss
-  full_title: "Blow A Kiss: AR experience with Unity MARS"
-  url: Blow-A-Kiss.html
-  thumbnail: images/Blow-A-Kiss/ezgif.com-gif-maker-3.gif
-  description: AR experience with Unity MARS using facial expressions like mouth opening and winking to interact with virtual hearts.
-  category: project
-  date: "Feb 2022"
-
 - title: Snapchat Lenses
   url: Snapchat-Lenses.html
   thumbnail: images/Snapchat-Lenses/ezgif.com-resize.gif
@@ -134,13 +141,6 @@
   description: A concept of language education kit for Korean letters using conductive paint and Arduino.
   category: project
   date: "2018"
-
-- title: One Zero
-  url: One-Zero.html
-  thumbnail: images/One-Zero/show.gif
-  description: Interactive Kinetic Art Installation implying coexistence of human cognitive process and machine perception.
-  category: project
-  date: "Dec 2018"
 
 - title: Glitch
   url: Glitch.html

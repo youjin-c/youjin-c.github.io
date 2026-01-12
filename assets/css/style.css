@@ -489,6 +489,65 @@ img {
   margin: 3rem 0;
 }
 
+/* Image Gallery - Magazine/Masonry Style */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Full-width image in gallery */
+.image-gallery .full-width,
+.image-gallery img:only-child {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 600px) {
+  .image-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Side by side images (for GIFs etc.) */
+.side-by-side-images {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.side-by-side-images img {
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .side-by-side-images {
+    flex-direction: column;
+    align-items: center;
+  }
+  .side-by-side-images img {
+    max-width: 100%;
+  }
+}
+
 /* Tables - clean minimal style */
 .project-page table {
   width: 100%;
