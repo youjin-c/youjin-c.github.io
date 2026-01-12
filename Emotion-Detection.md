@@ -82,10 +82,7 @@ The Extended Cohn-Kanade (CK+) dataset contains 593 video sequences from a total
 
 ## References
 
-[snapml-templates](https://github.com/Snapchat/snapml-templates/tree/main/Quantization%20With%20TFLite)
-
-[FER-2013](https://www.kaggle.com/datasets/msambare/fer2013)
-
-[EDSR in Tensorflow](https://github.com/Saafke/EDSR_Tensorflow#edsr-in-tensorflow)
-
+[snapml-templates](https://github.com/Snapchat/snapml-templates/tree/main/Quantization%20With%20TFLite)<br>
+[FER-2013](https://www.kaggle.com/datasets/msambare/fer2013)<br>
+[EDSR in Tensorflow](https://github.com/Saafke/EDSR_Tensorflow#edsr-in-tensorflow)<br>
 [Emotion detection using facial landmarks and deep learning](https://medium.com/@rishiswethan.c.r/emotion-detection-using-facial-landmarks-and-deep-learning-b7f54fe551bf)

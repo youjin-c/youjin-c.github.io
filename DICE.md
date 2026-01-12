@@ -118,5 +118,5 @@ Unity 3D programming: Audio System, Markov Chain System on Cubes, Visual Effect
 
 ## Credit
 
-[Dongphil Yoo](http://dongphilyoo.com/): Art Direct, Visual Allignment in Unity 3D, Documentation<br>
+[Dongphil Yoo](http://dongphilyoo.com/): Art Direct, Visual Allignment in Unity 3D, Documentation <br>
 [Joohyun Park](https://www.parkjoohyun.com/): Concept, Music
