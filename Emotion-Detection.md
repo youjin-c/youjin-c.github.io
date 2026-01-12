@@ -54,9 +54,9 @@ Quantization aware training simulates the lower precision behavior in the forwar
 
 ![](images/Emotion-Detection/Screenshot-2023-02-23-at-1.34.56-AM.png)
 
-- 8.5MB Original<br>
-- 2.6MB Post-training quantization<br>
-- 2.7MB Quantization aware training<br>
+- 8.5MB Original
+- 2.6MB Post-training quantization
+- 2.7MB Quantization aware training
 
 ## Optimization
 
