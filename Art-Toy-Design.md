@@ -5,11 +5,9 @@ title: Art Toy Design
 
 # Final
 
-  
-0.Package Design Update  
-  
-Printed out the illustrations of the creatures, and laser-cut ear template for
-display. Meanwhile, wax polished resin stone, so it is more smooth and shiny.  
+## 0. Package Design Update
+
+Printed out the illustrations of the creatures, and laser-cut ear template for display. Meanwhile, wax polished resin stone, so it is more smooth and shiny.  
 
 ![](images/Art-Toy-Design/u.png)
 
@@ -25,8 +23,7 @@ display. Meanwhile, wax polished resin stone, so it is more smooth and shiny.
 
 ![](images/Art-Toy-Design/t.png)
 
-  
-1\. New creatures  
+## 1. New creatures
 
 ![](images/Art-Toy-Design/aa.png)
 
@@ -36,12 +33,7 @@ display. Meanwhile, wax polished resin stone, so it is more smooth and shiny.
 
 ![](images/Art-Toy-Design/z.png)
 
-  
-Made 3 more shapes in Oculus Medium, tried to make more general fitting
-earrings that everyone can wear. Inspired by ear hugger, ear jacket shapes.
-and put pin to a piercing so person just can wear like piercings. Printing pin
-with a toy didn’t go well since it was too fragile, I broke all of them while
-sanding. I switched to drill a hole and put a brass tube into the hole.  
+Made 3 more shapes in Oculus Medium, tried to make more general fitting earrings that everyone can wear. Inspired by ear hugger, ear jacket shapes and put pin to a piercing so person just can wear like piercings. Printing pin with a toy didn't go well since it was too fragile, I broke all of them while sanding. I switched to drill a hole and put a brass tube into the hole.  
 
 ![](images/Art-Toy-Design/bb.jpeg)
 
@@ -55,10 +47,7 @@ sanding. I switched to drill a hole and put a brass tube into the hole.
 
 ![](images/Art-Toy-Design/gg.jpeg)
 
-  
-Printed them, sanded them, and put transparent plastic primer for coloring. I
-tested water marbling, but the paints are also translucent, turned out too
-dark.  
+Printed them, sanded them, and put transparent plastic primer for coloring. I tested water marbling, but the paints are also translucent, turned out too dark.  
 
 ![](images/Art-Toy-Design/base64_0_d40fa7f4.gif)
 
@@ -66,17 +55,7 @@ dark.
 
 ![](images/Art-Toy-Design/base64_2_d40fa7f4.gif)
 
-  
-So, sprayed white primer 2-3 times, sanded the surface, water marbled again.
-The coloring was pretty satisfying / okay to me, but I didn’t have time to put
-vanish on them. I heard the coloring was too dirty during the critique and be
-recommended to use solid color so people can focus on the shape, rather than
-the color. I guess I can try to polish them after coloring, it might make
-people feel better than this sticky feeling, also I definitely try solid
-colorings. (If I have more time in the future.) Also, the ear film was moving
-inside of the package, I might try to use vacuum foam of the silicone ear and
-put them in the box to make it more stable. (Ben + Pedro feedbacks)  
-  
+So, sprayed white primer 2-3 times, sanded the surface, water marbled again. The coloring was pretty satisfying / okay to me, but I didn't have time to put vanish on them. I heard the coloring was too dirty during the critique and be recommended to use solid color so people can focus on the shape, rather than the color. I guess I can try to polish them after coloring, it might make people feel better than this sticky feeling, also I definitely try solid colorings. (If I have more time in the future.) Also, the ear film was moving inside of the package, I might try to use vacuum foam of the silicone ear and put them in the box to make it more stable. (Ben + Pedro feedbacks)
 
 ![](images/Art-Toy-Design/base64_3_d40fa7f4.gif)
 

@@ -14,12 +14,7 @@ title: Fandamonium
 <iframe src="https://www.youtube.com/embed/Lb1Ogmat2f0" allowfullscreen></iframe>
 
 
-  
-Fandamonium is a 3D game project from Rigidbuddy team for GaTech Video Game
-Design course.  
-The project focued on AIs of entities and interaction among them in 3D
-environment. We also designed for engaging gaming experience through goal,
-time, penatlies and rewards.  
+Fandamonium is a 3D game project from Rigidbuddy team for GaTech Video Game Design course. The project focused on AIs of entities and interaction among them in 3D environment. We also designed for engaging gaming experience through goal, time, penalties and rewards.
 
 ## Role
 
@@ -50,8 +45,6 @@ So that moving animals can walk around.
 **In-Game Menu**
 
 Pause game on start, resume, restart level, quitting game, and GUI for audio setting.
-
-  
 
 ## Credit
 

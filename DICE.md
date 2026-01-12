@@ -3,7 +3,8 @@ layout: project
 title: DICE
 ---
 
-_**[Github Repo](https://github.com/youjinChung/DICE)**_
+_**[Github Repo](https://github.com/youjinChung/DICE)**_  
+Featured at Reykjavik Winter Festival 2019
 
 <iframe src="https://player.vimeo.com/video/318835829" allowfullscreen></iframe>
 
@@ -34,13 +35,23 @@ _**[Github Repo](https://github.com/youjinChung/DICE)**_
   const totalImages = images.length;
   let carouselWidth = 0;
 
-  images[0].onload = function() {
-    carouselWidth = this.naturalWidth;
-    carousel.style.width = carouselWidth + 'px';
-    images.forEach(img => {
-      img.style.width = carouselWidth + 'px';
-    });
-  };
+  function initCarousel() {
+    const firstImg = images[0];
+    carouselWidth = firstImg.offsetWidth || firstImg.naturalWidth;
+    if (carouselWidth > 0) {
+      carousel.style.width = carouselWidth + 'px';
+      images.forEach(img => {
+        img.style.width = carouselWidth + 'px';
+      });
+    }
+  }
+
+  // Handle both cached and fresh images
+  if (images[0].complete) {
+    initCarousel();
+  } else {
+    images[0].onload = initCarousel;
+  }
 
   images.forEach((_, i) => {
     const dot = document.createElement('button');
@@ -50,6 +61,7 @@ _**[Github Repo](https://github.com/youjinChung/DICE)**_
   });
 
   function updateCarousel() {
+    if (carouselWidth === 0) initCarousel();
     track.style.transform = `translateX(-${currentIndex * carouselWidth}px)`;
     const dots = dotsContainer.querySelectorAll('.carousel-dot');
     dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
@@ -69,11 +81,9 @@ _**[Github Repo](https://github.com/youjinChung/DICE)**_
 })();
 </script>
 
-Dice is an interactive light/music installation, which is award-winning work
-at Tiny Massive, Reykjavìk, Iceland.
-The project was shown during Reykjavìk Winter Festival, 2019.
-The audience and enjoy visual and audio interaction with the mapped game on
-Harpa.
+Dice is an interactive light/music installation, which is award-winning work at Tiny Massive, Reykjavìk, Iceland.<br>
+The project was shown during Reykjavìk Winter Festival, 2019.<br>
+The audience and enjoy visual and audio interaction with the mapped game on Harpa.<br>
 
 ## System
 
@@ -83,17 +93,14 @@ The DICE music system is using [Markov
 Chain](https://en.wikipedia.org/wiki/Markov_chain). On top of the base drum
 line, the player can adjust probabilities of the main sample audios.
 
-Magenta - 0%
-Green - 50%
-Blue - 100%
+Magenta - 0%<br>
+Green - 50%<br>
+Blue - 100%<br>
 
-For each loop, DICE have randomly generated probability, and it determines
-whether each sample will be played or not.
-The player2 can change the probability of each die, and the music will be
-played on the next loop. The player1 can change the color of the background
-particle and the speed of it.
-We used Unity3D to express 3D texture on the 2D LED surface on Harpa.
-The 3D visual is appreciated as a new approach to Harpa surface.
+For each loop, DICE have randomly generated probability, and it determines whether each sample will be played or not.<br>
+The player2 can change the probability of each die, and the music will be played on the next loop. The player1 can change the color of the background particle and the speed of it.<br>
+We used Unity3D to express 3D texture on the 2D LED surface on Harpa.<br>
+The 3D visual is appreciated as a new approach to Harpa surface.<br>
 
 ![](images/DICE/dice_0.jpg)
 
@@ -107,13 +114,9 @@ The 3D visual is appreciated as a new approach to Harpa surface.
 
 ## Role
 
-Unity 3D programming: Audio System, Markov Chain System on Cubes, Visual
-Effect
+Unity 3D programming: Audio System, Markov Chain System on Cubes, Visual Effect
 
 ## Credit
 
-[Dongphil Yoo](http://dongphilyoo.com/): Art Direct, Visual Allignment in
-Unity 3D, Documentation
+[Dongphil Yoo](http://dongphilyoo.com/): Art Direct, Visual Allignment in Unity 3D, Documentation<br>
 [Joohyun Park](https://www.parkjoohyun.com/): Concept, Music
-
-Featured at Reykjavik Winter Festival 2019
