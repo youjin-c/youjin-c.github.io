@@ -3,12 +3,8 @@ layout: project
 title: Object Segmentation
 ---
 
-# Object Segmentation  
+<iframe src="https://www.youtube.com/embed/IVA-PKbPgjA" allowfullscreen></iframe>
 
-  
-
-  
-  
 Welcome to my Object Segmentation project, where I utilized machine learning
 to accurately detect and segment oranges and limes in images. This project
 aims to demonstrate the power of object segmentation using machine learning
@@ -51,7 +47,7 @@ using MAL was helpful in speeding up the labeling process.
 
 ## Training
 
-  
+![](images/Object-Segmentation/MAL.png)
 
 The models were trained on a custom additional training set that I created
 using various fruit datasets. Additionally, I employed Model-assisted labeling
@@ -68,11 +64,11 @@ COCO dataset for oranges, achieving an accuracy of 94% on 1699 images. The
 segmented oranges are colored in a rainbow pattern, making them easy to
 distinguish from other objects. I also created a lime segmentation model using
 MobileNetV2, which showed 70% accuracy when trained on ~200 lime images. This
-model will be used for MAL in LabelBox.  
+model will be used for MAL in LabelBox.
 
-  
+![](images/Object-Segmentation/img_seg.png)
 
-  
+![](images/Object-Segmentation/lime.png)
 
 ## Conclusion
 
@@ -85,6 +81,4 @@ for object segmentation. I also learned about the importance of labeling
 conventions and conversions, the benefits of open-source datasets, and the
 potential for labeling group projects using labeling platforms with AI
 labeling features. I hope this project inspires further research and
-applications in the field of computer vision.  
-
-2022
+applications in the field of computer vision.

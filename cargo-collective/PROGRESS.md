@@ -40,7 +40,7 @@ youjin-c.github.io/
 | Toonify | O | 4 | [x] | full_title, 새 썸네일(cropped gif) |
 | Project Awkward | O | 1 | [x] | YouTube 임베드 추가 |
 | Blow A Kiss | O | 4 | [x] | full_title, Vimeo 임베드, 이미지 크기 조정 |
-| Object Segmentation | O | 8 | [ ] | |
+| Object Segmentation | O | 8 | [x] | YouTube 임베드, 이미지 추가 |
 | DICE | O | 11 | [ ] | |
 | One Zero | O | 9 | [ ] | |
 | Motion Recognition | O | 8 | [ ] | |
@@ -124,7 +124,8 @@ youjin-c.github.io/
 - **CSS 개선**
   - 이미지 중앙 정렬 CSS 추가 (`.project-content p:has(> img)`)
 - Blow A Kiss: full_title, Vimeo 임베드, 이미지 크기 조정, H2 헤딩으로 변환
-- 확인 완료: ColorPiece, DoodlAR, Toonify, Project Awkward, Blow A Kiss, Smile Filter, Fandamonium, Emotion Detection (8개)
+- Object Segmentation: YouTube 임베드, 이미지 추가 (MAL.png, img_seg.png, lime.png)
+- 확인 완료: ColorPiece, DoodlAR, Toonify, Project Awkward, Blow A Kiss, Object Segmentation, Smile Filter, Fandamonium, Emotion Detection (9개)
 
 ### 2026-01-10 (세션 3)
 
