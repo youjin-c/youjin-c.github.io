@@ -1,21 +1,15 @@
 ---
 layout: project
-title: The Tree Of Babel
+title: The Tree of Babel
 ---
 
 # The Tree of Babel
 
- _**[Blog](https://youjin.io/Thesis)**_  
+<p style="text-align: right;"><em><strong><a href="Thesis.html">Blog</a></strong></em></p>
 
-## [Project Website](http://treebabel.herokuapp.com/)
+<iframe src="https://player.vimeo.com/video/336827253" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-  
-  
-  
-
-![](images/The-Tree-of-Babel/ezgif.com-optimize.gif)
-
-  
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/chAPFa5PvwiWKi" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
 
 ## Concept  
 
@@ -29,21 +23,18 @@ The dataset is customized for ML libraries and scraped from
 [TransverseReadingGallery](https://jeremydouglass.github.io/transverse-
 gallery/).  
   
-Basic concept:  
+**Basic concept:**
 
-     1. Convert graphs to feature matrix of vector embeddings*.  
+1. Convert graphs to feature matrix of vector embeddings*
+2. Categorize graphs by clustering algorithms
+3. Generate new graphs from categories using autoencoder
 
-     2. Categorize graphs by clustering algorithms.  
+**Used libraries and ML models:**
 
-     3. Generate new graphs from categories using autoencoder.  
-
-  
-Used libraries and ML models:  
-
-    * [NetworkX](https://networkx.github.io/): graph properties (width, length, clustering, degree, cycle)
-    * [graph2vec](https://github.com/benedekrozemberczki/graph2vec): extracting feature matrix
-    * [scikit-learn](https://scikit-learn.org/stable/modules/clustering.html#clustering): K-means, Spectral, Agglomerative, Mean Shift Clustering
-    * [PyTorch geometric](https://rusty1s.github.io/pytorch_geometric/build/html/modules/nn.html#torch_geometric.nn.models.GAE): Autoencoder
+- [NetworkX](https://networkx.github.io/): graph properties (width, length, clustering, degree, cycle)
+- [graph2vec](https://github.com/benedekrozemberczki/graph2vec): extracting feature matrix
+- [scikit-learn](https://scikit-learn.org/stable/modules/clustering.html#clustering): K-means, Spectral, Agglomerative, Mean Shift Clustering
+- [PyTorch geometric](https://rusty1s.github.io/pytorch_geometric/build/html/modules/nn.html#torch_geometric.nn.models.GAE): Autoencoder
 
   
 *An embedding is a relatively low-dimensional space into which you can translate high-dimensional vectors. Embeddings make it easier to do machine learning on large inputs like sparse vectors representing words. Ideally, an embedding captures some of the semantics of the input by placing semantically similar inputs close together in the embedding space. An embedding can be learned and reused across models. (Google Developers Machine Learning Course)   
@@ -62,62 +53,56 @@ values are Y coordinates only.
 To fix this problem, I need to try with the array of feature matrixes of each
 graph, rather than just a feature matrix of whole graphs.  
 
-![](http://treebabel.herokuapp.com/static/img/cluster_wo.png)  
+![](images/The-Tree-of-Babel/ezgif.com-optimize.gif)
 
 Instead of using computed categorization, I categorized graphs with names that
-I made up. The names are inspired by graph properties.  
-  
+I made up. The names are inspired by graph properties.
 
 ### Basic
 
-They are basic directed graphs.  
-  
-Mostly have tree shapes.  
-  
+![](images/The-Tree-of-Babel/graphCategories_basic-1.png)
+
+They are basic directed graphs.<br>
+Mostly have tree shapes.<br>
 They look clean and straightforward.
 
 ### Broad
 
-They have larger widths.  
-  
+![](images/The-Tree-of-Babel/graphCategories_broad.png)
+
+They have larger widths.<br>
 Short playthrough, Strong replayability.
 
 ### Linear
 
-This shape indicates  
-the linearity of narrative structure.  
-  
-Easy control of drama. Immersive storytelling through long playtime.
+![](images/The-Tree-of-Babel/graphCategories_length-1.png)
 
-  
+This shape indicates the linearity of narrative structure.<br>
+Easy control of drama. Immersive storytelling through long playtime.
 
 ### Merged
 
-The graphs merge into certain points.  
-  
-Those points usually represent important events in a story.  
+![](images/The-Tree-of-Babel/graphCategories_merged.png)
 
-  
+The graphs merge into certain points.<br>
+Those points usually represent important events in a story.
 
 ### Clustered
 
-Grouped clusters of nodes make a modular structure.  
-  
-The groups of nodes could be detailed choices in a single situation.  
-  
-A tendency to be organized by geography.  
-  
-Fragmentary, episodic.  
+![](images/The-Tree-of-Babel/graphCategories_cluster-1.png)
 
-  
+Grouped clusters of nodes make a modular structure.<br>
+The groups of nodes could be detailed choices in a single situation.<br>
+A tendency to be organized by geography.<br>
+Fragmentary, episodic.
 
 ### Cyclic
 
-Reversibility. End nodes are redirected to early-stage nodes.  
-  
-Players can unlock new status while looping similar narratives.  
-  
-Commonly used for time loops or geo geographic travel.
+![](images/The-Tree-of-Babel/graphCategories_cycle-1.png)
+
+Reversibility. End nodes are redirected to early-stage nodes.<br>
+Players can unlock new status while looping similar narratives.<br>
+Commonly used for time loops or geographic travel.
 
 According to the categorization, the dataset is classified by graph
 properties.  
@@ -137,8 +122,3 @@ matrix, assign sentences to node labels.
   * Visual representation of the comparison of generated and original graphs  
 
   * Add json file download feature of generated graphs
-
-  
-  
-
-New York, Spring 2019

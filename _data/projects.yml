@@ -50,10 +50,10 @@
 
 - title: The Tree of Babel
   url: The-Tree-of-Babel.html
-  thumbnail: images/The-Tree-of-Babel/graphCategories_merged.png
+  thumbnail: images/The-Tree-of-Babel/ezgif.com-optimize.gif
   description: Analysis and visualization of interactive narrative structures in games.
   category: project
-  date: "2019"
+  date: "New York, Spring 2019"
 
 - title: DICE
   url: DICE.html
@@ -61,13 +61,6 @@
   description: Interactive light/music installation using Markov Chain, award-winning work at Tiny Massive, Reykjavík.
   category: project
   date: "Reykjavik, Winter 2019"
-
-- title: One Zero
-  url: One-Zero.html
-  thumbnail: images/One-Zero/Youjin.gif
-  description: Interactive Kinetic Art Installation implying coexistence of human cognitive process and machine perception.
-  category: project
-  date: "Spring 2018"
 
 - title: Blow A Kiss
   full_title: "Blow A Kiss: AR experience with Unity MARS"
@@ -77,6 +70,13 @@
   category: project
   date: "Feb 2022"
 
+- title: One Zero
+  url: One-Zero.html
+  thumbnail: images/One-Zero/Youjin.gif
+  description: Interactive Kinetic Art Installation implying coexistence of human cognitive process and machine perception.
+  category: project
+  date: "Spring 2018"
+
 - title: Project Awkward
   url: Project-Awkward.html
   thumbnail: images/Project-Awkward/ezgif.com-gif-maker.gif
@@ -84,26 +84,19 @@
   category: project
   date: "Jan 2019"
 
+- title: Snapchat Lenses
+  url: Snapchat-Lenses.html
+  thumbnail: images/Snapchat-Lenses/ezgif.com-resize.gif
+  description: Custom Snapchat lens creations using Lens Studio.
+  category: project
+  date: "2019"
+
 - title: Motion Recognition
-  url: MOTION-RECOGNITION.html
+  url: Motion-Recognition.html
   thumbnail: images/MOTION-RECOGNITION/ARCHIVEE23_o.jpg
   description: SmartTV service development for controlling TV with finger and hand gestures.
   category: project
-  date: "2013-2015"
-
-- title: Posture & Eye Care
-  url: POSTURE-EYE-CARE.html
-  thumbnail: images/POSTURE-EYE-CARE/ARCHIVEE22_o.jpg
-  description: Healthcare web application tracking facial position and eye blink to encourage better posture and eye care.
-  category: project
-  date: "2013-2015"
-
-- title: Smile Face-in
-  url: SMILE-FACE-IN.html
-  thumbnail: images/SMILE-FACE-IN/ARCHIVEE24_o.jpg
-  description: LG laptop Gram User Identification System using face recognition and natural facial expressions.
-  category: project
-  date: "2013-2015"
+  date: "Seoul, 2013-2014"
 
 - title: Face Recognition Games
   url: Face-Recognition-Games.html
@@ -112,12 +105,21 @@
   category: project
   date: "2017"
 
-- title: Snapchat Lenses
-  url: Snapchat-Lenses.html
-  thumbnail: images/Snapchat-Lenses/ezgif.com-resize.gif
-  description: Custom Snapchat lens creations using Lens Studio.
+- title: Posture & Eye Care
+  url: Posture-Eye-Care.html
+  thumbnail: images/POSTURE-EYE-CARE/ARCHIVEE22_o.jpg
+  description: Healthcare web application tracking facial position and eye blink to encourage better posture and eye care.
   category: project
-  date: "2019"
+  date: "Seoul, 2013-2014"
+
+- title: Smile Face-in
+  url: Smile-Face-in.html
+  thumbnail: images/SMILE-FACE-IN/ARCHIVEE24_o.jpg
+  description: LG laptop Gram User Identification System using face recognition and natural facial expressions.
+  category: project
+  date: "Seoul, 2013-2014"
+
+
 
 # Tier 3 (Score 7-8): AI-Adjacent - NLP, generative AI, AR with ML
 - title: Suprememe

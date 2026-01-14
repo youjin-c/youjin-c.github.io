@@ -5,8 +5,7 @@ title: One Zero
 
 # One Zero
 
-[GitHub Repo](https://github.com/youjinChung/OneZero)<br>
-Featured at ITP Spring Show 2018
+<p style="text-align: right;"><em><strong><a href="https://github.com/youjinChung/OneZero">GitHub Repo</a></strong></em><br><em>Featured at ITP Spring Show 2018</em></p>
 
 <iframe src="https://player.vimeo.com/video/319150219" allowfullscreen></iframe>
 

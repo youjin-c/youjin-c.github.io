@@ -3,8 +3,7 @@ layout: project
 title: DICE
 ---
 
-_**[Github Repo](https://github.com/youjinChung/DICE)**_  
-Featured at Reykjavik Winter Festival 2019
+<p style="text-align: right;"><em><strong><a href="https://github.com/youjinChung/DICE">Github Repo</a></strong></em><br><em>Featured at Reykjavik Winter Festival 2019</em></p>
 
 <iframe src="https://player.vimeo.com/video/318835829" allowfullscreen></iframe>
 

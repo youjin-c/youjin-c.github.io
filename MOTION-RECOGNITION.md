@@ -5,7 +5,10 @@ title: Motion Recognition
 
 # Motion Recognition
 
-![](images/MOTION-RECOGNITION/ARCHIVEE23_o_1.jpg)  
+*Professional work at LG Electronics*
+
+![](images/MOTION-RECOGNITION/ARCHIVEE23_o_1.jpg)
+
 **What is Motion Recognition?**  
 You can control the TV simply by gesturing for the camera.  
 You can use the Motion Recognition function to turn the TV off, change the
@@ -45,10 +48,6 @@ Finger Gesture : Implemented in camera built-in WebOS 1.0 LG smart TVs
 Hand Gesture : Implemented in camera built-in over Netcast 4.0 LG TVs  
   
 
-## Role  
+## Role
 
-Ideation, Research, Implementation, Maintenance  
-
-  
-Professional work at LG electronics  
-Seoul, 2013-2014
+Ideation, Research, Implementation, Maintenance

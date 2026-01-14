@@ -3,29 +3,27 @@ layout: project
 title: Snapchat Lenses
 ---
 
-# Snapchat Lenses  
+# Snapchat Lenses
 
- _**[Github Repo](https://github.com/youjinChung/SnapLens)**_  
+<p style="text-align: right;"><em><strong><a href="https://github.com/youjinChung/SnapLens">GitHub Repo</a></strong></em></p>
 
-  
 
-## [Neon
-Party](https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=c50bce3e055947ad966780105402b903&metadata=01)[](https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=c50bce3e055947ad966780105402b903&metadata=01)
 
-## System  
+## [Neon Party](https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=c50bce3e055947ad966780105402b903&metadata=01)
 
-Neon light moves according to face position.  
-The lights on the depth mask works like face painting.  
+<iframe src="https://player.vimeo.com/video/373539730" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-## [Whack-A-
-Mole](https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=76ca291399c2406aa09ccb4b724310fa&metadata=01)
+Neon light moves according to face position.
+The lights on the depth mask works like face painting.
 
-## System  
+## [Whack-A-Mole](https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=76ca291399c2406aa09ccb4b724310fa&metadata=01)
 
-Whack-a-mole game using rear camera.  
-1\. User can position moles before game starts  
-2\. Whack a randomly jumping mole  
-3\. Highscore tracked.
+<iframe src="https://player.vimeo.com/video/373539135" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+Whack-a-mole game using rear camera.
+1. User can position moles before game starts
+2. Whack a randomly jumping mole
+3. Highscore tracked.
 
   
   

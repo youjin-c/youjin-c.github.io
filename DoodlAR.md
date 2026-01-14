@@ -5,7 +5,7 @@ title: DoodlAR
 
 # DoodlAR
 
-2019 MIT Hacking Arts Wayfair Challenge Winner
+<p style="text-align: right;"><em>2019 MIT Hacking Arts Wayfair Challenge Winner</em></p>
 
 <iframe src="https://player.vimeo.com/video/402230104" allowfullscreen></iframe>
 

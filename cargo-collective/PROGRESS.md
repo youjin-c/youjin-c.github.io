@@ -43,9 +43,9 @@ youjin-c.github.io/
 | Object Segmentation | O | 8 | [x] | YouTube 임베드, 이미지 추가 |
 | DICE | O | 11 | [x] | YouTube 임베드, 캐러셀 이미지 추가 |
 | One Zero | O | 9 | [x] | Vimeo 임베드, Featured 정보 이동, 날짜 포맷 변경 |
-| Motion Recognition | O | 8 | [ ] | |
-| Snapchat Lenses | O | 1 | [ ] | |
-| The Tree of Babel | O | 7 | [ ] | |
+| Motion Recognition | O | 8 | [x] | "Professional work at LG Electronics" 상단 이동, 날짜 "Seoul, 2013-2014" |
+| Snapchat Lenses | O | 1 | [x] | Vimeo 임베드 2개, 소제목 줄바꿈 수정, Blow A Kiss 다음 순서 |
+| The Tree of Babel | O | 7 | [x] | Blog 링크 내부화, 만료 Heroku URL 제거, 카테고리별 이미지 6개 추가 |
 | Posture & Eye Care | O | 10 | [ ] | |
 | Face Recognition Games | O | 14 | [ ] | |
 | Go Card | O | 6 | [ ] | |

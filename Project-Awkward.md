@@ -5,7 +5,7 @@ title: Project Awkward
 
 # Project Awkward
 
-[Devpost Link](https://devpost.com/software/project-awkward) | [Github Link](https://github.com/RealityVirtually2019/Project_Awkward)
+<p style="text-align: right;"><em><strong><a href="https://devpost.com/software/project-awkward">Devpost</a></strong></em><br><em><strong><a href="https://github.com/RealityVirtually2019/Project_Awkward">GitHub Repo</a></strong></em></p>
 
 <iframe src="https://www.youtube.com/embed/x62-X9dzHe4" allowfullscreen></iframe>
 
