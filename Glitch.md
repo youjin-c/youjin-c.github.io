@@ -5,14 +5,11 @@ title: Glitch
 
 # Glitch
 
-**_Code and Excutable Demo [[Stand Alone Version](https://editor.p5js.org/eloquentify/sketches/S1MyzhcpZ) | [Sensor Input Version](https://editor.p5js.org/eloquentify/sketches/rJPRZ7j6Z) ]_**
+<p style="text-align: right;"><em><strong><a href="https://editor.p5js.org/eloquentify/sketches/S1MyzhcpZ">Stand Alone Demo</a></strong></em> | <em><strong><a href="https://editor.p5js.org/eloquentify/sketches/rJPRZ7j6Z">Sensor Input Demo</a></strong></em><br><em>NYU ITP project</em></p>
 
-_![](images/Glitch/ezgif.com-resize_1.gif)_
+![](images/Glitch/ezgif.com-resize_1.gif)
 
-  
-
-_**[Code and Excutable
-Demo](https://editor.p5js.org/eloquentify/sketches/Sk1-Dhq6Z)**_
+<p style="text-align: right; font-size: 1.25rem;"><em><strong><a href="https://editor.p5js.org/eloquentify/sketches/Sk1-Dhq6Z">Code and Executable Demo</a></strong></em></p>
 
 ![](images/Glitch/ezgif.com-resize-2_1.gif)  
 
@@ -26,8 +23,6 @@ Javascript, HTML, CSS, P5.js, Arduino, Socket Communication (Arduino <->
 P5.js)  
   
 
-## Role  
+## Role
 
-Concept, Programming  
-
-New York, Fall 2017
+Concept, Programming

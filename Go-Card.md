@@ -5,15 +5,94 @@ title: Go Card
 
 # Go Card
 
-** _[Github Repo](https://github.com/youjinChung/GoCard)_**
+<p style="text-align: right;"><em><strong><a href="https://github.com/youjinChung/GoCard">GitHub Repo</a></strong></em><br><em>NYU ITP project</em></p>
 
-![](images/Go-Card/gocard1.jpg)
+<iframe src="https://player.vimeo.com/video/294069117" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-![](images/Go-Card/gocard0.jpg)
+<div class="image-carousel-wrapper">
+<div class="image-carousel" id="gocardCarousel">
+  <div class="carousel-track">
+    <img src="/images/Go-Card/gocard0.jpg" alt="Go Card 1">
+    <img src="/images/Go-Card/gocard1.jpg" alt="Go Card 2">
+    <img src="/images/Go-Card/1.jpg" alt="Go Card 3">
+    <img src="/images/Go-Card/2.jpg" alt="Go Card 4">
+    <img src="/images/Go-Card/3.jpeg" alt="Go Card 5">
+  </div>
+  <button class="carousel-btn prev" onclick="moveGocardCarousel(-1)">&lt;</button>
+  <button class="carousel-btn next" onclick="moveGocardCarousel(1)">&gt;</button>
+  <div class="carousel-dots"></div>
+</div>
+</div>
 
-![](images/Go-Card/gocard1.jpg)
+<script>
+(function() {
+  const carousel = document.getElementById('gocardCarousel');
+  const track = carousel.querySelector('.carousel-track');
+  const images = track.querySelectorAll('img');
+  const dotsContainer = carousel.querySelector('.carousel-dots');
+  let currentIndex = 0;
+  const totalImages = images.length;
+  let carouselWidth = 0;
+  let isAnimating = false;
 
-![](images/Go-Card/gocard0.jpg)
+  function initCarousel() {
+    let maxWidth = 0;
+    images.forEach(img => {
+      if (img.naturalWidth > maxWidth) maxWidth = img.naturalWidth;
+    });
+    carouselWidth = Math.min(maxWidth, carousel.parentElement.offsetWidth);
+    carousel.style.width = carouselWidth + 'px';
+    images.forEach(img => {
+      img.style.width = carouselWidth + 'px';
+    });
+    updateCarousel();
+  }
+
+  let loadedCount = 0;
+  images.forEach(img => {
+    if (img.complete) {
+      loadedCount++;
+      if (loadedCount === totalImages) initCarousel();
+    } else {
+      img.onload = () => {
+        loadedCount++;
+        if (loadedCount === totalImages) initCarousel();
+      };
+    }
+  });
+
+  images.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+    dot.onclick = () => goToSlide(i);
+    dotsContainer.appendChild(dot);
+  });
+
+  function updateCarousel() {
+    track.style.transform = `translateX(-${currentIndex * carouselWidth}px)`;
+    const dots = dotsContainer.querySelectorAll('.carousel-dot');
+    dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
+  }
+
+  window.moveGocardCarousel = function(direction) {
+    if (isAnimating) return;
+    isAnimating = true;
+    currentIndex = (currentIndex + direction + totalImages) % totalImages;
+    updateCarousel();
+    setTimeout(() => { isAnimating = false; }, 500);
+  };
+
+  function goToSlide(index) {
+    if (isAnimating || index === currentIndex) return;
+    isAnimating = true;
+    currentIndex = index;
+    updateCarousel();
+    setTimeout(() => { isAnimating = false; }, 500);
+  }
+
+  setInterval(() => moveGocardCarousel(1), 4000);
+})();
+</script>
 
 Go Card is a concept of language education kit.  
 The Korean letters are written in syllabic blocks with each alphabetic letter
@@ -34,11 +113,10 @@ vowel combine to make a sound.
   
 The kit is designed with acrylic sheet and conductive paint, and an Arduino
 board. Programmed with P5.js.  
-Using the different lenght of each letter’s stroke, we designed each sound
-‘ㄱ', ‘ㅏ', and ‘가‘ to have different resistance.  
+Using the different lenght of each letter's stroke, we designed each sound
+'ㄱ', 'ㅏ', and '가' to have different resistance.
 
-  
-  
+<iframe src="https://player.vimeo.com/video/294069607" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 ## Role
 
@@ -47,7 +125,4 @@ Ideation, Design, Programming
 
 ## Credit
 
-[Dongphil Yoo](http://dongphilyoo.com): Ideation, Fabrication, Documentaion  
-
-  
-New York, Fall 2018
+[Dongphil Yoo](http://dongphilyoo.com): Ideation, Fabrication, Documentaion

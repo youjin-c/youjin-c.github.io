@@ -3,7 +3,9 @@ layout: project
 title: Fandamonium
 ---
 
-# Fandemonium  
+# Fandamonium
+
+<p style="text-align: right;"><em>GaTech Video Game Design course project</em></p>
 
 ## Trailer
 

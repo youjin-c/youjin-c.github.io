@@ -3,6 +3,10 @@ layout: project
 title: Emotion Detection
 ---
 
+# Emotion Detection
+
+<p style="text-align: right;"><em>HAUS</em></p>
+
 <iframe src="https://www.youtube.com/embed/721x1RZ4l7k" allowfullscreen></iframe>
 
 This is a multi-class classification model for Snapchat Filter. It has around 0.75 accuracy and is relatively small, 2.7 MB, designed to run on mobile devices in real time.<br>

@@ -3,12 +3,11 @@ layout: project
 title: Tweequency
 ---
 
-# Tweetquency
+# Tweequency
 
-** _[Github Repo](https://github.com/youjinChung/tweequency)_**
+<p style="text-align: right;"><em><strong><a href="https://github.com/youjinChung/tweequency">GitHub Repo</a></strong></em><br><em>NYU ITP project</em></p>
 
-  
-  
+<iframe src="https://player.vimeo.com/video/317746274" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Tweequency is Python automation for generative music.  
   
@@ -25,8 +24,6 @@ Python, Javascript, [Selenium,](https://www.guru99.com/selenium-tutorial.html)
 [TweetDeck](https://tweetdeck.twitter.com/)  
   
 
-## Role  
+## Role
 
-Concept, Programming  
-
-New York, Fall 2018
+Concept, Programming

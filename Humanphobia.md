@@ -5,9 +5,9 @@ title: Humanphobia
 
 # Humanphobia
 
-** _[Github Repo](https://github.com/youjinChung/Humanphobia)_**  
+<p style="text-align: right;"><em><strong><a href="https://github.com/youjinChung/Humanphobia">GitHub Repo</a></strong></em><br><em>NYU ITP project</em></p>
 
-  
+<iframe src="https://player.vimeo.com/video/318152790" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 Humanphobia is an interactive light art wearable.  
 This project refers to social anxiety, inspired by the cover art of "Awaken,
@@ -35,6 +35,4 @@ Concept, Programming, Fabrication, Documentation
 
 ## Credit
 
-[Dongphil Yoo](http://dongphilyoo.com): Documentation  
-
-New York, Fall 2017
+[Dongphil Yoo](http://dongphilyoo.com): Documentation

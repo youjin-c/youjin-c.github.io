@@ -1,7 +1,7 @@
-# Portfolio Projects - Ordered by AI/ML relevance (highest first)
+# Portfolio Projects - 4-column grid layout (desktop)
+# Main Grid Projects (24)
 
-# Main Grid Projects (25) - Sorted by AI/ML relevance score
-# Tier 1 (Score 9-10): Core AI/ML - Neural networks, deep learning, computer vision
+# Row 1: Toonify | Smile Filter | ColorPiece | Object Segmentation
 - title: Toonify
   full_title: "Toonify: StyleGAN + GAN Blending + pix2pixHD"
   url: Toonify.html
@@ -32,6 +32,7 @@
   category: project
   date: "2022"
 
+# Row 2: Emotion Detection | DoodlAR | Tree of Babel | DICE
 - title: Emotion Detection
   full_title: "Emotion Detection: Multi-class classification and Quantization"
   url: Emotion-Detection.html
@@ -40,7 +41,6 @@
   category: project
   date: "Jan 2023"
 
-# Tier 2 (Score 8-9): Applied ML - Face recognition, gesture recognition, NLP
 - title: DoodlAR
   url: DoodlAR.html
   thumbnail: images/DoodlAR/ezgif.com-video-to-gif.gif
@@ -62,13 +62,13 @@
   category: project
   date: "Reykjavik, Winter 2019"
 
-- title: Blow A Kiss
-  full_title: "Blow A Kiss: AR experience with Unity MARS"
-  url: Blow-A-Kiss.html
-  thumbnail: images/Blow-A-Kiss/ezgif.com-gif-maker-3.gif
-  description: AR experience with Unity MARS using facial expressions like mouth opening and winking to interact with virtual hearts.
+# Row 3: Dead Wood | One Zero | Sigh | Project Awkward
+- title: Dead Wood
+  url: Dead-Wood.html
+  thumbnail: images/Dead-Wood/IMG_4558.JPG
+  description: VR game and kinetic sculpture exploring empathy and anthropomorphism, inspired by hitchBOT.
   category: project
-  date: "Feb 2022"
+  date: "April 2017"
 
 - title: One Zero
   url: One-Zero.html
@@ -77,6 +77,13 @@
   category: project
   date: "Spring 2018"
 
+- title: Sigh
+  url: Sigh.html
+  thumbnail: images/Sigh/ezgif.com-video-to-gif.gif
+  description: Interactive installation exploring machine paralanguage - what if machines could sigh?
+  category: project
+  date: "New York, Winter 2017"
+
 - title: Project Awkward
   url: Project-Awkward.html
   thumbnail: images/Project-Awkward/ezgif.com-gif-maker.gif
@@ -84,31 +91,69 @@
   category: project
   date: "Jan 2019"
 
-- title: Snapchat Lenses
-  url: Snapchat-Lenses.html
-  thumbnail: images/Snapchat-Lenses/ezgif.com-resize.gif
-  description: Custom Snapchat lens creations using Lens Studio.
+# Row 4: Go Card | Tweequency | Fandamonium | Face Recognition Games
+- title: Go Card
+  url: Go-Card.html
+  thumbnail: images/Go-Card/gocard0.jpg
+  description: A concept of language education kit for Korean letters using conductive paint and Arduino.
   category: project
-  date: "2019"
+  date: "New York, Fall 2018"
 
-- title: Motion Recognition
-  url: Motion-Recognition.html
-  thumbnail: images/MOTION-RECOGNITION/ARCHIVEE23_o.jpg
-  description: SmartTV service development for controlling TV with finger and hand gestures.
+- title: Tweequency
+  url: Tweequency.html
+  thumbnail: images/Tweequency/ScreenShot.png
+  description: Python automation for generative music using TweetDeck trending hashtags.
   category: project
-  date: "Seoul, 2013-2014"
+  date: "New York, Fall 2018"
+
+- title: Fandamonium
+  url: Fandamonium.html
+  thumbnail: images/Fandamonium/fandamonium.png
+  description: Interactive fan experience project exploring crowd engagement.
+  category: project
+  date: "Aug-Dec, 2022"
 
 - title: Face Recognition Games
   url: Face-Recognition-Games.html
-  thumbnail: images/Face-Recognition-Games/mainImage.jpg
+  thumbnail: images/Face-Recognition-Games/ezgif.com-gif-maker.gif
   description: Interactive games using face recognition technology, including Banksy-inspired AR experience.
   category: project
   date: "2017"
 
-- title: Posture & Eye Care
-  url: Posture-Eye-Care.html
-  thumbnail: images/POSTURE-EYE-CARE/ARCHIVEE22_o.jpg
-  description: Healthcare web application tracking facial position and eye blink to encourage better posture and eye care.
+# Row 5: Glitch | Swipe | AR Face Filters | Suprememe
+- title: Glitch
+  url: Glitch.html
+  thumbnail: images/Glitch/ezgif.com-resize_1.gif
+  description: P5.js sketches for glitch visual programming, interactive with Arduino sensor input.
+  category: project
+  date: "New York, Fall 2017"
+
+- title: Swipe
+  url: Swipe.html
+  thumbnail: images/Swipe/ezgif.com-crop-1.gif
+  description: Interactive experience exploring Tinder-style swiping mechanics.
+  category: project
+  date: "New York, Spring 2018"
+
+- title: AR Face Filters
+  url: AR-Face-Filters.html
+  thumbnail: images/AR-Face-Filters/ezgif.com-gif-maker-3.gif
+  description: AR face filters including Blow A Kiss (Unity MARS) and Snapchat Lenses (Neon Party, Whack-A-Mole).
+  category: project
+  date: "2019-2022"
+
+- title: Suprememe
+  url: Suprememe.html
+  thumbnail: images/Suprememe/ezgif.com-crop.gif
+  description: AI-generated Supreme-style images using GANs and Instagram scraping.
+  category: project
+  date: "New York, Spring 2018"
+
+# Row 6: Motion Recognition | Smile Face-in | Posture & Eye Care | Humanphobia
+- title: Motion Recognition
+  url: Motion-Recognition.html
+  thumbnail: images/MOTION-RECOGNITION/ARCHIVEE23_o.jpg
+  description: SmartTV service development for controlling TV with finger and hand gestures.
   category: project
   date: "Seoul, 2013-2014"
 
@@ -117,77 +162,23 @@
   thumbnail: images/SMILE-FACE-IN/ARCHIVEE24_o.jpg
   description: LG laptop Gram User Identification System using face recognition and natural facial expressions.
   category: project
-  date: "Seoul, 2013-2014"
+  date: "Seoul, 2014-2015"
 
-
-
-# Tier 3 (Score 7-8): AI-Adjacent - NLP, generative AI, AR with ML
-- title: Suprememe
-  url: Suprememe.html
-  thumbnail: images/Suprememe/ezgif.com-crop.gif
-  description: AI-generated Supreme-style images using GANs and Instagram scraping.
+- title: Posture & Eye Care
+  url: Posture-Eye-Care.html
+  thumbnail: images/POSTURE-EYE-CARE/ARCHIVEE22_o.jpg
+  description: Healthcare web application tracking facial position and eye blink to encourage better posture and eye care.
   category: project
-  date: "2018"
-
-# Tier 4 (Score 4-6): Light AI Elements - Markov chain, data-driven
-- title: Swipe
-  url: Swipe.html
-  thumbnail: images/Swipe/ezgif.com-crop-1.gif
-  description: Interactive experience exploring Tinder-style swiping mechanics.
-  category: project
-  date: "2018"
-
-- title: Go Card
-  url: Go-Card.html
-  thumbnail: images/Go-Card/gocard1.jpg
-  description: A concept of language education kit for Korean letters using conductive paint and Arduino.
-  category: project
-  date: "2018"
-
-- title: Glitch
-  url: Glitch.html
-  thumbnail: images/Glitch/ezgif.com-resize_1.gif
-  description: P5.js sketches for glitch visual programming, interactive with Arduino sensor input.
-  category: project
-  date: "2017"
-
-# Tier 5 (Score 2-3): Minimal AI - Interactive installations, physical computing
-- title: Dead Wood
-  url: Dead-Wood.html
-  thumbnail: images/Dead-Wood/base64_0_d40fa7f4.gif
-  description: VR game and kinetic sculpture exploring empathy and anthropomorphism, inspired by hitchBOT.
-  category: project
-  date: "Dec 2017"
+  date: "Seoul, 2014-2015"
 
 - title: Humanphobia
   url: Humanphobia.html
   thumbnail: images/Humanphobia/humanphobia.gif
   description: Interactive light art wearable referring to social anxiety, calculating distance and showing light patterns.
   category: project
-  date: "2017"
+  date: "New York, Fall 2017"
 
-- title: Sigh
-  url: Sigh.html
-  thumbnail: images/Sigh/sighmachine.png
-  description: Interactive installation exploring machine paralanguage - what if machines could sigh?
-  category: project
-  date: "2017"
-
-- title: Tweequency
-  url: Tweequency.html
-  thumbnail: images/Tweequency/ScreenShot.png
-  description: Python automation for generative music using TweetDeck trending hashtags.
-  category: project
-  date: "2018"
-
-- title: Fandamonium
-  url: Fandamonium.html
-  thumbnail: images/Fandamonium/fandamonium.png
-  description: Interactive fan experience project exploring crowd engagement.
-  category: project
-  date: "Dec 2022"
-
-# Archive/Blog Projects (15) - Original CargoCollective order
+# Archive/Blog Projects (15)
 - title: Thesis
   url: Thesis.html
   thumbnail: images/Thesis/clustering_1.png

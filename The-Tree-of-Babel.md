@@ -5,7 +5,7 @@ title: The Tree of Babel
 
 # The Tree of Babel
 
-<p style="text-align: right;"><em><strong><a href="Thesis.html">Blog</a></strong></em></p>
+<p style="text-align: right;"><em><strong><a href="Thesis.html">Blog</a></strong></em><br><em>NYU ITP Thesis project</em></p>
 
 <iframe src="https://player.vimeo.com/video/336827253" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 

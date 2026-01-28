@@ -3,6 +3,10 @@ layout: project
 title: Smile Filter
 ---
 
+# Smile Filter
+
+<p style="text-align: right;"><em>HAUS</em></p>
+
 <div class="image-carousel-wrapper">
 <div class="image-carousel" id="smileCarousel">
   <div class="carousel-track">
@@ -14,8 +18,8 @@ title: Smile Filter
     <img src="/images/Smile-Filter/two_image_side5.jpg" alt="Smile Filter example 6">
     <img src="/images/Smile-Filter/two_image_side6.jpg" alt="Smile Filter example 7">
   </div>
-  <button class="carousel-btn prev" onclick="moveCarousel(-1)">&lt;</button>
-  <button class="carousel-btn next" onclick="moveCarousel(1)">&gt;</button>
+  <button class="carousel-btn prev" onclick="moveSmileCarousel(-1)">&lt;</button>
+  <button class="carousel-btn next" onclick="moveSmileCarousel(1)">&gt;</button>
   <div class="carousel-dots"></div>
 </div>
 </div>
@@ -29,17 +33,34 @@ title: Smile Filter
   let currentIndex = 0;
   const totalImages = images.length;
   let carouselWidth = 0;
+  let isAnimating = false;
 
-  // Wait for first image to load to set fixed dimensions
-  images[0].onload = function() {
-    carouselWidth = this.naturalWidth;
+  function initCarousel() {
+    let maxWidth = 0;
+    images.forEach(img => {
+      if (img.naturalWidth > maxWidth) maxWidth = img.naturalWidth;
+    });
+    carouselWidth = Math.min(maxWidth, carousel.parentElement.offsetWidth);
     carousel.style.width = carouselWidth + 'px';
     images.forEach(img => {
       img.style.width = carouselWidth + 'px';
     });
-  };
+    updateCarousel();
+  }
 
-  // Create dots
+  let loadedCount = 0;
+  images.forEach(img => {
+    if (img.complete) {
+      loadedCount++;
+      if (loadedCount === totalImages) initCarousel();
+    } else {
+      img.onload = () => {
+        loadedCount++;
+        if (loadedCount === totalImages) initCarousel();
+      };
+    }
+  });
+
   images.forEach((_, i) => {
     const dot = document.createElement('button');
     dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
@@ -53,18 +74,23 @@ title: Smile Filter
     dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
   }
 
-  window.moveCarousel = function(direction) {
+  window.moveSmileCarousel = function(direction) {
+    if (isAnimating) return;
+    isAnimating = true;
     currentIndex = (currentIndex + direction + totalImages) % totalImages;
     updateCarousel();
+    setTimeout(() => { isAnimating = false; }, 500);
   };
 
   function goToSlide(index) {
+    if (isAnimating || index === currentIndex) return;
+    isAnimating = true;
     currentIndex = index;
     updateCarousel();
+    setTimeout(() => { isAnimating = false; }, 500);
   }
 
-  // Auto-advance every 4 seconds
-  setInterval(() => moveCarousel(1), 4000);
+  setInterval(() => moveSmileCarousel(1), 4000);
 })();
 </script>
 

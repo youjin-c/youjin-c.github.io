@@ -5,7 +5,7 @@ title: Motion Recognition
 
 # Motion Recognition
 
-*Professional work at LG Electronics*
+<p style="text-align: right;"><em>LG Electronics</em></p>
 
 ![](images/MOTION-RECOGNITION/ARCHIVEE23_o_1.jpg)
 

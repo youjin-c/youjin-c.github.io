@@ -46,23 +46,33 @@ This project is shown at ITP 2018 Spring Show.
   let currentIndex = 0;
   const totalImages = images.length;
   let carouselWidth = 0;
+  let isAnimating = false;
 
   function initCarousel() {
-    const firstImg = images[0];
-    carouselWidth = firstImg.offsetWidth || firstImg.naturalWidth;
-    if (carouselWidth > 0) {
-      carousel.style.width = carouselWidth + 'px';
-      images.forEach(img => {
-        img.style.width = carouselWidth + 'px';
-      });
-    }
+    let maxWidth = 0;
+    images.forEach(img => {
+      if (img.naturalWidth > maxWidth) maxWidth = img.naturalWidth;
+    });
+    carouselWidth = Math.min(maxWidth, carousel.parentElement.offsetWidth);
+    carousel.style.width = carouselWidth + 'px';
+    images.forEach(img => {
+      img.style.width = carouselWidth + 'px';
+    });
+    updateCarousel();
   }
 
-  if (images[0].complete) {
-    initCarousel();
-  } else {
-    images[0].onload = initCarousel;
-  }
+  let loadedCount = 0;
+  images.forEach(img => {
+    if (img.complete) {
+      loadedCount++;
+      if (loadedCount === totalImages) initCarousel();
+    } else {
+      img.onload = () => {
+        loadedCount++;
+        if (loadedCount === totalImages) initCarousel();
+      };
+    }
+  });
 
   images.forEach((_, i) => {
     const dot = document.createElement('button');
@@ -72,20 +82,25 @@ This project is shown at ITP 2018 Spring Show.
   });
 
   function updateCarousel() {
-    if (carouselWidth === 0) initCarousel();
     track.style.transform = `translateX(-${currentIndex * carouselWidth}px)`;
     const dots = dotsContainer.querySelectorAll('.carousel-dot');
     dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
   }
 
   window.moveOneZeroCarousel = function(direction) {
+    if (isAnimating) return;
+    isAnimating = true;
     currentIndex = (currentIndex + direction + totalImages) % totalImages;
     updateCarousel();
+    setTimeout(() => { isAnimating = false; }, 500);
   };
 
   function goToSlide(index) {
+    if (isAnimating || index === currentIndex) return;
+    isAnimating = true;
     currentIndex = index;
     updateCarousel();
+    setTimeout(() => { isAnimating = false; }, 500);
   }
 
   setInterval(() => moveOneZeroCarousel(1), 4000);

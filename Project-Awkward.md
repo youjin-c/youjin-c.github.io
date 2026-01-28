@@ -5,7 +5,7 @@ title: Project Awkward
 
 # Project Awkward
 
-<p style="text-align: right;"><em><strong><a href="https://devpost.com/software/project-awkward">Devpost</a></strong></em><br><em><strong><a href="https://github.com/RealityVirtually2019/Project_Awkward">GitHub Repo</a></strong></em></p>
+<p style="text-align: right;"><em><strong><a href="https://devpost.com/software/project-awkward">Devpost</a></strong></em> | <em><strong><a href="https://github.com/RealityVirtually2019/Project_Awkward">GitHub Repo</a></strong></em><br><em>MIT Reality Virtually 2019 Hackathon project</em></p>
 
 <iframe src="https://www.youtube.com/embed/x62-X9dzHe4" allowfullscreen></iframe>
 

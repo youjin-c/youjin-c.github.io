@@ -3,6 +3,10 @@ layout: project
 title: Object Segmentation
 ---
 
+# Object Segmentation
+
+<p style="text-align: right;"><em>HAUS</em></p>
+
 <iframe src="https://www.youtube.com/embed/IVA-PKbPgjA" allowfullscreen></iframe>
 
 Welcome to my Object Segmentation project, where I utilized machine learning to accurately detect and segment oranges and limes in images. This project aims to demonstrate the power of object segmentation using machine learning and how it can be applied to improve image analysis.

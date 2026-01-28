@@ -5,6 +5,8 @@ title: ColorPiece
 
 # ColorPiece
 
+<p style="text-align: right;"><em>Wayfair interview project</em></p>
+
 [Instruction](#instruction) | [How it works](#how-it-works) | [Design Process](#design-process) | [Credit](#credit)
 
 "What if you find a piece of furniture but don't know what color to choose?
