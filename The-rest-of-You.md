@@ -5,7 +5,8 @@ title: The Rest of You
 
 # DIY image association test
 
-  
+*Spring 2018*
+
 After did some experiment with the
 [IAT](https://www.youjin.fyi/blog-1/2018/3/1/rest-of-you-talking-to-the-rest-
 of-you-us-implicit-association-test) last time - I was inspired to make my own
@@ -27,14 +28,24 @@ them.
 0\. scrape the images  
 I scraped the download urls from upsplash.com  
 ![](images/The-rest-of-You/0_1.png)![](images/The-rest-of-You/1_1.png)  
-1\. Make an Image Association Test  
-referenced [Swing by
-](https://github.com/gajus/swing)[gajus](https://github.com/gajus/swing)  
-  
-2\. Get data from the test  
-[SpreadSheet
-link](https://docs.google.com/spreadsheets/d/1GDeLPIA1VahFaIowmZ7Yh2j8W6x4wDdhgd5aXfmYWsk/edit?usp=sharing)  
-  
+1\. Make an Image Association Test
+referenced [Swing](https://github.com/gajus/swing) by [gajus](https://github.com/gajus)
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/259496537?h=&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+
+<br>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/259498526?h=&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+
+<br>
+
+2\. Get data from the test
+[SpreadSheet link](https://docs.google.com/spreadsheets/d/1GDeLPIA1VahFaIowmZ7Yh2j8W6x4wDdhgd5aXfmYWsk/edit?usp=sharing)
+
+![](/images/The-rest-of-You/2.png)
+
+![](/images/The-rest-of-You/3.png)
+
 What I collected are 0. order 1. throwing in/out (You cannot swipe the card
 till you drag the image more than certain pixels, and it would be recorded as
 throw-in if the distance is not far enough. I analyzed that as a sign of
@@ -67,20 +78,21 @@ it took much shorter time when he makes decisions again. In some of the cases,
 he spent only the third of milliseconds to make the same decision again. This
 may means a thing - that showing the same dates again in date apps is not
 meaningful. (There is no second chance?)  
-7\. Lastly, I can make a spectrum of my image preference by aligning them with
-the time and direction. The images below are 'fastest left'-'slowest
-left'-slowest right'-'fastest right' images.  
-  
+7\. Lastly, I can make a spectrum of my image preference by aligning them with the time and direction. The images below are 'fastest left'-'slowest left'-slowest right'-'fastest right' images.
+
+![](/images/The-rest-of-You/Screen-Shot-2019-02-14-at-12.29.57-PM.png)
+
 The most left and rightest images are totally different and showing my
 preferred image style, but the images between is pretty vague and even looks
-similar to each other.  
-Here's Phil's image preference spectrum.  
-  
+similar to each other.
+Here's Phil's image preference spectrum.
+
+![](/images/The-rest-of-You/Screen-Shot-2019-02-14-at-12.30.07-PM.png)
+
 I think I could make a preference analyzing system with this. Tracing the
 user's most and least favored image styles and I can use it to get rid of
 vague images or for some curation.  
   
   
   
-Here's [the link for the IAT test](https://github.com/elqtfy/RestOfYou-
-tinderTest) that I made above.
+Here's [the link for the IAT test](https://github.com/elqtfy/RestOfYou-tinderTest) that I made above.

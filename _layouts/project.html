@@ -25,12 +25,16 @@
 
   <main class="site-content">
     <article class="project-page">
+      {% if current_project.category == "blog" %}
+      <a href="{{ '/' | relative_url }}#blog" class="back-link">Back to Blog</a>
+      {% else %}
       <a href="{{ '/' | relative_url }}" class="back-link">Back to Work</a>
+      {% endif %}
       <h1 class="project-title">{% if current_project.full_title %}{{ current_project.full_title }}{% else %}{{ page.title }}{% endif %}</h1>
       {% if current_project.date %}
       <div class="project-date-header">{{ current_project.date }}</div>
       {% endif %}
-      <div class="project-content">
+      <div class="project-content {% if current_project.category == 'project' %}category-project{% else %}category-blog{% endif %}">
         {{ content }}
       </div>
     </article>

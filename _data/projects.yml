@@ -149,13 +149,13 @@
   category: project
   date: "New York, Spring 2018"
 
-# Row 6: Motion Recognition | Smile Face-in | Posture & Eye Care | Humanphobia
-- title: Motion Recognition
-  url: Motion-Recognition.html
-  thumbnail: images/MOTION-RECOGNITION/ARCHIVEE23_o.jpg
-  description: SmartTV service development for controlling TV with finger and hand gestures.
+# Row 6: Humanphobia | Smile Face-in | Posture & Eye Care | Motion Recognition
+- title: Humanphobia
+  url: Humanphobia.html
+  thumbnail: images/Humanphobia/humanphobia.gif
+  description: Interactive light art wearable referring to social anxiety, calculating distance and showing light patterns.
   category: project
-  date: "Seoul, 2013-2014"
+  date: "New York, Fall 2017"
 
 - title: Smile Face-in
   url: Smile-Face-in.html
@@ -171,17 +171,32 @@
   category: project
   date: "Seoul, 2014-2015"
 
-- title: Humanphobia
-  url: Humanphobia.html
-  thumbnail: images/Humanphobia/humanphobia.gif
-  description: Interactive light art wearable referring to social anxiety, calculating distance and showing light patterns.
+- title: Motion Recognition
+  url: Motion-Recognition.html
+  thumbnail: images/MOTION-RECOGNITION/ARCHIVEE23_o.jpg
+  description: SmartTV service development for controlling TV with finger and hand gestures.
   category: project
-  date: "New York, Fall 2017"
+  date: "Seoul, 2013-2014"
 
-# Archive/Blog Projects (15)
+# Row 7: Metabolism | Habitual Energy
+- title: Metabolism
+  url: Metabolism.html
+  thumbnail: images/Metabolism/ARCHIVEE4_o.jpg
+  description: Collaborative artwork presenting interaction of nature and humanity through projection and sound installation.
+  category: project
+  date: "Winter 2016"
+
+- title: Habitual Energy
+  url: Habitual-Energy.html
+  thumbnail: images/Habitual-Energy/ARCHIVEE14_o.jpg
+  description: Collaborative artwork showing addictive energy of habit through dynamic media installation.
+  category: project
+  date: "Winter 2016"
+
+# Archive/Blog Projects (13)
 - title: Thesis
   url: Thesis.html
-  thumbnail: images/Thesis/clustering_1.png
+  thumbnail: images/Thesis/atkas_100.png
   description: Understanding and generating interactive narrative structures using Machine Learning models.
   category: blog
   date: "May 2019"
@@ -191,95 +206,81 @@
   thumbnail: images/Generative-Music/3.png
   description: Proposal for an Ambient Poem Rhythm Game, exploring generative music and narration.
   category: blog
-  date: "2018"
+  date: "Fall 2018"
 
 - title: Game Design and Psychology
   url: Game-Design-and-The-Psychology-of-Choice.html
-  thumbnail: images/Game-Design-and-Psychology/0.png
+  thumbnail: images/Game-Design-and-Psychology/2.png
   description: Exploration of automatic and effortful thinking in game design, inspired by ebook reading with audio.
   category: blog
-  date: "2018"
+  date: "Fall 2018"
 
 - title: Machine Learning for the Web
   url: Machine-Learning-for-the-Web.html
   thumbnail: images/Machine-Learning-for-the-Web/0_1.jpg
   description: Final proposals for AI-created public service advertising and YOLO to WebVR conversion.
   category: blog
-  date: "2018"
+  date: "Fall 2018"
 
 - title: Art Toy Design
   url: Art-Toy-Design.html
-  thumbnail: images/Art-Toy-Design/0.jpeg
+  thumbnail: images/Art-Toy-Design/thumbnail.jpeg
   description: Making wearable art toys, especially on ears.
   category: blog
-  date: "2018"
+  date: "Fall 2018"
 
-- title: Design for Discomfort
+- title: Design For Discomfort
   url: Design-for-Discomfort.html
   thumbnail: images/Design-for-Discomfort/z.jpg
   description: Performance and proposals exploring discomfort, AI-generated public service advertising, and endurance art.
   category: blog
-  date: "2018"
+  date: "Fall 2018"
 
 - title: Soft Sensing
   url: Soft-Sensing.html
   thumbnail: images/Soft-Sensing/1_1.jpg
   description: Exploration of soft sensing materials and their application in a Korean education kit (Go Card).
   category: blog
-  date: "2018"
+  date: "Fall 2018"
 
 - title: Haptics
   url: Haptics.html
   thumbnail: images/Haptics/rainmaker_1.gif
   description: Experiments with vibrating motors and haptic feedback, including a rainmaker project.
   category: blog
-  date: "2018"
+  date: "Fall 2018"
 
 - title: Tweet Reader
   url: Tweet-Reader.html
   thumbnail: images/Tweet-Reader/thumbnail.png
   description: Chrome extension for Twitter tweets that reads tweets using Text-to-Speech.
   category: blog
-  date: "2018"
+  date: "Spring 2018"
 
-- title: Detourning the Web
+- title: Detourning The Web
   url: Detourning-the-Web.html
-  thumbnail: images/Detourning-the-Web/ssup_1.gif
+  thumbnail: images/Detourning-the-Web/pineconej.gif
   description: A project exploring the portrait of hashtags and web scraping.
   category: blog
-  date: "2018"
+  date: "Spring 2018"
 
 - title: Voice
   url: Voice.html
   thumbnail: images/Voice/0_1.gif
   description: Exploration of voice interaction, including a Chrome extension for reading tweets and a multiuser game concept.
   category: blog
-  date: "2018"
+  date: "Spring 2018"
 
 - title: The Rest of You
   url: The-rest-of-You.html
-  thumbnail: images/The-rest-of-You/0_1.png
+  thumbnail: images/The-rest-of-You/Screen-Shot-2019-02-14-at-12.29.57-PM.png
   description: DIY image association test inspired by Tinder-style swiping UI and subconscious desires.
   category: blog
-  date: "2018"
-
-- title: Metabolism
-  url: Metabolism.html
-  thumbnail: images/Metabolism/ARCHIVEE4_o.jpg
-  description: Collaborative artwork presenting interaction of nature and humanity through projection and sound installation.
-  category: blog
-  date: "2016"
-
-- title: Habitual Energy
-  url: Habitual-Energy.html
-  thumbnail: images/Habitual-Energy/ARCHIVEE14_o.jpg
-  description: Collaborative artwork showing addictive energy of habit through dynamic media installation.
-  category: blog
-  date: "2016"
+  date: "Spring 2018"
 
 - title: Sigh Machine
   url: Sigh-Machine.html
   thumbnail: images/Sigh-Machine/0.png
   description: Project plan for a sigh machine using drone motors and twitter bots.
   category: blog
-  date: "2018"
+  date: "Fall 2017"

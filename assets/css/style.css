@@ -241,8 +241,8 @@ img {
   margin-bottom: 3rem;
 }
 
-/* Hide duplicate h1 from markdown content */
-.project-content > h1:first-child {
+/* Hide duplicate h1 from markdown content (project pages only, not blog) */
+.project-content.category-project > h1:first-child {
   display: none;
 }
 
@@ -330,6 +330,21 @@ img {
 
 .project-page p img:last-child {
   margin-right: 0;
+}
+
+/* Image Grid Gallery */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 1.5rem 0;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  background-color: #e5e5e5;
 }
 
 /* Image Carousel */

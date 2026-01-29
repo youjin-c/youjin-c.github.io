@@ -80,17 +80,45 @@ document.addEventListener('DOMContentLoaded', function() {
 
   tabs.forEach(tab => {
     tab.addEventListener('click', function() {
+      const category = this.dataset.tab;
       tabs.forEach(t => t.classList.remove('active'));
       this.classList.add('active');
-      filterProjects(this.dataset.tab);
+      filterProjects(category);
+      // Update URL hash
+      window.location.hash = category === 'project' ? '' : category;
     });
   });
 
   // Handle resize
   window.addEventListener('resize', layoutMasonry);
 
-  // Initial filter and layout
-  filterProjects('project');
+  // Function to activate tab by category
+  function activateTab(category) {
+    tabs.forEach(t => {
+      if (t.dataset.tab === category) {
+        t.classList.add('active');
+      } else {
+        t.classList.remove('active');
+      }
+    });
+    filterProjects(category);
+  }
+
+  // Check URL hash and activate corresponding tab
+  function handleHash() {
+    const hash = window.location.hash;
+    if (hash === '#blog') {
+      activateTab('blog');
+    } else {
+      activateTab('project');
+    }
+  }
+
+  // Initial filter based on hash
+  handleHash();
+
+  // Handle hash change (back/forward navigation)
+  window.addEventListener('hashchange', handleHash);
 
   // Re-layout after all images loaded
   window.addEventListener('load', layoutMasonry);

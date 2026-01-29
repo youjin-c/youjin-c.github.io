@@ -5,6 +5,8 @@ title: Generative Music
 
 # Ambient Poem Rhythm Game Proposal
 
+*December 13, 2018*
+
 Since the last blogging, we had a workshop for [MusicVAE](https://magenta.tensorflow.org/music-vae), using Jupyter notebook. It is really lovely that the last workshop really fits to my final project concept, so I can save sometime to research and trial and errors.
 
 One thing I figured out was, not only training and generating new pieces, (Even just testing pre-trained models took hours to just generate few sentences!!) I needed to simplified my concept.
@@ -19,18 +21,18 @@ The poem I am gonna use is [A Gift for You](https://www.poetryfoundation.org/poe
 
 **Nsynth interpolation:** Since I wanted to give a sense of musical piece, I chose NSynth for the interpolation between generated voice and ambient music.
 
-![](images/Generative-Music/3.png)
+![](/images/Generative-Music/3.png)
 
-![](images/Generative-Music/4.jpg)
+![](/images/Generative-Music/4.jpg)
 
-![](images/Generative-Music/2.png)
+![](/images/Generative-Music/2.png)
 
 I tried just like the poem lines, but the sound so stiff and strong, so I made lines again based on the waveform of original narration.
 
 It took so much time to generate each line, I tried Nsynth simultaneously.
 
-- [NSynth 1](https://soundcloud.com/yyyiiiyyy/sets/nsynth-human-voice-low-pitch-instruments/s-mZ9rW) [Human Voice || Tibet Singing-bowl || Ibo Drum]
-- [NSynth 2](https://soundcloud.com/yyyiiiyyy/interp-zelda-online-audio-convertercom-x-mix-12s-audio-joinercom/s-4BDMI) [Generated Voice || Ocarina sound || Flute Sound]
+[NSynth 1](https://soundcloud.com/yyyiiiyyy/sets/nsynth-human-voice-low-pitch-instruments/s-mZ9rW) [Human Voice / Tibet Singing-bowl / Ibo Drum]<br>
+[NSynth 2](https://soundcloud.com/yyyiiiyyy/interp-zelda-online-audio-convertercom-x-mix-12s-audio-joinercom/s-4BDMI) [Generated Voice / Ocarina sound / Flute Sound]
 
 At the first iteration, I thought low pitch instrumental sounds are really good to hear, but the interpolation result with human voice was a bit monstrous and unpleasant. I changed to high pitch instruments for the second iteration.
 
@@ -48,15 +50,15 @@ While looking for code, I found Wavenet generated from Mel-spectrogram represent
 For the proof of concept, I tried to put the sounds to rhythm game Unity assets. Still I need to manually assign lines to the sound, but it was so interesting that text and sound was kinda synced if I consider them as four-quarter measure music. Since the asset counts the beats, no matter how long or short the line was, each line passed after 4 beats and it looked okay. This can be a new way for an approach for the next step.
 
 Next steps:
-- 0. Transcript pitch and rhythm of narration with piano transcript tool, and train with that data set - most doable
-- 1. Reconstruct the narration from Mel-spectrogram presentation to other musical instrument - most interesting
-- 2. Generate music from Text analysis - This method doesn't have any connection to narration, but I can make it musical
+0. Transcript pitch and rhythm of narration with piano transcript tool, and train with that data set - most doable
+1. Reconstruct the narration from Mel-spectrogram presentation to other musical instrument - most interesting
+2. Generate music from Text analysis - This method doesn't have any connection to narration, but I can make it musical
 
-December 13, 2018  
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/c9OzhXr8MM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-* * *
+## Final Project proposal: exploration
 
-# Final Project proposal: exploration
+*December 6, 2018*
 
 [Google slide](https://docs.google.com/presentation/d/1uDHNFbWMXWENXtbh54zhoXq7vXd4qcdhm5SpxUXUkBs/edit?usp=sharing)
 
@@ -78,17 +80,19 @@ Even though audiobook was pretty helpful, but I feel hard to focus on reading th
 
 That is the reason that I want to make a narration-like ambient music, which doesn't contain any distinguishable information, but you feel like someone is mumbling next to you.
 
+![](/images/Generative-Music/1.png)
+
+![](/images/Generative-Music/0.png)
+
 So how can I achieve the experience? I found a good [blog](https://medium.com/@saxenauts/speech-synthesis-techniques-using-deep-neural-networks-38699e943861) for deep learning models and intonation (mostly about TTS and deep learning). It looks like several approaches available.
 
 - Pairing a sentence + manipulated audio file from narration -> generate mumbling music and show texts accordingly. This one is the most straight forward approach, but also has a lot of constraints. How can I pair each word and sound? Is there any tool helps with setting data? or should I do that manually?
 - Get a score of narration and pair each score to the texts. This will be more music piece like approach, and seems doable. I guess this will be like rhythm game.
 - Existing models seems appropriate to my projects: Sample RNN, Wave net, Lyrebird(?)
 
-December 6, 2018
+## Melody RNN
 
-* * *
-
-# Melody RNN
+*November 15, 2018*
 
 [Generating Long-Term Structure in Songs and Stories](https://magenta.tensorflow.org/2016/07/15/lookback-rnn-attention-rnn/), 2016
 
@@ -123,11 +127,40 @@ New labels:
 
 This allows the model to more easily repeat 1 or 2 bar phrases without having to store those sequences in its memory cell.
 
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/vkdQEO0UBnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/5BvzdkRvMmI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/JA_DkaIYAoE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 **Attention RNN**
 
 > Neural Machine Translation by Jointly Learning to Align and Translate: an encoder-decoder RNN, the model uses attention to look at all the encoder outputs during each decoder step.
 
 Outputs from the last n steps when generating the output for the current step.
+
+```
+Step 1: [1.0, 0.0, 0.0, 1.0]
+Step 2: [0.0, 1.0, 0.0, 1.0]
+Step 3: [0.0, 0.0, 0.5, 0.0]
+
+ati = [0.7, 0.1, 0.2]
+
+Step 1 (70%): [0.7, 0.0, 0.0, 0.7]
+Step 2 (10%): [0.0, 0.1, 0.0, 0.1]
+Step 3 (20%): [0.0, 0.0, 0.1, 0.0]
+h't = [0.7, 0.1, 0.1, 0.8]
+```
+
+The h't vector is concatenated with the next step's input vector and a linear layer is applied to that concatenated vector to create the new input to the RNN cell.
+
+This helps attention not only affect the data coming out of the RNN cell, but also the data being fed into the RNN cell.
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/nHxr9u9_4_s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/iZ-OqPzOqIQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/yW-SvX64xOA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 **Encoding**
 
@@ -139,11 +172,9 @@ Twinkle Twinkle Little Star: `--primer_melody="[60, -2, 60, -2, 67, -2, 67, -2]"
 
 Total new transition: Text + Accent -> Musical RNNs = ?
 
-November 15, 2018  
+## Anis Haron - Audio Palimpsest
 
-* * *
-
-# Anis Haron - Audio Palimpsest
+*September 13, 2018*
 
 This might not be symphonic piece, but it is an interesting project in a way of aesthetic and mechanism.
 
@@ -153,4 +184,4 @@ Since the recorder is not only playing the tape but It is overwrite or play the 
 
 If you ask me about whether we can tell this as music or just mere sound, I can definitely say this is music. Actually it seems like the artists added some way to make musical sound beside recoding the environmental sound only.
 
-September 13, 2018
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/QP245B3U6Oo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

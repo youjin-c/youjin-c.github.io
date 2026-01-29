@@ -5,18 +5,20 @@ title: Haptics
 
 # Haptics
 
+*November 6, 2018*
+
   * Hello Vibe Motors  
 Arnav and I played with vibrating motors using basic Arduino PWM. Used the
 example codes ‘Blink’ and ‘Fade’, but connected vibrating motors instead of
 LEDs.
 
-  * ![](images/Haptics/exp0.gif)
+![](/images/Haptics/exp0.gif)
 
-![](images/Haptics/exp1.gif)
+![](/images/Haptics/exp1.gif)
 
-![](images/Haptics/exp2.gif)
+![](/images/Haptics/exp2.gif)
 
-![](images/Haptics/IMG_0292.jpeg)
+![](/images/Haptics/IMG_0292.jpeg)
 
   * Haptic Motor Driver  
   
@@ -37,7 +39,7 @@ at the same time so I can show it on that part.
 Phil and I worked to make a rainmaker. The point was giving a sensation of
 rain drops on the palm. The below is what we ended up with..
 
-![](images/Haptics/rainmaker_1.gif)
+![](/images/Haptics/rainmaker.gif)
 
   
   
@@ -58,10 +60,10 @@ of each motors, we programmed each motor has different vibrating frequency and
 rhythm randomly. One of the motors vibrating consistently while the others
 vibrates once in a while, tried to give the random raindrop sensation.
 
-![](images/Haptics/5c65c3d427b41893901160.gif)
+![](/images/Haptics/5c65c3d427b41893901160.gif)
 
-![](images/Haptics/5c65c45375685677846274.gif)
+![](/images/Haptics/5c65c45375685677846274.gif)
 
-  
-It feels pretty much raindrops even the video sounds like popcorn maker. :)  
-November 6, 2018
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/299152079?h=&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+
+It feels pretty much raindrops even the video sounds like popcorn maker. :)
