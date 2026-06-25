@@ -193,6 +193,13 @@
   category: project
   date: "Winter 2016"
 
+- title: Misunderstood
+  url: MISUNDERSTOOD.html
+  thumbnail: images/MISUNDERSTOOD/thumbnail.jpg
+  description: Sculpture about the expectations and prejudices people project onto others, a low-poly bust painted over with their assumptions.
+  category: project
+  date: "Seoul, 2015"
+
 # Archive/Blog Projects (13)
 - title: Thesis
   url: Thesis.html
