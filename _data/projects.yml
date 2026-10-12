@@ -2,6 +2,14 @@
 # Main Grid Projects (24)
 
 # Row 1: Toonify | Smile Filter | ColorPiece | Object Segmentation
+- title: Purro Stick
+  full_title: "Purro Stick: A Desk Pet for Claude Code"
+  url: Purro-Stick.html
+  thumbnail: images/Purro-Stick/thumbnail.jpg
+  description: A pocket-sized desk pet that shows what Claude Code is doing and lets me approve its requests with a button.
+  category: project
+  date: "2026"
+
 - title: Toonify
   full_title: "Toonify: StyleGAN + GAN Blending + pix2pixHD"
   url: Toonify.html
