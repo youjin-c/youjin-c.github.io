@@ -200,6 +200,13 @@
   category: project
   date: "Seoul, 2015"
 
+- title: Life Helmet
+  url: Life-Helmet.html
+  thumbnail: images/Life-Helmet/thumbnail.jpg
+  description: A wearable escape pod for social life, a glowing inflatable helmet you pop open like a life raft to evacuate stressful situations.
+  category: project
+  date: "Seoul, 2015"
+
 - title: Kaleidoscope
   url: Kaleidoscope.html
   thumbnail: images/Kaleidoscope/thumbnail.jpg
