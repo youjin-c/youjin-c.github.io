@@ -200,6 +200,13 @@
   category: project
   date: "Seoul, 2015"
 
+- title: Kaleidoscope
+  url: Kaleidoscope.html
+  thumbnail: images/Kaleidoscope/thumbnail.jpg
+  description: Campaign against trophy hunting, banner ads whose beautiful kaleidoscope patterns turn back into the hunting photographs they were made from.
+  category: project
+  date: "Seoul, 2015"
+
 # Archive/Blog Projects (13)
 - title: Thesis
   url: Thesis.html
