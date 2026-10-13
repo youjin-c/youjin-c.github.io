@@ -5,6 +5,8 @@ title: Purro Stick
 
 # Purro Stick
 
+<p style="text-align: right;"><em><strong><a href="https://github.com/youjin-c/purro-stick">GitHub Repo</a></strong></em></p>
+
 <div class="side-by-side-images">
 <img src="/images/Purro-Stick/device_smile.jpg" alt="Purro Stick in hand, Purro smiling above a list of recent tool calls" style="max-width: 48%;">
 <video src="/images/Purro-Stick/approve.mp4" poster="/images/Purro-Stick/approve_poster.jpg" autoplay loop muted playsinline controls style="max-width: 48%; height: auto; border-radius: 8px;"></video>
